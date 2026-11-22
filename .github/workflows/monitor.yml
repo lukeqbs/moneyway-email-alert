@@ -32,10 +32,10 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           ODBIORCA_EMAIL: ${{ secrets.ODBIORCA_EMAIL }}
         run: python scanner.py
-
+      
       - name: Zapisanie nowej historii kwot w repozytorium
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add historia_kwot.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Aktualizacja historii kwot" && git push)
