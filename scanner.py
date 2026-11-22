@@ -301,28 +301,30 @@ def parsuj_komorke(tekst: str):
   return None, 0.0, 0.0
 
 
-def sprawdz_rynki():
+   def sprawdz_rynki():
   stan = wczytaj_stan()
   nowy_stan = stan.copy()
   znalezione_alerty = []
 
-  # Nazwy linków dokładnie takie, jakie widnieją w menu na stronie głównej Arbworld
-  MENU_RYNKI = {
-      "1X2 Cały Mecz (Pre)": ("Football 1X2 Full Time", ["1", "X", "2"]),
+  RYNKI_URL = {
+      "1X2 Cały Mecz (Pre)": (
+          "https://arbworld.net",
+          ["1", "X", "2"],
+      ),
       "1X2 1. Połowa (Pre)": (
-          "Football Half Time",
+          "https://arbworld.net",
           ["1 (1. połowa)", "X (1. połowa)", "2 (1. połowa)"],
       ),
       "Over/Under 2.5 (Pre)": (
-          "Football Over/Under 2.5",
+          "https://arbworld.net",
           ["Under 2.5", "Over 2.5"],
       ),
       "1X2 Cały Mecz (LIVE)": (
-          "Football 1X2(Live)",
+          "https://arbworld.net",
           ["1 (LIVE)", "X (LIVE)", "2 (LIVE)"],
       ),
       "Over/Under 2.5 (LIVE)": (
-          "Football Over/Under 2.5(Live)",
+          "https://arbworld.net",
           ["Under 2.5 (LIVE)", "Over 2.5 (LIVE)"],
       ),
   }
@@ -340,25 +342,11 @@ def sprawdz_rynki():
     )
     page = context.new_page()
 
-    try:
-      print("Otwieranie strony głównej Arbworld...")
-      page.goto("https://arbworld.net", wait_until="networkidle", timeout=30000)
-      page.wait_for_timeout(3000)
-      print(f"Tytuł strony: {page.title()}")
-    except Exception as e:
-      print(f"Błąd otwierania strony głównej: {e}")
-
-    for nazwa_rynku, (tekst_linku, opcje) in MENU_RYNKI.items():
+    for nazwa_rynku, (url, opcje) in RYNKI_URL.items():
       try:
-        print(f"--- Przechodzenie do: {nazwa_rynku} ({tekst_linku}) ---")
-        # Klikamy w pierwszy pasujący link w menu Moneyway
-        link = page.locator(f"a:has-text('{tekst_linku}')").first
-        if link.count() > 0:
-          link.click()
-          page.wait_for_timeout(4000)
-        else:
-          print(f"Nie znaleziono linku '{tekst_linku}' w menu!")
-          continue
+        print(f"--- Otwieranie: {nazwa_rynku} ({url}) ---")
+        page.goto(url, wait_until="networkidle", timeout=30000)
+        page.wait_for_timeout(3000)
 
         wiersze = page.query_selector_all("table tr")
         print(f"Znaleziono wierszy w tabeli: {len(wiersze)}")
@@ -373,11 +361,9 @@ def sprawdz_rynki():
               k.inner_text().strip().replace("\n", " ") for k in kolumny
           ]
 
-          # Wypisujemy pierwszy przykładowy wiersz z danymi w logu do weryfikacji
-          if r_idx < 3:
+          if r_idx < 2:
             print(f"Przykładowy wiersz {r_idx}: {teksty_kolumn}")
 
-          # Szukamy pierwszej kolumny zawierającej znak % (tam zaczynają się kursy/kwoty)
           start_idx = next(
               (i for i, t in enumerate(teksty_kolumn) if "%" in t), None
           )
@@ -418,7 +404,7 @@ def sprawdz_rynki():
                   f"Skok kwoty: +{skok:,.0f} (z {poprzednia_kwota:,.0f} na"
                   f" {kwota:,.0f})\n"
                   f"Udział w rynku: {procent}%\n"
-                  f"Źródło: {page.url}"
+                  f"Źródło: {url}"
               )
 
         print(f"Zapisano niszowych pozycji dla {nazwa_rynku}: {zapisane_w_rynku}")
