@@ -2,9 +2,11 @@ name: Moneyway Email Monitor
 
 on:
   schedule:
-    # Uruchamia się co 15 minut przez całą dobę (niszowe ligi poza Europą grają o różnych porach)
     - cron: '*/15 * * * *'
-  workflow_dispatch: # Pozwala uruchomić skrypt ręcznie przyciskiem "Run workflow"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   check-moneyway:
