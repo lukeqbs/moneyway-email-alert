@@ -22,9 +22,17 @@ RYNKI_URL = {
         "https://arbworld.net/moneyway/football/half-time",
         ["1 (1. połowa)", "X (1. połowa)", "2 (1. połowa)"],
     ),
+    "Over/Under 1.5 (Pre)": (
+        "https://arbworld.net/moneyway/football/over-under-1-5",
+        ["Under 1.5", "Over 1.5"],
+    ),
     "Over/Under 2.5 (Pre)": (
         "https://arbworld.net/moneyway/football/over-under-2-5",
         ["Under 2.5", "Over 2.5"],
+    ),
+    "Over/Under 3.5 (Pre)": (
+        "https://arbworld.net/moneyway/football/over-under-3-5",
+        ["Under 3.5", "Over 3.5"],
     ),
     "1X2 Cały Mecz (LIVE)": (
         "https://arbworld.net/moneyway-live/football/1x2",
