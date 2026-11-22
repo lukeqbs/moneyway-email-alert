@@ -13,8 +13,7 @@ ODBIORCA_EMAIL = os.environ.get("ODBIORCA_EMAIL", "")
 PROG_SKOKU = 1000.0        # Minimalny przyrost kwoty między sprawdzeniami
 PROG_UDZIALU_PROC = 85.0   # Minimalny udział w rynku (%)
 
-# Adresy podstron Arbworld
-RYNKI = {
+RYNKI_URL = {
     "1X2 Cały Mecz (Pre)": (
         "https://arbworld.net",
         ["1", "X", "2"],
@@ -28,11 +27,11 @@ RYNKI = {
         ["Under 2.5", "Over 2.5"],
     ),
     "1X2 Cały Mecz (LIVE)": (
-        "https://arbworld.net-live",
+        "https://arbworld.net",
         ["1 (LIVE)", "X (LIVE)", "2 (LIVE)"],
     ),
     "Over/Under 2.5 (LIVE)": (
-        "https://arbworld.net-live",
+        "https://arbworld.net",
         ["Under 2.5 (LIVE)", "Over 2.5 (LIVE)"],
     ),
 }
@@ -288,7 +287,6 @@ def zapisz_stan(stan):
 
 
 def parsuj_komorke(tekst: str):
-  # Szuka procentów (np. 88.5% lub 88%) oraz kwoty z symbolem waluty ($1,250 / £1,250 / €1,250)
   procent_match = re.search(r"(\d+(?:\.\d+)?)\s*%", tekst)
   kwota_match = re.search(r"[$£€]\s*([\d,]+(?:\.\d+)?)", tekst)
   kurs_match = re.search(r"\b(\d+\.\d{2})\b", tekst)
@@ -301,33 +299,10 @@ def parsuj_komorke(tekst: str):
   return None, 0.0, 0.0
 
 
-   def sprawdz_rynki():
+def sprawdz_rynki():
   stan = wczytaj_stan()
   nowy_stan = stan.copy()
   znalezione_alerty = []
-
-  RYNKI_URL = {
-      "1X2 Cały Mecz (Pre)": (
-          "https://arbworld.net",
-          ["1", "X", "2"],
-      ),
-      "1X2 1. Połowa (Pre)": (
-          "https://arbworld.net",
-          ["1 (1. połowa)", "X (1. połowa)", "2 (1. połowa)"],
-      ),
-      "Over/Under 2.5 (Pre)": (
-          "https://arbworld.net",
-          ["Under 2.5", "Over 2.5"],
-      ),
-      "1X2 Cały Mecz (LIVE)": (
-          "https://arbworld.net",
-          ["1 (LIVE)", "X (LIVE)", "2 (LIVE)"],
-      ),
-      "Over/Under 2.5 (LIVE)": (
-          "https://arbworld.net",
-          ["Under 2.5 (LIVE)", "Over 2.5 (LIVE)"],
-      ),
-  }
 
   with sync_playwright() as p:
     browser = p.chromium.launch(
@@ -433,6 +408,7 @@ def parsuj_komorke(tekst: str):
     nowy_stan = {k: nowy_stan[k] for k in klucze}
 
   zapisz_stan(nowy_stan)
+
 
 if __name__ == "__main__":
   sprawdz_rynki()
