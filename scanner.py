@@ -417,5 +417,5 @@ def sprawdz_rynki():
       
 nowy_stan = {k: nowy_stan[k] for k in klucze}
 zapisz_stan(nowy_stan)
-if name == "main":
-sprawdz_rynki()
+if __name__ == "__main__":
+  sprawdz_rynki()
