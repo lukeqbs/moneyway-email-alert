@@ -406,9 +406,12 @@ def sprawdz_rynki():
   else:
     print("Brak nowych skoków spełniających kryteria w tym cyklu.")
 
-  if len(nowy_stan) > 2500:
-klucze = list(nowy_stan.keys())[-2500:]
-nowy_stan = {k: nowy_stan[k] for k in klucze}
-zapisz_stan(nowy_stan)
-if name == "main":
-sprawdz_rynki()
+    if len(nowy_stan) > 2500:
+      klucze = list(nowy_stan.keys())[-2500:]
+      nowy_stan = {k: nowy_stan[k] for k in klucze}
+
+    zapisz_stan(nowy_stan)
+
+
+if __name__ == "__main__":
+  sprawdz_rynki()
