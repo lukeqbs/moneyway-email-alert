@@ -6,9 +6,9 @@ from email.mime.text import MIMEText
 from playwright.sync_api import sync_playwright
 
 # ================= KONFIGURACJA UŻYTKOWNIKA =================
-GMAIL_USER = os.environ.get("GMAIL_USER", "")
-GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
-ODBIORCA_EMAIL = os.environ.get("ODBIORCA_EMAIL", "")
+GMAIL_USER = os.environ.get("GMAIL_USER", "").strip()
+GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "").strip()
+ODBIORCA_EMAIL = os.environ.get("ODBIORCA_EMAIL", "").strip()
 
 PROG_SKOKU = 1000.0        # Minimalny przyrost kwoty między sprawdzeniami
 PROG_UDZIALU_PROC = 85.0   # Minimalny udział w rynku (%)
@@ -185,6 +185,9 @@ WYKLUCZONE_EUROPA_I_TOP = [
     "asian cup",
     "africa cup",
     "copa libertadores",
+    "afc champions",
+    "caf champions",
+    "uefa",
 ]
 
 DUZE_KRAJE_SPOZA_EU = [
@@ -297,7 +300,7 @@ def zapisz_stan(stan):
 def parsuj_komorke(tekst: str):
   procent_match = re.search(r"(\d+(?:\.\d+)?)\s*%", tekst)
   kwota_match = re.search(r"[$£€]\s*([\d,]+(?:\.\d+)?)", tekst)
-  kurs_match = re.search(r"\b(\d+\.\d{2})\b", tekst)
+  kurs_match = re.search(r"\b(\d+\.\d{1,2})\b", tekst)
 
   if procent_match and kwota_match:
     procent = float(procent_match.group(1))
@@ -328,14 +331,15 @@ def sprawdz_rynki():
     for nazwa_rynku, (url, opcje) in RYNKI_URL.items():
       try:
         print(f"--- Otwieranie: {nazwa_rynku} ({url}) ---")
-        page.goto(url, wait_until="networkidle", timeout=30000)
-        page.wait_for_timeout(3000)
+        page.goto(url, wait_until="domcontentloaded", timeout=45000)
+        page.wait_for_selector("table tr", timeout=15000)
+        page.wait_for_timeout(2000)
 
         wiersze = page.query_selector_all("table tr")
         print(f"Znaleziono wierszy w tabeli: {len(wiersze)}")
 
         zapisane_w_rynku = 0
-        for r_idx, row in enumerate(wiersze):
+        for row in wiersze:
           kolumny = row.query_selector_all("td")
           if len(kolumny) < len(opcje) + 1:
             continue
@@ -343,9 +347,6 @@ def sprawdz_rynki():
           teksty_kolumn = [
               k.inner_text().strip().replace("\n", " ") for k in kolumny
           ]
-
-          if r_idx < 2:
-            print(f"Przykładowy wiersz {r_idx}: {teksty_kolumn}")
 
           start_idx = next(
               (i for i, t in enumerate(teksty_kolumn) if "%" in t), None
@@ -413,10 +414,8 @@ def sprawdz_rynki():
 
   if len(nowy_stan) > 2500:
     klucze = list(nowy_stan.keys())[-2500:]
-    nowy_stan = {k: nowy_stan[k] for k in klucze}
-
-  zapisz_stan(nowy_stan)
-
-
-if __name__ == "__main__":
-  sprawdz_rynki()
+      
+nowy_stan = {k: nowy_stan[k] for k in klucze}
+zapisz_stan(nowy_stan)
+if name == "main":
+sprawdz_rynki()
