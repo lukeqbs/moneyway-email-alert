@@ -15,23 +15,23 @@ PROG_UDZIALU_PROC = 85.0   # Minimalny udział w rynku (%)
 
 RYNKI_URL = {
     "1X2 Cały Mecz (Pre)": (
-        "https://arbworld.net",
+        "https://arbworld.net/moneyway/football/1x2",
         ["1", "X", "2"],
     ),
     "1X2 1. Połowa (Pre)": (
-        "https://arbworld.net",
+        "https://arbworld.net/moneyway/football/half-time",
         ["1 (1. połowa)", "X (1. połowa)", "2 (1. połowa)"],
     ),
     "Over/Under 2.5 (Pre)": (
-        "https://arbworld.net",
+        "https://arbworld.net/moneyway/football/over-under-2-5",
         ["Under 2.5", "Over 2.5"],
     ),
     "1X2 Cały Mecz (LIVE)": (
-        "https://arbworld.net",
+        "https://arbworld.net/moneyway-live/football/1x2",
         ["1 (LIVE)", "X (LIVE)", "2 (LIVE)"],
     ),
     "Over/Under 2.5 (LIVE)": (
-        "https://arbworld.net",
+        "https://arbworld.net/moneyway-live/football/over-under-2-5",
         ["Under 2.5 (LIVE)", "Over 2.5 (LIVE)"],
     ),
 }
