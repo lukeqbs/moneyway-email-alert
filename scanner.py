@@ -306,8 +306,31 @@ def sprawdz_rynki():
   nowy_stan = stan.copy()
   znalezione_alerty = []
 
+  # Nazwy linków dokładnie takie, jakie widnieją w menu na stronie głównej Arbworld
+  MENU_RYNKI = {
+      "1X2 Cały Mecz (Pre)": ("Football 1X2 Full Time", ["1", "X", "2"]),
+      "1X2 1. Połowa (Pre)": (
+          "Football Half Time",
+          ["1 (1. połowa)", "X (1. połowa)", "2 (1. połowa)"],
+      ),
+      "Over/Under 2.5 (Pre)": (
+          "Football Over/Under 2.5",
+          ["Under 2.5", "Over 2.5"],
+      ),
+      "1X2 Cały Mecz (LIVE)": (
+          "Football 1X2(Live)",
+          ["1 (LIVE)", "X (LIVE)", "2 (LIVE)"],
+      ),
+      "Over/Under 2.5 (LIVE)": (
+          "Football Over/Under 2.5(Live)",
+          ["Under 2.5 (LIVE)", "Over 2.5 (LIVE)"],
+      ),
+  }
+
   with sync_playwright() as p:
-    browser = p.chromium.launch(headless=True)
+    browser = p.chromium.launch(
+        headless=True, args=["--disable-blink-features=AutomationControlled"]
+    )
     context = browser.new_context(
         user_agent=(
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -317,47 +340,60 @@ def sprawdz_rynki():
     )
     page = context.new_page()
 
-    for nazwa_rynku, (url, opcje) in RYNKI.items():
+    try:
+      print("Otwieranie strony głównej Arbworld...")
+      page.goto("https://arbworld.net", wait_until="networkidle", timeout=30000)
+      page.wait_for_timeout(3000)
+      print(f"Tytuł strony: {page.title()}")
+    except Exception as e:
+      print(f"Błąd otwierania strony głównej: {e}")
+
+    for nazwa_rynku, (tekst_linku, opcje) in MENU_RYNKI.items():
       try:
-        print(f"--- Otwieranie: {nazwa_rynku} ({url}) ---")
-        page.goto(url, wait_until="domcontentloaded", timeout=30000)
-        # Czekamy 4 sekundy na załadowanie tabel przez JavaScript
-        page.wait_for_timeout(4000)
+        print(f"--- Przechodzenie do: {nazwa_rynku} ({tekst_linku}) ---")
+        # Klikamy w pierwszy pasujący link w menu Moneyway
+        link = page.locator(f"a:has-text('{tekst_linku}')").first
+        if link.count() > 0:
+          link.click()
+          page.wait_for_timeout(4000)
+        else:
+          print(f"Nie znaleziono linku '{tekst_linku}' w menu!")
+          continue
 
         wiersze = page.query_selector_all("table tr")
         print(f"Znaleziono wierszy w tabeli: {len(wiersze)}")
 
         zapisane_w_rynku = 0
-        for row in wiersze:
+        for r_idx, row in enumerate(wiersze):
           kolumny = row.query_selector_all("td")
           if len(kolumny) < len(opcje) + 1:
             continue
 
-          # W tabelach Arbworld nazwa meczu i ligi jest zazwyczaj w 1. lub 2. kolumnie
-          tekst_kol0 = kolumny[0].inner_text().strip().replace("\n", " ")
-          tekst_kol1 = kolumny[1].inner_text().strip().replace("\n", " ")
+          teksty_kolumn = [
+              k.inner_text().strip().replace("\n", " ") for k in kolumny
+          ]
 
-          # Sprawdzamy, gdzie znajdują się kursy/procenty, aby ustalić przesunięcie kolumn
-          if "%" in tekst_kol1 or "$" in tekst_kol1 or "£" in tekst_kol1:
-            info_meczu = tekst_kol0
-            start_idx = 1
-          else:
-            info_meczu = f"{tekst_kol0} | {tekst_kol1}"
-            start_idx = 2
+          # Wypisujemy pierwszy przykładowy wiersz z danymi w logu do weryfikacji
+          if r_idx < 3:
+            print(f"Przykładowy wiersz {r_idx}: {teksty_kolumn}")
 
-          if len(kolumny) < start_idx + len(opcje):
+          # Szukamy pierwszej kolumny zawierającej znak % (tam zaczynają się kursy/kwoty)
+          start_idx = next(
+              (i for i, t in enumerate(teksty_kolumn) if "%" in t), None
+          )
+          if start_idx is None or start_idx == 0:
+            continue
+
+          info_meczu = " | ".join(teksty_kolumn[:start_idx])
+
+          if len(teksty_kolumn) < start_idx + len(opcje):
             continue
 
           if not czy_liga_niszowa(info_meczu):
             continue
 
           for idx, typ in enumerate(opcje):
-            komorka = (
-                kolumny[start_idx + idx]
-                .inner_text()
-                .strip()
-                .replace("\n", " ")
-            )
+            komorka = teksty_kolumn[start_idx + idx]
             kurs, procent, kwota = parsuj_komorke(komorka)
 
             if kwota == 0:
@@ -382,7 +418,7 @@ def sprawdz_rynki():
                   f"Skok kwoty: +{skok:,.0f} (z {poprzednia_kwota:,.0f} na"
                   f" {kwota:,.0f})\n"
                   f"Udział w rynku: {procent}%\n"
-                  f"Źródło: {url}"
+                  f"Źródło: {page.url}"
               )
 
         print(f"Zapisano niszowych pozycji dla {nazwa_rynku}: {zapisane_w_rynku}")
@@ -406,12 +442,11 @@ def sprawdz_rynki():
   else:
     print("Brak nowych skoków spełniających kryteria w tym cyklu.")
 
-    if len(nowy_stan) > 2500:
-      klucze = list(nowy_stan.keys())[-2500:]
-      nowy_stan = {k: nowy_stan[k] for k in klucze}
+  if len(nowy_stan) > 2500:
+    klucze = list(nowy_stan.keys())[-2500:]
+    nowy_stan = {k: nowy_stan[k] for k in klucze}
 
-    zapisz_stan(nowy_stan)
-
+  zapisz_stan(nowy_stan)
 
 if __name__ == "__main__":
   sprawdz_rynki()
