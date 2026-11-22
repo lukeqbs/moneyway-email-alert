@@ -1,0 +1,38 @@
+name: Moneyway Email Monitor
+
+on:
+  schedule:
+    # Uruchamia się co 15 minut przez całą dobę (niszowe ligi poza Europą grają o różnych porach)
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Pozwala uruchomić skrypt ręcznie przyciskiem "Run workflow"
+
+jobs:
+  check-moneyway:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Pobranie repozytorium
+        uses: actions/checkout@v4
+
+      - name: Konfiguracja Pythona
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalacja bibliotek
+        run: |
+          pip install curl_cffi beautifulsoup4
+
+      - name: Uruchomienie skanera Moneyway
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ODBIORCA_EMAIL: ${{ secrets.ODBIORCA_EMAIL }}
+        run: python scanner.py
+
+      - name: Zapisanie nowej historii kwot w repozytorium
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add historia_kwot.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Aktualizacja historii kwot" && git push)
