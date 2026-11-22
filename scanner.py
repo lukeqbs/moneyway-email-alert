@@ -3,8 +3,7 @@ import os
 import re
 import smtplib
 from email.mime.text import MIMEText
-from bs4 import BeautifulSoup
-from curl_cffi import requests
+from playwright.sync_api import sync_playwright
 
 # ================= KONFIGURACJA UŻYTKOWNIKA =================
 GMAIL_USER = os.environ.get("GMAIL_USER", "")
@@ -14,6 +13,7 @@ ODBIORCA_EMAIL = os.environ.get("ODBIORCA_EMAIL", "")
 PROG_SKOKU = 1000.0        # Minimalny przyrost kwoty między sprawdzeniami
 PROG_UDZIALU_PROC = 85.0   # Minimalny udział w rynku (%)
 
+# Adresy podstron Arbworld
 RYNKI = {
     "1X2 Cały Mecz (Pre)": (
         "https://arbworld.net",
@@ -28,11 +28,11 @@ RYNKI = {
         ["Under 2.5", "Over 2.5"],
     ),
     "1X2 Cały Mecz (LIVE)": (
-        "https://arbworld.net",
+        "https://arbworld.net-live",
         ["1 (LIVE)", "X (LIVE)", "2 (LIVE)"],
     ),
     "Over/Under 2.5 (LIVE)": (
-        "https://arbworld.net",
+        "https://arbworld.net-live",
         ["Under 2.5 (LIVE)", "Over 2.5 (LIVE)"],
     ),
 }
@@ -40,9 +40,7 @@ RYNKI = {
 PLIK_STANU = "historia_kwot.json"
 
 # ================= FILTROWANIE LIG =================
-# Odrzucamy Europę oraz topowe rozgrywki światowe
 WYKLUCZONE_EUROPA_I_TOP = [
-    # Europa - kraje i ligi
     "english",
     "england",
     "premier league",
@@ -164,7 +162,6 @@ WYKLUCZONE_EUROPA_I_TOP = [
     "conference league",
     "nations league",
     "euro ",
-    # Top 25 lig spoza Europy (najwyższe klasy rozgrywkowe)
     "us mls",
     "major league soccer",
     "mexican liga mx",
@@ -183,7 +180,6 @@ WYKLUCZONE_EUROPA_I_TOP = [
     "copa libertadores",
 ]
 
-# Duże kraje spoza Europy, z których interesują nas TYLKO niższe ligi, puchary, rezerwy lub kobiety
 DUZE_KRAJE_SPOZA_EU = [
     "argentin",
     "brazil",
@@ -241,10 +237,7 @@ DOZWOLONE_NISZOWE_W_DUZYCH = [
 
 def czy_liga_niszowa(tekst_meczu: str) -> bool:
   t = tekst_meczu.lower()
-
-  # 1. Jeśli to duży kraj spoza Europy, przepuść tylko niższe ligi / puchary / rezerwy / kobiety
   if any(kraj in t for kraj in DUZE_KRAJE_SPOZA_EU):
-    # Upewnij się, że nie jest to najwyższa liga mimo dopasowania słowa
     if any(
         top in t
         for top in [
@@ -260,28 +253,19 @@ def czy_liga_niszowa(tekst_meczu: str) -> bool:
     ):
       return False
     return any(dozw in t for dozw in DOZWOLONE_NISZOWE_W_DUZYCH)
-
-  # 2. Odrzuć Europę i rozgrywki z czarnej listy
   if any(wykl in t for wykl in WYKLUCZONE_EUROPA_I_TOP):
     return False
-
-  # 3. Pozostałe ligi ze świata (Azja, Afryka, Ameryka Płd./Środkowa, Oceania) przepuszczamy
   return True
 
 
 def wyslij_gmail(temat: str, tresc: str):
   if not GMAIL_USER or not GMAIL_APP_PASSWORD or not ODBIORCA_EMAIL:
-    print(
-        "[BŁĄD] Brak konfiguracji e-mail w sekretach GitHub (GMAIL_USER /"
-        " GMAIL_APP_PASSWORD / ODBIORCA_EMAIL)!"
-    )
+    print("[BŁĄD] Brak konfiguracji e-mail w sekretach GitHub!")
     return
-
   msg = MIMEText(tresc, "plain", "utf-8")
   msg["Subject"] = temat
   msg["From"] = GMAIL_USER
   msg["To"] = ODBIORCA_EMAIL
-
   try:
     with smtplib.SMTP_SSL("://gmail.com", 465) as server:
       server.login(GMAIL_USER, GMAIL_APP_PASSWORD)
@@ -304,10 +288,10 @@ def zapisz_stan(stan):
 
 
 def parsuj_komorke(tekst: str):
-  procent_match = re.search(r"(\d+(?:\.\d+)?)%", tekst)
-  # Obsługuje zarówno symbol $, jak i £ w zależności od wersji strony
-  kwota_match = re.search(r"[$£]([\d,]+)", tekst)
-  kurs_match = re.match(r"^\s*(\d+(?:\.\d+)?)", tekst)
+  # Szuka procentów (np. 88.5% lub 88%) oraz kwoty z symbolem waluty ($1,250 / £1,250 / €1,250)
+  procent_match = re.search(r"(\d+(?:\.\d+)?)\s*%", tekst)
+  kwota_match = re.search(r"[$£€]\s*([\d,]+(?:\.\d+)?)", tekst)
+  kurs_match = re.search(r"\b(\d+\.\d{2})\b", tekst)
 
   if procent_match and kwota_match:
     procent = float(procent_match.group(1))
@@ -319,57 +303,95 @@ def parsuj_komorke(tekst: str):
 
 def sprawdz_rynki():
   stan = wczytaj_stan()
-  nowy_stan = stan.copy()  # Zachowuje historię nawet przy chwilowym błędzie jednego rynku
+  nowy_stan = stan.copy()
   znalezione_alerty = []
 
-  for nazwa_rynku, (url, opcje) in RYNKI.items():
-    try:
-      resp = requests.get(url, impersonate="chrome120", timeout=25)
-      soup = BeautifulSoup(resp.text, "html.parser")
-      wiersze = soup.select("table tr")
+  with sync_playwright() as p:
+    browser = p.chromium.launch(headless=True)
+    context = browser.new_context(
+        user_agent=(
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+            " (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        ),
+        viewport={"width": 1366, "height": 768},
+    )
+    page = context.new_page()
 
-      for row in wiersze:
-        kolumny = row.find_all("td")
-        if len(kolumny) < len(opcje) + 1:
-          continue
+    for nazwa_rynku, (url, opcje) in RYNKI.items():
+      try:
+        print(f"--- Otwieranie: {nazwa_rynku} ({url}) ---")
+        page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        # Czekamy 4 sekundy na załadowanie tabel przez JavaScript
+        page.wait_for_timeout(4000)
 
-        info_meczu = kolumny.get_text(" ", strip=True)
-        if not czy_liga_niszowa(info_meczu):
-          continue
+        wiersze = page.query_selector_all("table tr")
+        print(f"Znaleziono wierszy w tabeli: {len(wiersze)}")
 
-        for idx, typ in enumerate(opcje):
-          komorka = kolumny[idx + 1].get_text(" ", strip=True)
-          kurs, procent, kwota = parsuj_komorke(komorka)
-
-          if kwota == 0:
+        zapisane_w_rynku = 0
+        for row in wiersze:
+          kolumny = row.query_selector_all("td")
+          if len(kolumny) < len(opcje) + 1:
             continue
 
-          klucz_id = f"{nazwa_rynku} | {info_meczu} | Typ: {typ}"
-          poprzednia_kwota = stan.get(klucz_id, 0.0)
-          skok = kwota - poprzednia_kwota
+          # W tabelach Arbworld nazwa meczu i ligi jest zazwyczaj w 1. lub 2. kolumnie
+          tekst_kol0 = kolumny[0].inner_text().strip().replace("\n", " ")
+          tekst_kol1 = kolumny[1].inner_text().strip().replace("\n", " ")
 
-          nowy_stan[klucz_id] = kwota
+          # Sprawdzamy, gdzie znajdują się kursy/procenty, aby ustalić przesunięcie kolumn
+          if "%" in tekst_kol1 or "$" in tekst_kol1 or "£" in tekst_kol1:
+            info_meczu = tekst_kol0
+            start_idx = 1
+          else:
+            info_meczu = f"{tekst_kol0} | {tekst_kol1}"
+            start_idx = 2
 
-          # Sprawdzamy czy pozycja była już wcześniej widziana, czy skok >= 1000 i udział >= 85%
-          if (
-              klucz_id in stan
-              and skok >= PROG_SKOKU
-              and procent >= PROG_UDZIALU_PROC
-          ):
-            znalezione_alerty.append(
-                f"Mecz / Liga: {info_meczu}\n"
-                f"Rynek: {nazwa_rynku}\n"
-                f"Pozycja: {typ} (kurs: {kurs})\n"
-                f"Skok kwoty: +{skok:,.0f} (z {poprzednia_kwota:,.0f} na"
-                f" {kwota:,.0f})\n"
-                f"Udział w rynku: {procent}%\n"
-                f"Źródło: {url}"
+          if len(kolumny) < start_idx + len(opcje):
+            continue
+
+          if not czy_liga_niszowa(info_meczu):
+            continue
+
+          for idx, typ in enumerate(opcje):
+            komorka = (
+                kolumny[start_idx + idx]
+                .inner_text()
+                .strip()
+                .replace("\n", " ")
             )
+            kurs, procent, kwota = parsuj_komorke(komorka)
 
-    except Exception as e:
-      print(f"[BŁĄD POBIERANIA {nazwa_rynku}] {e}")
+            if kwota == 0:
+              continue
 
-  # Wysyłamy jeden zbiorczy e-mail, jeśli wykryto jeden lub więcej skoków w tym cyklu
+            klucz_id = f"{nazwa_rynku} | {info_meczu} | Typ: {typ}"
+            poprzednia_kwota = stan.get(klucz_id, 0.0)
+            skok = kwota - poprzednia_kwota
+
+            nowy_stan[klucz_id] = kwota
+            zapisane_w_rynku += 1
+
+            if (
+                klucz_id in stan
+                and skok >= PROG_SKOKU
+                and procent >= PROG_UDZIALU_PROC
+            ):
+              znalezione_alerty.append(
+                  f"Mecz / Liga: {info_meczu}\n"
+                  f"Rynek: {nazwa_rynku}\n"
+                  f"Pozycja: {typ} (kurs: {kurs})\n"
+                  f"Skok kwoty: +{skok:,.0f} (z {poprzednia_kwota:,.0f} na"
+                  f" {kwota:,.0f})\n"
+                  f"Udział w rynku: {procent}%\n"
+                  f"Źródło: {url}"
+              )
+
+        print(f"Zapisano niszowych pozycji dla {nazwa_rynku}: {zapisane_w_rynku}")
+
+      except Exception as e:
+        print(f"[BŁĄD POBIERANIA {nazwa_rynku}] {e}")
+
+    browser.close()
+
   if znalezione_alerty:
     temat = (
         f"🚨 Moneyway Alert: Wykryto {len(znalezione_alerty)} skok(i) na"
@@ -384,13 +406,9 @@ def sprawdz_rynki():
   else:
     print("Brak nowych skoków spełniających kryteria w tym cyklu.")
 
-  # Ograniczamy rozmiar pliku stanu do ostatnich 2000 wpisów, aby nie rósł w nieskończoność
-  if len(nowy_stan) > 2000:
-    klucze = list(nowy_stan.keys())[-2000:]
-    nowy_stan = {k: nowy_stan[k] for k in klucze}
-
-  zapisz_stan(nowy_stan)
-
-
-if __name__ == "__main__":
-  sprawdz_rynki()
+  if len(nowy_stan) > 2500:
+klucze = list(nowy_stan.keys())[-2500:]
+nowy_stan = {k: nowy_stan[k] for k in klucze}
+zapisz_stan(nowy_stan)
+if name == "main":
+sprawdz_rynki()
