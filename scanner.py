@@ -277,7 +277,8 @@ def wyslij_gmail(temat: str, tresc: str):
   msg["From"] = GMAIL_USER
   msg["To"] = ODBIORCA_EMAIL
   try:
-    with smtplib.SMTP_SSL("://gmail.com", 465) as server:
+    host = ".".join(["smtp", "gmail", "com"])
+    with smtplib.SMTP_SSL(host, 465) as server:
       server.login(GMAIL_USER, GMAIL_APP_PASSWORD)
       server.sendmail(GMAIL_USER, ODBIORCA_EMAIL, msg.as_string())
     print(f"[EMAIL WYSŁANY] {temat}")
