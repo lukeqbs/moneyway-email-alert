@@ -21,9 +21,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Instalacja bibliotek
+      - name: Instalacja Playwright i Chromium
         run: |
-          pip install curl_cffi beautifulsoup4
+          pip install playwright
+          playwright install chromium
 
       - name: Uruchomienie skanera Moneyway
         env:
@@ -37,4 +38,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add historia_kwot.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Aktualizacja historii kwot" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "
