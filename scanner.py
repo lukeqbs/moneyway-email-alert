@@ -407,35 +407,34 @@ def sprawdz_rynki():
   # Zapis historii kwot i pliku dla aplikacji webowej
   zdarzenia_do_aplikacji.sort(
 key=lambda x: (x["alert"], x["procent"], x["kwota"]), reverse=True
-)
-    with open(PLIK_STANU, "w", encoding="utf-8") as f:
-        json.dump(nowy_stan, f, indent=2, ensure_ascii=False)
+)  with open(PLIK_STANU, "w", encoding="utf-8") as f:
+    json.dump(nowy_stan, f, indent=2, ensure_ascii=False)
 
-    raport = {
-        "aktualizacja_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"),
-        "liczba_zdarzen": len(zdarzenia_do_aplikacji),
-        "zdarzenia": zdarzenia_do_aplikacji,
-    }
+  raport = {
+      "aktualizacja_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"),
+      "liczba_zdarzen": len(zdarzenia_do_aplikacji),
+      "zdarzenia": zdarzenia_do_aplikacji,
+  }
 
-    with open(PLIK_DANYCH_APP, "w", encoding="utf-8") as f:
-        json.dump(raport, f, indent=2, ensure_ascii=False)
+  with open(PLIK_DANYCH_APP, "w", encoding="utf-8") as f:
+    json.dump(raport, f, indent=2, ensure_ascii=False)
 
-    print(f"Zapisano {len(zdarzenia_do_aplikacji)} zdarzeń do {PLIK_DANYCH_APP}")
+  print(f"Zapisano {len(zdarzenia_do_aplikacji)} zdarzeń do {PLIK_DANYCH_APP}")
 
-    # Wysyłka e-maila, jeśli wystąpiły nagłe skoki
-    if znalezione_alerty_email:
-        temat = (
-            f"🚨 Moneyway Alert: wykryto {len(znalezione_alerty_email)} skok(ów)!"
-        )
-        tresc = "\n\n" + ("=" * 40 + "\n\n").join(znalezione_alerty_email)
-        tresc += (
-            "\n\nPodgląd wszystkich meczów w aplikacji:"
-            " https://github.io"
-        )
-        wyslij_gmail(temat, tresc)
-    else:
-        print("Brak nowych skoków do wysłania mailem.")
+  # Wysyłka e-maila, jeśli wystąpiły nagłe skoki
+  if znalezione_alerty_email:
+    temat = (
+        f"🚨 Moneyway Alert: wykryto {len(znalezione_alerty_email)} skok(ów)!"
+    )
+    tresc = "\n\n" + ("=" * 40 + "\n\n").join(znalezione_alerty_email)
+    tresc += (
+        "\n\nPodgląd wszystkich meczów w aplikacji:"
+        " https://github.io"
+    )
+    wyslij_gmail(temat, tresc)
+  else:
+    print("Brak nowych skoków do wysłania mailem.")
 
 
 if __name__ == "__main__":
-    sprawdz_rynki()
+  sprawdz_rynki()
