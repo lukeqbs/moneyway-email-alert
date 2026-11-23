@@ -49,7 +49,7 @@ def wyslij_mail(temat, tresc):
     msg = MIMEText(tresc, "plain", "utf-8")
     msg["Subject"], msg["From"], msg["To"] = temat, GMAIL_USER, ODBIORCA
     try:
-        with smtplib.SMTP_SSL("://gmail.com", 465) as s:
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
             s.login(GMAIL_USER, GMAIL_PASS)
             s.sendmail(GMAIL_USER, ODBIORCA, msg.as_string())
         print("[EMAIL OK]")
