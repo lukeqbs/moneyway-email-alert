@@ -1,9 +1,12 @@
-name: Moneyway Email Monitor
+name: Moneyway Web App & Email Monitor
 
 on:
   schedule:
     - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   check-moneyway:
@@ -25,20 +28,12 @@ jobs:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-chromium
 
-      - name: Instalacja Playwright i Chromium
+      - name: Instalacja Playwright
         run: |
           pip install playwright
           if [ "${{ steps.playwright-cache.outputs.cache-hit }}" != "true" ]; then
             playwright install chromium
           fi
-
-      - name: Przywrócenie historii kwot z cache
-        uses: actions/cache/restore@v4
-        with:
-          path: historia_kwot.json
-          key: moneyway-stan-${{ github.run_id }}
-          restore-keys: |
-            moneyway-stan-
 
       - name: Uruchomienie skanera Moneyway
         env:
@@ -47,9 +42,9 @@ jobs:
           ODBIORCA_EMAIL: ${{ secrets.ODBIORCA_EMAIL }}
         run: python scanner.py
 
-      - name: Zapisanie zaktualizowanej historii kwot do cache
-        if: always()
-        uses: actions/cache/save@v4
-        with:
-          path: historia_kwot.json
-          key: moneyway-stan-${{ github.run_id }}
+      - name: Zapisanie wyników do repozytorium
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Moneyway Bot"
+          git add dane.json historia_kwot.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Aktualizacja danych Moneyway" && git push)
