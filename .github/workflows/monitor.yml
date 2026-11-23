@@ -2,11 +2,8 @@ name: Moneyway Email Monitor
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   check-moneyway:
@@ -16,15 +13,34 @@ jobs:
       - name: Pobranie repozytorium
         uses: actions/checkout@v4
 
-      - name: Konfiguracja Pythona
+      - name: Konfiguracja Pythona z cache pip
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: '**/requirements.txt'
+
+      - name: Sprawdzenie cache przeglądarek Playwright
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-chromium
 
       - name: Instalacja Playwright i Chromium
         run: |
           pip install playwright
-          playwright install chromium
+          if [ "${{ steps.playwright-cache.outputs.cache-hit }}" != "true" ]; then
+            playwright install chromium
+          fi
+
+      - name: Przywrócenie historii kwot z cache
+        uses: actions/cache/restore@v4
+        with:
+          path: historia_kwot.json
+          key: moneyway-stan-${{ github.run_id }}
+          restore-keys: |
+            moneyway-stan-
 
       - name: Uruchomienie skanera Moneyway
         env:
@@ -32,10 +48,10 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           ODBIORCA_EMAIL: ${{ secrets.ODBIORCA_EMAIL }}
         run: python scanner.py
-      
-      - name: Zapisanie nowej historii kwot w repozytorium
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add historia_kwot.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Aktualizacja historii kwot" && git push)
+
+      - name: Zapisanie zaktualizowanej historii kwot do cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: historia_kwot.json
+          key: moneyway-stan-${{ github.run_id }}
