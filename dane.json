@@ -1,5 +1,266 @@
 {
-  "aktualizacja_utc": "2026-11-23 18:28",
-  "liczba_zdarzen": 0,
-  "zdarzenia": []
+  "aktualizacja_utc": "2026-11-23 18:37",
+  "liczba_zdarzen": 26,
+  "zdarzenia": [
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
+      "typ": "U 2.5",
+      "kurs": "1.67",
+      "procent": 100.0,
+      "kwota": 102.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 23, 18:30 Argentinian Primera C Sportivo Barracas — AD Berazategui",
+      "typ": "X HT",
+      "kurs": "1.68",
+      "procent": 97.5,
+      "kwota": 168.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 23, 21:00 Paraguayan Primera Division Club 2 de Mayo de Pedro Ju — Sportivo San Lorenzo",
+      "typ": "U 2.5",
+      "kurs": "2.0",
+      "procent": 95.6,
+      "kwota": 334.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 23, 20:00 Argentinian Primera Division Gimnasia La Plata — Newells",
+      "typ": "U 3.5",
+      "kurs": "1.25",
+      "procent": 93.8,
+      "kwota": 152.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 24, 00:00 Brazilian Serie A Santos — Gremio",
+      "typ": "1",
+      "kurs": "1.69",
+      "procent": 92.9,
+      "kwota": 3383.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 23, 19:30 Uruguayan Primera Division Juventud De Las Piedras — Defensor Sporting",
+      "typ": "U 3.5",
+      "kurs": "1.36",
+      "procent": 92.6,
+      "kwota": 133.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 24, 00:00 Brazilian Serie A Santos — Gremio",
+      "typ": "O 2.5",
+      "kurs": "1.59",
+      "procent": 91.6,
+      "kwota": 4438.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 23, 20:00 Argentinian Primera Division Gimnasia La Plata — Newells",
+      "typ": "1",
+      "kurs": "2.18",
+      "procent": 90.7,
+      "kwota": 1026.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 23, 22:30 Uruguayan Primera Division Albion FC — Danubio",
+      "typ": "U 2.5",
+      "kurs": "2.06",
+      "procent": 87.2,
+      "kwota": 418.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 23, 22:30 Brazilian Serie A Internacional — EC Vitoria Salvador",
+      "typ": "U 2.5",
+      "kurs": "1.87",
+      "procent": 86.5,
+      "kwota": 21941.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 23, 18:00 Egyptian Premier Al Ahly Cairo — Pyramids",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.22",
+      "procent": 86.1,
+      "kwota": 6937.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 24, 00:00 Brazilian Serie A Santos — Gremio",
+      "typ": "O 3.5",
+      "kurs": "2.46",
+      "procent": 84.4,
+      "kwota": 2574.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 23, 22:30 Uruguayan Primera Division Albion FC — Danubio",
+      "typ": "U 3.5",
+      "kurs": "1.4",
+      "procent": 84.2,
+      "kwota": 213.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 23, 17:00 Saudi U21 Elite League Al-Qadisiyah U21 — Al-Hilal Riyadh U21",
+      "typ": "2 LIVE",
+      "kurs": "1.02",
+      "procent": 82.7,
+      "kwota": 3385.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 23, 20:00 Argentinian Primera Division Gimnasia La Plata — Newells",
+      "typ": "O 1.5",
+      "kurs": "1.46",
+      "procent": 81.6,
+      "kwota": 147.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
+      "typ": "U 2.5",
+      "kurs": "1.85",
+      "procent": 78.9,
+      "kwota": 748.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 23, 20:00 Argentinian Primera Division Gimnasia La Plata — Newells",
+      "typ": "U 2.5",
+      "kurs": "1.68",
+      "procent": 78.7,
+      "kwota": 1085.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 23, 17:00 Saudi U21 Elite League Al-Qadisiyah U21 — Al-Hilal Riyadh U21",
+      "typ": "O 2.5 LIVE",
+      "kurs": "2.06",
+      "procent": 77.5,
+      "kwota": 345.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 23, 19:30 Uruguayan Primera Division Juventud De Las Piedras — Defensor Sporting",
+      "typ": "U 2.5",
+      "kurs": "1.96",
+      "procent": 74.4,
+      "kwota": 166.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 23, 19:00 Bolivian Liga de Futbol Profesional CDT Real Oruro — Guabira",
+      "typ": "O 3.5",
+      "kurs": "1.89",
+      "procent": 73.0,
+      "kwota": 161.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 23, 19:00 Bolivian Liga de Futbol Profesional CDT Real Oruro — Guabira",
+      "typ": "1 HT",
+      "kurs": "2.06",
+      "procent": 66.9,
+      "kwota": 70.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 23, 22:30 Brazilian Serie A Internacional — EC Vitoria Salvador",
+      "typ": "O 1.5",
+      "kurs": "1.37",
+      "procent": 66.6,
+      "kwota": 1703.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 23, 22:30 Brazilian Serie A Internacional — EC Vitoria Salvador",
+      "typ": "U 3.5",
+      "kurs": "1.32",
+      "procent": 66.6,
+      "kwota": 166.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 23, 19:30 Uruguayan Primera Division Juventud De Las Piedras — Defensor Sporting",
+      "typ": "U 1.5",
+      "kurs": "3.8",
+      "procent": 63.6,
+      "kwota": 287.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 24, 00:00 Brazilian Serie A Santos — Gremio",
+      "typ": "O 1.5",
+      "kurs": "1.19",
+      "procent": 62.6,
+      "kwota": 152.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 23, 19:00 Bolivian Liga de Futbol Profesional CDT Real Oruro — Guabira",
+      "typ": "O 2.5",
+      "kurs": "1.36",
+      "procent": 50.1,
+      "kwota": 79.0,
+      "przyrost": 0.0,
+      "alert": false
+    }
+  ]
 }
