@@ -2,21 +2,35 @@ name: Moneyway Email Monitor
 
 on:
   schedule:
-    # Uruchamia co 5 minut z lekkim przesunięciem (w 2., 7., 12., 17. minucie godziny),
-    # aby ominąć największy tłok na serwerach GitHuba o pełnych godzinach
     - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
   workflow_dispatch:
 
 jobs:
   check-moneyway:
     runs-on: ubuntu-latest
-    # Gotowy obraz Dockera z Playwrightem – skraca czas startu z 40 sek. do ok. 5 sek.
-    container:
-      image: ://microsoft.com
 
     steps:
       - name: Pobranie repozytorium
         uses: actions/checkout@v4
+
+      - name: Konfiguracja Pythona
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Sprawdzenie cache przeglądarek Playwright
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-chromium
+
+      - name: Instalacja Playwright i Chromium
+        run: |
+          pip install playwright
+          if [ "${{ steps.playwright-cache.outputs.cache-hit }}" != "true" ]; then
+            playwright install chromium
+          fi
 
       - name: Przywrócenie historii kwot z cache
         uses: actions/cache/restore@v4
