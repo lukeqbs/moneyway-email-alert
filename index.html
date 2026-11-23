@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f172a">
+  <title>Moneyway Radar</title>
+  <style>
+    body { margin: 0; background: #0f172a; color: #f8fafc; font-family: sans-serif; padding: 12px; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+    h1 { font-size: 1.2rem; margin: 0; color: #38bdf8; }
+    .meta { font-size: 0.75rem; color: #94a3b8; }
+    button { background: #38bdf8; color: #0f172a; border: none; padding: 8px 14px; border-radius: 8px; font-weight: bold; }
+    .filters { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; background: #1e293b; padding: 10px; border-radius: 10px; margin-bottom: 12px; }
+    select, input { width: 100%; padding: 6px; border-radius: 6px; border: 1px solid #334155; background: #0f172a; color: #fff; box-sizing: border-box; }
+    label { font-size: 0.7rem; color: #94a3b8; display: block; margin-bottom: 2px; }
+    .card { background: #1e293b; border-radius: 10px; padding: 12px; margin-bottom: 10px; border-left: 4px solid #38bdf8; }
+    .card.alert { border-left-color: #ef4444; background: #291820; }
+    .badge { font-size: 0.7rem; background: #334155; color: #38bdf8; padding: 2px 6px; border-radius: 4px; display: inline-block; margin-bottom: 5px; }
+    .card.alert .badge { background: #ef4444; color: #fff; font-weight: bold; }
+    .match { font-weight: bold; font-size: 0.95rem; margin-bottom: 8px; }
+    .stats { display: flex; justify-content: space-between; background: rgba(15,23,42,0.6); padding: 8px; border-radius: 6px; text-align: center; }
+    .val { font-weight: bold; font-size: 1rem; }
+    .lbl { font-size: 0.65rem; color: #94a3b8; }
+  </style>
+</head>
+<body>
+  <header>
+    <div><h1>⚡ Moneyway Radar</h1><div class="meta" id="upd">Ładowanie...</div></div>
+    <button onclick="load()">Odśwież</button>
+  </header>
+  <div class="filters">
+    <div><label>Rynek</label><select id="f-ryk" onchange="draw()"><option value="ALL">Wszystkie</option><option value="LIVE">LIVE</option><option value="1X2">1X2</option><option value="O/U">Over/Under</option></select></div>
+    <div><label>Min. udział (%)</label><input type="number" id="f-prc" value="70" onchange="draw()"></div>
+    <div><label>Min. kwota (£)</label><input type="number" id="f-kwt" value="100" step="100" onchange="draw()"></div>
+    <div><label>Widok</label><select id="f-alr" onchange="draw()"><option value="ALL">Wszystkie</option><option value="ALERT">Tylko skoki 🔥</option></select></div>
+  </div>
+  <div id="list"></div>
+  <script>
+    let items = [];
+    async function load() {
+      document.getElementById('upd').innerText = 'Pobieranie...';
+      try {
+        const r = await fetch('dane.json?t=' + Date.now());
+        const d = await r.json();
+        items = d.zdarzenia || [];
+        document.getElementById('upd').innerText = 'UTC: ' + d.aktualizacja_utc;
+        draw();
+      } catch (e) { document.getElementById('upd').innerText = 'Brak pliku dane.json'; }
+    }
+    function draw() {
+      const ryk = document.getElementById('f-ryk').value;
+      const prc = parseFloat(document.getElementById('f-prc').value) || 0;
+      const kwt = parseFloat(document.getElementById('f-kwt').value) || 0;
+      const alr = document.getElementById('f-alr').value === 'ALERT';
+      const res = items.filter(z => z.procent >= prc && z.kwota >= kwt && (!alr || z.alert) && (ryk === 'ALL' || z.rynek.includes(ryk)));
+      document.getElementById('list').innerHTML = res.length ? res.map(z => `
+        <div class="card ${z.alert ? 'alert' : ''}">
+          <div class="badge">${z.alert ? '🔥 SKOK • ' : ''}${z.rynek}</div>
+          <div class="match">${z.mecz}</div>
+          <div class="stats">
+            <div><div class="val" style="color:#38bdf8">${z.typ}</div><div class="lbl">Kurs: ${z.kurs}</div></div>
+            <div><div class="val">${z.procent}%</div><div class="lbl">Udział</div></div>
+            <div><div class="val">£${z.kwota.toLocaleString()}</div><div class="lbl">${z.przyrost > 0 ? '+£'+z.przyrost.toLocaleString() : 'Kwota'}</div></div>
+          </div>
+        </div>`).join('') : '<p style="text-align:center;color:#94a3b8">Brak wyników dla tych filtrów.</p>';
+    }
+    load();
+  </script>
+</body>
+</html>
