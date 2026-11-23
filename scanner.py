@@ -48,16 +48,22 @@ def czy_niszowa(txt):
 
 def wyslij_mail(temat, tresc):
     if not (GMAIL_USER and GMAIL_PASS and ODBIORCA):
+        print("[EMAIL SKIP] Brak konfiguracji zmiennych środowiskowych.")
         return
     msg = MIMEText(tresc, "plain", "utf-8")
     msg["Subject"], msg["From"], msg["To"] = temat, GMAIL_USER, ODBIORCA
-    try:
-        with smtplib.SMTP_SSL("://gmail.com", 465) as s:
-            s.login(GMAIL_USER, GMAIL_PASS)
-            s.sendmail(GMAIL_USER, ODBIORCA, msg.as_string())
-        print("[EMAIL OK]")
-    except Exception as e:
-        print(f"[EMAIL ERR] {e}")
+
+    for proba in range(1, 4):
+        try:
+            with smtplib.SMTP_SSL("://gmail.com", 465, timeout=20) as s:
+                s.login(GMAIL_USER, GMAIL_PASS)
+                s.sendmail(GMAIL_USER, ODBIORCA, msg.as_string())
+            print("[EMAIL OK]")
+            return
+        except Exception as e:
+            print(f"[EMAIL ERR] Próba {proba}/3 nieudana: {e}")
+            if proba < 3:
+                time.sleep(5)
 
 def main():
     stan = json.load(open("historia_kwot.json", encoding="utf-8")) if os.path.exists("historia_kwot.json") else {}
