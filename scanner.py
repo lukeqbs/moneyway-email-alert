@@ -6,6 +6,7 @@ from playwright.sync_api import sync_playwright
 GMAIL_USER = os.environ.get("GMAIL_USER", "").strip()
 GMAIL_PASS = os.environ.get("GMAIL_APP_PASSWORD", "").strip()
 ODBIORCA = os.environ.get("ODBIORCA_EMAIL", "").strip()
+
 PROG_SKOKU, PROG_PROC = 1000.0, 85.0
 PROG_SKOKU_KURS, PROG_KURSU = 250.0, 4.5
 
@@ -46,11 +47,12 @@ def czy_niszowa(txt):
     return not any(w in t for w in WYKLUCZONE)
 
 def wyslij_mail(temat, tresc):
-    if not (GMAIL_USER and GMAIL_PASS and ODBIORCA): return
+    if not (GMAIL_USER and GMAIL_PASS and ODBIORCA):
+        return
     msg = MIMEText(tresc, "plain", "utf-8")
     msg["Subject"], msg["From"], msg["To"] = temat, GMAIL_USER, ODBIORCA
     try:
-        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
+        with smtplib.SMTP_SSL("://gmail.com", 465) as s:
             s.login(GMAIL_USER, GMAIL_PASS)
             s.sendmail(GMAIL_USER, ODBIORCA, msg.as_string())
         print("[EMAIL OK]")
@@ -78,19 +80,28 @@ def main():
             for row in wiersze:
                 cols = [k.inner_text().strip().replace("\n", " ") for k in row.query_selector_all("td")]
                 idx0 = next((i for i, t in enumerate(cols) if "%" in t), None)
-                if not idx0 or len(cols) < len(opcje) + 1: continue
+                if not idx0 or len(cols) < len(opcje) + 1:
+                    continue
                 mecz = " | ".join(cols[:idx0]).strip()
-                if not mecz or not czy_niszowa(mecz): continue
+                if not mecz or not czy_niszowa(mecz):
+                    continue
 
                 for i, opcja in enumerate(opcje):
-                    if idx0 + i >= len(cols): break
+                    if idx0 + i >= len(cols):
+                        break
                     txt = cols[idx0 + i]
-                    pm, km, cm = re.search(r"(\d+(?:\.\d+)?)\s*%", txt), re.search(r"[$£€]\s*([\d,]+(?:\.\d+)?)", txt), re.search(r"\b(\d+\.\d{1,2})\b", txt)
-                    if not (pm and km): continue
-                    proc, kwota, kurs = float(pm.group(1)), float(km.group(1).replace(",", "")), (cm.group(1) if cm else "?")
-                    if kwota <= 0: continue
+                    pm = re.search(r"(\d+(?:\.\d+)?)\s*%", txt)
+                    km = re.search(r"[$£€]\s*([\d,]+(?:\.\d+)?)", txt)
+                    cm = re.search(r"\b(\d+\.\d{1,2})\b", txt)
+                    if not (pm and km):
+                        continue
+                    proc = float(pm.group(1))
+                    kwota = float(km.group(1).replace(",", ""))
+                    kurs = cm.group(1) if cm else "?"
+                    if kwota <= 0:
+                        continue
 
-                                        klucz = f"{rynek} :: {mecz} :: {opcja}"
+                    klucz = f"{rynek} :: {mecz} :: {opcja}"
                     prev = stan.get(klucz, 0.0)
                     skok = kwota - prev if prev > 0 else 0.0
                     nowy_stan[klucz] = kwota
@@ -98,18 +109,30 @@ def main():
                     kurs_num = float(kurs) if kurs != "?" else 0.0
                     warunek_standard = (proc >= PROG_PROC and skok >= PROG_SKOKU)
                     warunek_wysoki_kurs = (kurs_num >= PROG_KURSU and skok >= PROG_SKOKU_KURS)
-                    
                     alert = warunek_standard or warunek_wysoki_kurs
 
-                    if proc >= 50.0:
-                        app_lista.append({"rynek": rynek, "mecz": mecz, "typ": opcja, "kurs": kurs, "procent": proc, "kwota": kwota, "przyrost": skok, "alert": alert})
+                    if proc >= 50.0 or alert:
+                        app_lista.append({
+                            "rynek": rynek,
+                            "mecz": mecz,
+                            "typ": opcja,
+                            "kurs": kurs,
+                            "procent": proc,
+                            "kwota": kwota,
+                            "przyrost": skok,
+                            "alert": alert
+                        })
                     if alert:
                         mail_lista.append(f"Rynek: {rynek}\nMecz: {mecz}\nTyp: {opcja} (Kurs: {kurs})\nUdział: {proc}% | Kwota: £{kwota:,.0f} (+£{skok:,.0f})")
         browser.close()
 
     app_lista.sort(key=lambda x: (x["alert"], x["procent"], x["kwota"]), reverse=True)
     json.dump(nowy_stan, open("historia_kwot.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
-    json.dump({"aktualizacja_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"), "liczba_zdarzen": len(app_lista), "zdarzenia": app_lista}, open("dane.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    json.dump({
+        "aktualizacja_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"),
+        "liczba_zdarzen": len(app_lista),
+        "zdarzenia": app_lista
+    }, open("dane.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
     print(f"Zapisano {len(app_lista)} zdarzeń.")
 
     if mail_lista:
