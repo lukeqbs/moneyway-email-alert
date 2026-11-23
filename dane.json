@@ -1,25 +1,35 @@
 {
-  "aktualizacja_utc": "2026-11-23 22:26",
-  "liczba_zdarzen": 27,
+  "aktualizacja_utc": "2026-11-23 22:39",
+  "liczba_zdarzen": 25,
   "zdarzenia": [
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 23, 23:00 Brazilian Serie A Botafogo FR — Sao Paulo",
-      "typ": "U 3.5",
-      "kurs": "1.33",
-      "procent": 98.6,
-      "kwota": 3970.0,
-      "przyrost": 3888.0,
-      "alert": true
-    },
     {
       "rynek": "1X2 (LIVE)",
       "mecz": "Nov 23, 21:15 Bolivian Liga de Futbol Profesional Universitario de Vinto — CD Gualberto Villarroel",
       "typ": "1 LIVE",
-      "kurs": "1.22",
-      "procent": 90.0,
-      "kwota": 41046.0,
-      "przyrost": 29049.0,
+      "kurs": "1.04",
+      "procent": 91.2,
+      "kwota": 50044.0,
+      "przyrost": 8998.0,
+      "alert": true
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 23, 21:00 Paraguayan Primera Division Club 2 de Mayo de Pedro Ju — Sportivo San Lorenzo",
+      "typ": "X LIVE",
+      "kurs": "6.8",
+      "procent": 18.4,
+      "kwota": 10623.0,
+      "przyrost": 6197.0,
+      "alert": true
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 23, 21:00 Paraguayan Primera Division Club 2 de Mayo de Pedro Ju — Sportivo San Lorenzo",
+      "typ": "2 LIVE",
+      "kurs": "65.0",
+      "procent": 6.2,
+      "kwota": 3561.0,
+      "przyrost": 774.0,
       "alert": true
     },
     {
@@ -44,16 +54,6 @@
     },
     {
       "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 24, 13:00 Indian I-League Sreenidhi FC — Chanmari FC",
-      "typ": "O 1.5",
-      "kurs": "1.22",
-      "procent": 100.0,
-      "kwota": 100.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 25, 18:00 Egyptian Premier ENPPI — Ceramica Cleopatra",
       "typ": "O 1.5",
       "kurs": "1.42",
@@ -63,13 +63,23 @@
       "alert": false
     },
     {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 24, 13:00 Indian I-League Sreenidhi FC — Chanmari FC",
+      "typ": "O 1.5",
+      "kurs": "1.22",
+      "procent": 100.0,
+      "kwota": 100.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 23, 22:30 Uruguayan Primera Division Albion FC — Danubio",
+      "mecz": "Nov 23, 23:00 Brazilian Serie A Botafogo FR — Sao Paulo",
       "typ": "U 3.5",
-      "kurs": "1.41",
-      "procent": 88.3,
-      "kwota": 337.0,
-      "przyrost": 15.0,
+      "kurs": "1.33",
+      "procent": 98.7,
+      "kwota": 4295.0,
+      "przyrost": 325.0,
       "alert": false
     },
     {
@@ -77,29 +87,19 @@
       "mecz": "Nov 24, 00:00 Brazilian Serie A Santos — Gremio",
       "typ": "O 2.5",
       "kurs": "1.59",
-      "procent": 86.1,
-      "kwota": 4589.0,
-      "przyrost": 115.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 23, 22:30 Uruguayan Primera Division Albion FC — Danubio",
-      "typ": "U 2.5",
-      "kurs": "2.04",
-      "procent": 85.8,
-      "kwota": 910.0,
-      "przyrost": 428.0,
+      "procent": 84.3,
+      "kwota": 4590.0,
+      "przyrost": 1.0,
       "alert": false
     },
     {
       "rynek": "1X2 (LIVE)",
       "mecz": "Nov 23, 21:00 Uruguayan Reserves CA Penarol (Res) — Montevideo Wanderers (Res)",
       "typ": "1 LIVE",
-      "kurs": "1.21",
-      "procent": 85.3,
-      "kwota": 1104.0,
-      "przyrost": 777.0,
+      "kurs": "1.16",
+      "procent": 84.3,
+      "kwota": 1179.0,
+      "przyrost": 75.0,
       "alert": false
     },
     {
@@ -109,17 +109,7 @@
       "kurs": "2.48",
       "procent": 81.8,
       "kwota": 2592.0,
-      "przyrost": 9.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 23, 21:00 Paraguayan Primera Division Club 2 de Mayo de Pedro Ju — Sportivo San Lorenzo",
-      "typ": "1 LIVE",
-      "kurs": "2.54",
-      "procent": 81.7,
-      "kwota": 32139.0,
-      "przyrost": 15984.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -133,43 +123,53 @@
       "alert": false
     },
     {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 23, 21:00 Paraguayan Primera Division Club 2 de Mayo de Pedro Ju — Sportivo San Lorenzo",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.11",
+      "procent": 79.4,
+      "kwota": 9081.0,
+      "przyrost": 1099.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
       "typ": "U 2.5",
-      "kurs": "1.84",
+      "kurs": "1.86",
       "procent": 78.9,
       "kwota": 751.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 23, 21:00 Paraguayan Primera Division Club 2 de Mayo de Pedro Ju — Sportivo San Lorenzo",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.05",
-      "procent": 77.7,
-      "kwota": 7982.0,
-      "przyrost": 7002.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 23, 21:15 Bolivian Liga de Futbol Profesional Universitario de Vinto — CD Gualberto Villarroel",
-      "typ": "U 2.5 LIVE",
-      "kurs": "2.02",
-      "procent": 76.8,
-      "kwota": 15392.0,
-      "przyrost": 15207.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
+      "rynek": "1X2 (LIVE)",
       "mecz": "Nov 23, 22:30 Brazilian Serie A Internacional — EC Vitoria Salvador",
-      "typ": "U 2.5",
-      "kurs": "1.94",
-      "procent": 75.8,
-      "kwota": 55921.0,
-      "przyrost": 15408.0,
+      "typ": "1 LIVE",
+      "kurs": "2.84",
+      "procent": 77.9,
+      "kwota": 39821.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 23, 21:00 Paraguayan Primera Division Club 2 de Mayo de Pedro Ju — Sportivo San Lorenzo",
+      "typ": "1 LIVE",
+      "kurs": "1.16",
+      "procent": 75.4,
+      "kwota": 43526.0,
+      "przyrost": 11387.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 23, 22:30 Brazilian Serie A Internacional — EC Vitoria Salvador",
+      "typ": "U 2.5 LIVE",
+      "kurs": "4.0",
+      "procent": 74.7,
+      "kwota": 61105.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -177,18 +177,18 @@
       "mecz": "Nov 23, 23:00 Brazilian Serie A Botafogo FR — Sao Paulo",
       "typ": "O 1.5",
       "kurs": "1.36",
-      "procent": 74.5,
-      "kwota": 677.0,
-      "przyrost": 520.0,
+      "procent": 74.6,
+      "kwota": 681.0,
+      "przyrost": 4.0,
       "alert": false
     },
     {
-      "rynek": "O/U 1.5 (Pre)",
+      "rynek": "O/U 2.5 (LIVE)",
       "mecz": "Nov 23, 22:30 Uruguayan Primera Division Albion FC — Danubio",
-      "typ": "O 1.5",
-      "kurs": "1.3",
-      "procent": 71.6,
-      "kwota": 87.0,
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.86",
+      "procent": 74.2,
+      "kwota": 2035.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -196,50 +196,30 @@
       "rynek": "O/U 2.5 (LIVE)",
       "mecz": "Nov 23, 21:00 Uruguayan Reserves CA Penarol (Res) — Montevideo Wanderers (Res)",
       "typ": "U 2.5 LIVE",
-      "kurs": "1.57",
-      "procent": 70.8,
-      "kwota": 856.0,
-      "przyrost": 736.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 23, 22:30 Brazilian Serie A Internacional — EC Vitoria Salvador",
-      "typ": "U 3.5",
-      "kurs": "1.36",
-      "procent": 70.4,
-      "kwota": 2098.0,
-      "przyrost": 1927.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 HT (Pre)",
-      "mecz": "Nov 23, 22:30 Uruguayan Primera Division Albion FC — Danubio",
-      "typ": "2 HT",
-      "kurs": "3.75",
-      "procent": 70.0,
-      "kwota": 89.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 23, 22:30 Brazilian Serie A Internacional — EC Vitoria Salvador",
-      "typ": "O 1.5",
-      "kurs": "1.34",
-      "procent": 67.4,
-      "kwota": 7838.0,
-      "przyrost": 5926.0,
+      "kurs": "1.2",
+      "procent": 72.8,
+      "kwota": 1228.0,
+      "przyrost": 372.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 23, 23:00 Brazilian Serie A Botafogo FR — Sao Paulo",
       "typ": "U 2.5",
-      "kurs": "1.88",
-      "procent": 67.2,
-      "kwota": 2773.0,
-      "przyrost": 1679.0,
+      "kurs": "1.87",
+      "procent": 69.7,
+      "kwota": 7528.0,
+      "przyrost": 4755.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 23, 21:15 Bolivian Liga de Futbol Profesional Universitario de Vinto — CD Gualberto Villarroel",
+      "typ": "U 2.5 LIVE",
+      "kurs": "3.2",
+      "procent": 66.5,
+      "kwota": 16963.0,
+      "przyrost": 1571.0,
       "alert": false
     },
     {
@@ -247,18 +227,18 @@
       "mecz": "Nov 23, 23:00 Brazilian Serie A Botafogo FR — Sao Paulo",
       "typ": "2 HT",
       "kurs": "4.1",
-      "procent": 65.5,
+      "procent": 65.0,
       "kwota": 181.0,
-      "przyrost": 69.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "1X2 HT (Pre)",
-      "mecz": "Nov 23, 22:30 Brazilian Serie A Internacional — EC Vitoria Salvador",
-      "typ": "1 HT",
-      "kurs": "2.26",
-      "procent": 61.7,
-      "kwota": 223.0,
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 23, 22:30 Uruguayan Primera Division Albion FC — Danubio",
+      "typ": "1 LIVE",
+      "kurs": "2.5",
+      "procent": 64.5,
+      "kwota": 1141.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -269,7 +249,7 @@
       "kurs": "5.9",
       "procent": 59.4,
       "kwota": 223.0,
-      "przyrost": 31.0,
+      "przyrost": 0.0,
       "alert": false
     }
   ]
