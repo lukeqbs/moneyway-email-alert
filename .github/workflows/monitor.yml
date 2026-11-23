@@ -1,12 +1,16 @@
 name: Moneyway Email Monitor
 
 on:
+  schedule:
+    # Uruchamia co 5 minut z lekkim przesunięciem (w 2., 7., 12., 17. minucie godziny),
+    # aby ominąć największy tłok na serwerach GitHuba o pełnych godzinach
+    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
   workflow_dispatch:
 
 jobs:
   check-moneyway:
     runs-on: ubuntu-latest
-    # Gotowy obraz z zainstalowanym Pythonem i Playwrightem (oszczędza ok. 20-30 sekund)
+    # Gotowy obraz Dockera z Playwrightem – skraca czas startu z 40 sek. do ok. 5 sek.
     container:
       image: ://microsoft.com
 
