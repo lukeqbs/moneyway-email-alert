@@ -1,36 +1,18 @@
 name: Moneyway Email Monitor
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
   check-moneyway:
     runs-on: ubuntu-latest
+    # Gotowy obraz z zainstalowanym Pythonem i Playwrightem (oszczędza ok. 20-30 sekund)
+    container:
+      image: ://microsoft.com
 
     steps:
       - name: Pobranie repozytorium
         uses: actions/checkout@v4
-
-      - name: Konfiguracja Pythona
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Sprawdzenie cache przeglądarek Playwright
-        id: playwright-cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: playwright-${{ runner.os }}-chromium
-
-      - name: Instalacja Playwright i Chromium
-        run: |
-          pip install playwright
-          if [ "${{ steps.playwright-cache.outputs.cache-hit }}" != "true" ]; then
-            playwright install chromium
-          fi
 
       - name: Przywrócenie historii kwot z cache
         uses: actions/cache/restore@v4
