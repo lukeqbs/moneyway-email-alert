@@ -1,4 +1,4 @@
-import json
+:import json
 import os
 import re
 import smtplib
@@ -187,7 +187,6 @@ WYKLUCZONE_EUROPA_I_TOP = [
     "copa libertadores",
     "afc champions",
     "caf champions",
-    "uefa",
 ]
 
 DUZE_KRAJE_SPOZA_EU = [
@@ -204,6 +203,7 @@ DUZE_KRAJE_SPOZA_EU = [
     "korea",
     "saudi",
 ]
+
 DOZWOLONE_NISZOWE_W_DUZYCH = [
     "b",
     "c",
@@ -288,8 +288,11 @@ def wyslij_gmail(temat: str, tresc: str):
 
 def wczytaj_stan():
   if os.path.exists(PLIK_STANU):
-    with open(PLIK_STANU, "r", encoding="utf-8") as f:
-      return json.load(f)
+    try:
+      with open(PLIK_STANU, "r", encoding="utf-8") as f:
+        return json.load(f)
+    except Exception:
+      return {}
   return {}
 
 
@@ -333,7 +336,8 @@ def sprawdz_rynki():
       try:
         print(f"--- Otwieranie: {nazwa_rynku} ({url}) ---")
         page.goto(url, wait_until="domcontentloaded", timeout=45000)
-        page.wait_for_selector("table tr", timeout=15000)
+        # POPRAWKA: state="attached" omija ukryte wiersze nagłówka, które powodowały Timeout
+        page.wait_for_selector("table tr", state="attached", timeout=15000)
         page.wait_for_timeout(2000)
 
         wiersze = page.query_selector_all("table tr")
@@ -355,63 +359,54 @@ def sprawdz_rynki():
           if start_idx is None or start_idx == 0:
             continue
 
-          info_meczu = " | ".join(teksty_kolumn[:start_idx])
-
-          if len(teksty_kolumn) < start_idx + len(opcje):
+          info_meczu = " | ".join(teksty_kolumn[:start_idx]).strip()
+          if not info_meczu or not czy_liga_niszowa(info_meczu):
             continue
 
-          if not czy_liga_niszowa(info_meczu):
-            continue
+          for idx, nazwa_opcji in enumerate(opcje):
+            col_idx = start_idx + idx
+            if col_idx >= len(teksty_kolumn):
+              break
 
-          for idx, typ in enumerate(opcje):
-            komorka = teksty_kolumn[start_idx + idx]
-            kurs, procent, kwota = parsuj_komorke(komorka)
-
-            if kwota == 0:
+            kurs, procent, kwota = parsuj_komorke(teksty_kolumn[col_idx])
+            if kurs is None:
               continue
 
-            klucz_id = f"{nazwa_rynku} | {info_meczu} | Typ: {typ}"
-            poprzednia_kwota = stan.get(klucz_id, 0.0)
-            skok = kwota - poprzednia_kwota
+            klucz = f"{nazwa_rynku} :: {info_meczu} :: {nazwa_opcji}"
+            poprzednia_kwota = stan.get(klucz, 0.0)
+            przyrost = kwota - poprzednia_kwota
 
-            nowy_stan[klucz_id] = kwota
+            nowy_stan[klucz] = kwota
             zapisane_w_rynku += 1
 
             if (
-                klucz_id in stan
-                and skok >= PROG_SKOKU
-                and procent >= PROG_UDZIALU_PROC
+                procent >= PROG_UDZIALU_PROC
+                and przyrost >= PROG_SKOKU
+                and poprzednia_kwota > 0
             ):
-              znalezione_alerty.append(
-                  f"Mecz / Liga: {info_meczu}\n"
-                  f"Rynek: {nazwa_rynku}\n"
-                  f"Pozycja: {typ} (kurs: {kurs})\n"
-                  f"Skok kwoty: +{skok:,.0f} (z {poprzednia_kwota:,.0f} na"
-                  f" {kwota:,.0f})\n"
-                  f"Udział w rynku: {procent}%\n"
-                  f"Źródło: {url}"
+              alert = (
+                  f"Rynek: {nazwa_rynku}\nMecz: {info_meczu}\nTyp:"
+                  f" {nazwa_opcji} (Kurs: {kurs})\nUdział: {procent}% | Kwota:"
+                  f" {kwota:,.0f} (+{przyrost:,.0f})"
               )
+              znalezione_alerty.append(alert)
+              print(f"[ALERT] {info_meczu} -> {nazwa_opcji} (+{przyrost})")
 
-        print(f"Zapisano niszowych pozycji dla {nazwa_rynku}: {zapisane_w_rynku}")
+        print(f"Przetworzono pozycji niszowych: {zapisane_w_rynku}")
 
       except Exception as e:
         print(f"[BŁĄD POBIERANIA {nazwa_rynku}] {e}")
 
     browser.close()
 
+  zapisz_stan(nowy_stan)
+
   if znalezione_alerty:
-    temat = (
-        f"🚨 Moneyway Alert: Wykryto {len(znalezione_alerty)} skok(i) na"
-        " niszowych rynkach!"
-    )
-    tresc = (
-        "Wykryto gwałtowny napływ kapitału na Betfair spełniający Twoje"
-        " kryteria:\n\n"
-        + ("\n" + "=" * 45 + "\n\n").join(znalezione_alerty)
-    )
+    temat = f"🚨 Moneyway Alert: wykryto {len(znalezione_alerty)} skok(ów)!"
+    tresc = "\n\n" + ("=" * 40 + "\n\n").join(znalezione_alerty)
     wyslij_gmail(temat, tresc)
-  else:
-    print("Brak nowych skoków spełniających kryteria w tym cyklu.")
+  else: 
+      print("Brak nowych skoków spełniających kryteria w tym cyklu.")
 
   if len(nowy_stan) > 2500:
     klucze = list(nowy_stan.keys())[-2500:]
