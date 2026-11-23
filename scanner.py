@@ -7,6 +7,7 @@ GMAIL_USER = os.environ.get("GMAIL_USER", "").strip()
 GMAIL_PASS = os.environ.get("GMAIL_APP_PASSWORD", "").strip()
 ODBIORCA = os.environ.get("ODBIORCA_EMAIL", "").strip()
 PROG_SKOKU, PROG_PROC = 1000.0, 85.0
+PROG_SKOKU_KURS, PROG_KURSU = 250.0, 4.5
 
 RYNKI = {
     "1X2 (Pre)": ("https://arbworld.net/moneyway/football/1x2", ["1", "X", "2"]),
@@ -89,11 +90,16 @@ def main():
                     proc, kwota, kurs = float(pm.group(1)), float(km.group(1).replace(",", "")), (cm.group(1) if cm else "?")
                     if kwota <= 0: continue
 
-                    klucz = f"{rynek} :: {mecz} :: {opcja}"
+                                        klucz = f"{rynek} :: {mecz} :: {opcja}"
                     prev = stan.get(klucz, 0.0)
                     skok = kwota - prev if prev > 0 else 0.0
                     nowy_stan[klucz] = kwota
-                    alert = (proc >= PROG_PROC and skok >= PROG_SKOKU)
+
+                    kurs_num = float(kurs) if kurs != "?" else 0.0
+                    warunek_standard = (proc >= PROG_PROC and skok >= PROG_SKOKU)
+                    warunek_wysoki_kurs = (kurs_num >= PROG_KURSU and skok >= PROG_SKOKU_KURS)
+                    
+                    alert = warunek_standard or warunek_wysoki_kurs
 
                     if proc >= 50.0:
                         app_lista.append({"rynek": rynek, "mecz": mecz, "typ": opcja, "kurs": kurs, "procent": proc, "kwota": kwota, "przyrost": skok, "alert": alert})
