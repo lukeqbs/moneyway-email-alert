@@ -1,8 +1,9 @@
+from datetime import datetime, timezone
+from email.mime.text import MIMEText
 import json
 import os
 import re
 import smtplib
-from email.mime.text import MIMEText
 from playwright.sync_api import sync_playwright
 
 # ================= KONFIGURACJA UŻYTKOWNIKA =================
@@ -15,36 +16,37 @@ PROG_UDZIALU_PROC = 85.0   # Minimalny udział w rynku (%)
 
 RYNKI_URL = {
     "1X2 Cały Mecz (Pre)": (
-        "https://arbworld.net/moneyway/football/1x2",
+        "https://arbworld.net",
         ["1", "X", "2"],
     ),
     "1X2 1. Połowa (Pre)": (
-        "https://arbworld.net/moneyway/football/half-time",
+        "https://arbworld.net",
         ["1 (1. połowa)", "X (1. połowa)", "2 (1. połowa)"],
     ),
     "Over/Under 1.5 (Pre)": (
-        "https://arbworld.net/moneyway/football/over-under-1-5",
+        "https://arbworld.net",
         ["Under 1.5", "Over 1.5"],
     ),
     "Over/Under 2.5 (Pre)": (
-        "https://arbworld.net/moneyway/football/over-under-2-5",
+        "https://arbworld.net",
         ["Under 2.5", "Over 2.5"],
     ),
     "Over/Under 3.5 (Pre)": (
-        "https://arbworld.net/moneyway/football/over-under-3-5",
+        "https://arbworld.net",
         ["Under 3.5", "Over 3.5"],
     ),
     "1X2 Cały Mecz (LIVE)": (
-        "https://arbworld.net/moneyway-live/football/1x2",
+        "https://arbworld.net",
         ["1 (LIVE)", "X (LIVE)", "2 (LIVE)"],
     ),
     "Over/Under 2.5 (LIVE)": (
-        "https://arbworld.net/moneyway-live/football/over-under-2-5",
+        "https://arbworld.net",
         ["Under 2.5 (LIVE)", "Over 2.5 (LIVE)"],
     ),
 }
 
 PLIK_STANU = "historia_kwot.json"
+PLIK_DANYCH_APP = "dane.json"
 
 # ================= FILTROWANIE LIG =================
 WYKLUCZONE_EUROPA_I_TOP = [
@@ -296,11 +298,6 @@ def wczytaj_stan():
   return {}
 
 
-def zapisz_stan(stan):
-  with open(PLIK_STANU, "w", encoding="utf-8") as f:
-    json.dump(stan, f, indent=2, ensure_ascii=False)
-
-
 def parsuj_komorke(tekst: str):
   procent_match = re.search(r"(\d+(?:\.\d+)?)\s*%", tekst)
   kwota_match = re.search(r"[$£€]\s*([\d,]+(?:\.\d+)?)", tekst)
@@ -316,8 +313,9 @@ def parsuj_komorke(tekst: str):
 
 def sprawdz_rynki():
   stan = wczytaj_stan()
-  nowy_stan = stan.copy()
-  znalezione_alerty = []
+  nowy_stan = {}
+  zdarzenia_do_aplikacji = []
+  znalezione_alerty_email = []
 
   with sync_playwright() as p:
     browser = p.chromium.launch(
@@ -334,16 +332,13 @@ def sprawdz_rynki():
 
     for nazwa_rynku, (url, opcje) in RYNKI_URL.items():
       try:
-        print(f"--- Otwieranie: {nazwa_rynku} ({url}) ---")
+        print(f"--- Otwieranie: {nazwa_rynku} ---")
         page.goto(url, wait_until="domcontentloaded", timeout=45000)
-        # POPRAWKA: state="attached" omija ukryte wiersze nagłówka, które powodowały Timeout
         page.wait_for_selector("table tr", state="attached", timeout=15000)
         page.wait_for_timeout(2000)
 
         wiersze = page.query_selector_all("table tr")
-        print(f"Znaleziono wierszy w tabeli: {len(wiersze)}")
 
-        zapisane_w_rynku = 0
         for row in wiersze:
           kolumny = row.query_selector_all("td")
           if len(kolumny) < len(opcje) + 1:
@@ -352,7 +347,6 @@ def sprawdz_rynki():
           teksty_kolumn = [
               k.inner_text().strip().replace("\n", " ") for k in kolumny
           ]
-
           start_idx = next(
               (i for i, t in enumerate(teksty_kolumn) if "%" in t), None
           )
@@ -369,51 +363,75 @@ def sprawdz_rynki():
               break
 
             kurs, procent, kwota = parsuj_komorke(teksty_kolumn[col_idx])
-            if kurs is None:
+            if kurs is None or kwota <= 0:
               continue
 
             klucz = f"{nazwa_rynku} :: {info_meczu} :: {nazwa_opcji}"
             poprzednia_kwota = stan.get(klucz, 0.0)
-            przyrost = kwota - poprzednia_kwota
+            przyrost = kwota - poprzednia_kwota if poprzednia_kwota > 0 else 0.0
 
             nowy_stan[klucz] = kwota
-            zapisane_w_rynku += 1
 
-            if (
-                procent >= PROG_UDZIALU_PROC
-                and przyrost >= PROG_SKOKU
-                and poprzednia_kwota > 0
-            ):
-              alert = (
-                  f"Rynek: {nazwa_rynku}\nMecz: {info_meczu}\nTyp:"
-                  f" {nazwa_opcji} (Kurs: {kurs})\nUdział: {procent}% | Kwota:"
-                  f" {kwota:,.0f} (+{przyrost:,.0f})"
+            czy_alert = procent >= PROG_UDZIALU_PROC and przyrost >= PROG_SKOKU
+
+            # 1. Zapis do aplikacji webowej (wszystkie mecze >= 50%)
+            if procent >= 50.0:
+              zdarzenia_do_aplikacji.append({
+                  "rynek": nazwa_rynku,
+                  "mecz": info_meczu,
+                  "typ": nazwa_opcji,
+                  "kurs": kurs,
+                  "procent": procent,
+                  "kwota": kwota,
+                  "przyrost": przyrost,
+                  "alert": czy_alert,
+              })
+
+            # 2. Dodanie do wiadomości e-mail (tylko nagłe skoki)
+            if czy_alert:
+              alert_txt = (
+                  f"Rynek: {nazwa_rynku}\n"
+                  f"Mecz: {info_meczu}\n"
+                  f"Typ: {nazwa_opcji} (Kurs: {kurs})\n"
+                  f"Udział: {procent}% | Kwota: £{kwota:,.0f}"
+                  f" (+£{przyrost:,.0f})"
               )
-              znalezione_alerty.append(alert)
-              print(f"[ALERT] {info_meczu} -> {nazwa_opcji} (+{przyrost})")
-
-        print(f"Przetworzono pozycji niszowych: {zapisane_w_rynku}")
+              znalezione_alerty_email.append(alert_txt)
+              print(f"[ALERT EMAIL] {info_meczu} -> {nazwa_opcji} (+{przyrost})")
 
       except Exception as e:
-        print(f"[BŁĄD POBIERANIA {nazwa_rynku}] {e}")
+        print(f"[BŁĄD {nazwa_rynku}] {e}")
 
     browser.close()
 
-  zapisz_stan(nowy_stan)
+  # Zapis historii kwot i pliku dla aplikacji webowej
+  zdarzenia_do_aplikacji.sort(
+key=lambda x: (x["alert"], x["procent"], x["kwota"]), reverse=True
+)
+with open(PLIK_STANU, "w", encoding="utf-8") as f:
+json.dump(nowy_stan, f, indent=2, ensure_ascii=False)
+raport = {
+"aktualizacja_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M"),
+"liczba_zdarzen": len(zdarzenia_do_aplikacji),
+"zdarzenia": zdarzenia_do_aplikacji,
+}
+with open(PLIK_DANYCH_APP, "w", encoding="utf-8") as f:
+json.dump(raport, f, indent=2, ensure_ascii=False)
+print(f"Zapisano {len(zdarzenia_do_aplikacji)} zdarzeń do {PLIK_DANYCH_APP}")
 
-  if znalezione_alerty:
-    temat = f"🚨 Moneyway Alert: wykryto {len(znalezione_alerty)} skok(ów)!"
-    tresc = "\n\n" + ("=" * 40 + "\n\n").join(znalezione_alerty)
-    wyslij_gmail(temat, tresc)
-  else: 
-      print("Brak nowych skoków spełniających kryteria w tym cyklu.")
+Wysyłka e-maila, jeśli wystąpiły nagłe skoki
 
-  if len(nowy_stan) > 2500:
-    klucze = list(nowy_stan.keys())[-2500:]
-    nowy_stan = {k: nowy_stan[k] for k in klucze}
-
-  zapisz_stan(nowy_stan)
-
-
-if __name__ == "__main__":
-  sprawdz_rynki()
+if znalezione_alerty_email:
+temat = (
+f"🚨 Moneyway Alert: wykryto {len(znalezione_alerty_email)} skok(ów)!"
+)
+tresc = "\n\n" + ("=" * 40 + "\n\n").join(znalezione_alerty_email)
+tresc += (
+"\n\nPodgląd wszystkich meczów w aplikacji:"
+" github.io"
+)
+wyslij_gmail(temat, tresc)
+else:
+print("Brak nowych skoków do wysłania mailem.")
+if name == "main":
+sprawdz_rynki()
