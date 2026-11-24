@@ -1,17 +1,7 @@
 {
-  "aktualizacja_utc": "2026-11-24 13:55",
-  "liczba_zdarzen": 27,
+  "aktualizacja_utc": "2026-11-24 14:53",
+  "liczba_zdarzen": 29,
   "zdarzenia": [
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 12:20 Saudi 1st Division Al Orubah — Al Najma Club",
-      "typ": "2 LIVE",
-      "kurs": "2.36",
-      "procent": 89.1,
-      "kwota": 5057.0,
-      "przyrost": 4094.0,
-      "alert": true
-    },
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League 2 Iwaki SC — Toyama",
@@ -26,7 +16,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
       "typ": "U 2.5",
-      "kurs": "1.7",
+      "kurs": "1.69",
       "procent": 100.0,
       "kwota": 130.0,
       "przyrost": 0.0,
@@ -36,7 +26,7 @@
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 25, 18:00 Egyptian Premier ENPPI — Ceramica Cleopatra",
       "typ": "O 1.5",
-      "kurs": "1.45",
+      "kurs": "1.41",
       "procent": 100.0,
       "kwota": 100.0,
       "przyrost": 0.0,
@@ -53,23 +43,33 @@
       "alert": false
     },
     {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 24, 14:30 Saudi 1st Division Hajer Club — Al Taee",
+      "typ": "U 2.5 LIVE",
+      "kurs": "2.3",
+      "procent": 98.0,
+      "kwota": 1434.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 25, 09:30 Japanese J League 2 FC Imabari — Tegevajaro Miyazaki",
+      "typ": "X",
+      "kurs": "4.1",
+      "procent": 94.9,
+      "kwota": 111.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 24, 17:30 South African Premier Division Durban City — Polokwane City",
       "typ": "X",
       "kurs": "2.92",
       "procent": 94.4,
       "kwota": 261.0,
-      "przyrost": 14.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 24, 17:30 South African Premier Division Orlando Pirates (SA) — Golden Arrows",
-      "typ": "1",
-      "kurs": "1.42",
-      "procent": 93.7,
-      "kwota": 622.0,
-      "przyrost": 144.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -77,9 +77,9 @@
       "mecz": "Nov 24, 18:00 Egyptian Premier Al-Masry — Asyut Petroleum",
       "typ": "1",
       "kurs": "1.54",
-      "procent": 93.6,
-      "kwota": 1038.0,
-      "przyrost": 29.0,
+      "procent": 93.5,
+      "kwota": 1209.0,
+      "przyrost": 171.0,
       "alert": false
     },
     {
@@ -93,32 +93,62 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 12:20 Saudi 1st Division Al Orubah — Al Najma Club",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.04",
-      "procent": 89.0,
-      "kwota": 1482.0,
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
+      "typ": "O 2.5",
+      "kurs": "1.66",
+      "procent": 86.7,
+      "kwota": 7455.0,
       "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 24, 13:00 Indian I-League Sreenidhi FC — Chanmari FC",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.12",
+      "procent": 86.7,
+      "kwota": 672.0,
+      "przyrost": 618.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 24, 15:00 Egyptian Premier ZED FC — Abo Qair Semads",
       "typ": "U 2.5",
-      "kurs": "1.65",
-      "procent": 87.2,
-      "kwota": 168.0,
-      "przyrost": 3.0,
+      "kurs": "1.67",
+      "procent": 85.6,
+      "kwota": 176.0,
+      "przyrost": 8.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 24, 17:30 South African Premier Division Orlando Pirates (SA) — Golden Arrows",
+      "typ": "U 2.5",
+      "kurs": "1.81",
+      "procent": 85.2,
+      "kwota": 106.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 24, 17:00 Other Competitions Soccer Al-Duhail SC — NEOM Sports Club",
       "typ": "O 1.5",
-      "kurs": "1.25",
+      "kurs": "1.26",
       "procent": 84.9,
       "kwota": 117.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 24, 14:30 Other Competitions Soccer Al Riffa — Al-Zawraa",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.66",
+      "procent": 83.8,
+      "kwota": 457.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -127,8 +157,18 @@
       "mecz": "Nov 24, 17:00 Other Competitions Soccer Al-Duhail SC — NEOM Sports Club",
       "typ": "U 3.5",
       "kurs": "1.48",
-      "procent": 81.6,
-      "kwota": 268.0,
+      "procent": 83.5,
+      "kwota": 305.0,
+      "przyrost": 37.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 24, 15:00 Egyptian Premier ZED FC — Abo Qair Semads",
+      "typ": "O 1.5",
+      "kurs": "1.48",
+      "procent": 82.7,
+      "kwota": 656.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -136,140 +176,120 @@
       "rynek": "1X2 HT (Pre)",
       "mecz": "Nov 24, 15:00 Egyptian Premier ZED FC — Abo Qair Semads",
       "typ": "X HT",
-      "kurs": "2.16",
-      "procent": 76.5,
-      "kwota": 146.0,
-      "przyrost": 47.0,
+      "kurs": "2.2",
+      "procent": 81.8,
+      "kwota": 201.0,
+      "przyrost": 55.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
+      "typ": "O 3.5",
+      "kurs": "2.68",
+      "procent": 80.3,
+      "kwota": 1868.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 24, 13:00 Ethiopian Higher League Mekelle Kenema — Addis Ketema",
+      "typ": "X LIVE",
+      "kurs": "2.0",
+      "procent": 78.1,
+      "kwota": 96.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 24, 13:15 Uzbekistan Cup FK Andijan — Lokomotiv Tashkent",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.02",
+      "procent": 70.5,
+      "kwota": 526.0,
+      "przyrost": 463.0,
       "alert": false
     },
     {
       "rynek": "1X2 (LIVE)",
       "mecz": "Nov 24, 13:15 Uzbekistan Cup Olmaliq — FK Navbahor Namangan",
       "typ": "2 LIVE",
-      "kurs": "1.41",
-      "procent": 74.6,
-      "kwota": 577.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 13:15 Uzbekistan Cup FK Andijan — Lokomotiv Tashkent",
-      "typ": "1 LIVE",
-      "kurs": "3.0",
-      "procent": 71.8,
-      "kwota": 1100.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
-      "typ": "O 1.5",
-      "kurs": "1.27",
-      "procent": 70.0,
-      "kwota": 107.0,
-      "przyrost": 0.0,
+      "kurs": "1.25",
+      "procent": 69.3,
+      "kwota": 757.0,
+      "przyrost": 180.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 13:15 Uzbekistan Cup FK Andijan — Lokomotiv Tashkent",
-      "typ": "O 2.5 LIVE",
-      "kurs": "4.5",
+      "mecz": "Nov 24, 13:00 Ethiopian Higher League Mekelle Kenema — Addis Ketema",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.01",
       "procent": 68.8,
-      "kwota": 139.0,
+      "kwota": 94.0,
       "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 13:00 Indian I-League Sreenidhi FC — Chanmari FC",
-      "typ": "X LIVE",
-      "kurs": "2.8",
-      "procent": 68.1,
-      "kwota": 696.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 25, 01:30 Colombian Primera A America de Cali S.A — Deportivo Cali",
-      "typ": "U 1.5",
-      "kurs": "2.48",
-      "procent": 64.2,
-      "kwota": 120.0,
-      "przyrost": 2.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 12:15 Saudi 1st Division Al-Raed (KSA) — Al-Akhdoud",
-      "typ": "1 LIVE",
-      "kurs": "4.1",
-      "procent": 61.0,
-      "kwota": 2873.0,
-      "przyrost": 1234.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 12:20 Saudi 1st Division Al Jabalain — Al-Zulfi SC",
-      "typ": "1 LIVE",
-      "kurs": "2.78",
-      "procent": 59.9,
-      "kwota": 3684.0,
-      "przyrost": 505.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (LIVE)",
       "mecz": "Nov 24, 13:15 Uzbekistan Cup Olmaliq — FK Navbahor Namangan",
       "typ": "U 2.5 LIVE",
-      "kurs": "2.22",
-      "procent": 59.8,
-      "kwota": 99.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 12:15 Saudi 1st Division Al-Raed (KSA) — Al-Akhdoud",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.66",
-      "procent": 53.1,
-      "kwota": 2213.0,
-      "przyrost": 1828.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 13:00 Indian I-League Sreenidhi FC — Chanmari FC",
-      "typ": "O 2.5 LIVE",
-      "kurs": "4.3",
-      "procent": 51.8,
-      "kwota": 58.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 12:20 Saudi 1st Division Al Jabalain — Al-Zulfi SC",
-      "typ": "U 2.5 LIVE",
-      "kurs": "2.02",
-      "procent": 51.3,
-      "kwota": 458.0,
-      "przyrost": 272.0,
+      "kurs": "1.18",
+      "procent": 68.5,
+      "kwota": 235.0,
+      "przyrost": 136.0,
       "alert": false
     },
     {
       "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
+      "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
       "typ": "O 1.5",
-      "kurs": "1.41",
-      "procent": 51.2,
-      "kwota": 86.0,
-      "przyrost": 2.0,
+      "kurs": "1.21",
+      "procent": 66.9,
+      "kwota": 111.0,
+      "przyrost": 4.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 24, 14:30 Other Competitions Soccer Al Riffa — Al-Zawraa",
+      "typ": "1 LIVE",
+      "kurs": "2.4",
+      "procent": 65.8,
+      "kwota": 550.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 24, 13:15 Uzbekistan Cup FK Andijan — Lokomotiv Tashkent",
+      "typ": "1 LIVE",
+      "kurs": "3.2",
+      "procent": 62.9,
+      "kwota": 1228.0,
+      "przyrost": 128.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 24, 14:30 Saudi 1st Division Hajer Club — Al Taee",
+      "typ": "2 LIVE",
+      "kurs": "1.63",
+      "procent": 61.0,
+      "kwota": 1401.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 24, 14:25 Saudi U21 Elite League Al Ettifaq U21 — Al-Nassr Riyadh U21",
+      "typ": "O 2.5 LIVE",
+      "kurs": "2.24",
+      "procent": 53.9,
+      "kwota": 195.0,
+      "przyrost": 0.0,
       "alert": false
     }
   ]
