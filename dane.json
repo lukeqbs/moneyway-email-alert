@@ -1,12 +1,12 @@
 {
-  "aktualizacja_utc": "2026-11-24 04:46",
-  "liczba_zdarzen": 7,
+  "aktualizacja_utc": "2026-11-24 05:45",
+  "liczba_zdarzen": 8,
   "zdarzenia": [
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League 2 Iwaki SC — Toyama",
       "typ": "U 3.5",
-      "kurs": "1.56",
+      "kurs": "1.51",
       "procent": 100.0,
       "kwota": 133.0,
       "przyrost": 0.0,
@@ -46,7 +46,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 24, 15:00 Egyptian Premier ZED FC — Abo Qair Semads",
       "typ": "U 2.5",
-      "kurs": "1.59",
+      "kurs": "1.63",
       "procent": 91.4,
       "kwota": 126.0,
       "przyrost": 0.0,
@@ -59,16 +59,26 @@
       "kurs": "1.78",
       "procent": 79.3,
       "kwota": 953.0,
-      "przyrost": 202.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
       "typ": "O 1.5",
-      "kurs": "1.41",
+      "kurs": "1.42",
       "procent": 62.2,
       "kwota": 83.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 01:30 Colombian Primera A America de Cali S.A — Deportivo Cali",
+      "typ": "O 1.5",
+      "kurs": "1.59",
+      "procent": 53.7,
+      "kwota": 60.0,
       "przyrost": 0.0,
       "alert": false
     }
