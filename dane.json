@@ -1,24 +1,14 @@
 {
-  "aktualizacja_utc": "2026-11-24 06:39",
-  "liczba_zdarzen": 9,
+  "aktualizacja_utc": "2026-11-24 06:46",
+  "liczba_zdarzen": 8,
   "zdarzenia": [
     {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 24, 17:30 South African Premier Division Orlando Pirates (SA) — Golden Arrows",
       "typ": "1",
-      "kurs": "1.41",
+      "kurs": "1.4",
       "procent": 100.0,
       "kwota": 170.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 25, 10:00 Japanese J League 2 Iwaki SC — Toyama",
-      "typ": "U 3.5",
-      "kurs": "1.55",
-      "procent": 100.0,
-      "kwota": 133.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -59,24 +49,24 @@
       "kurs": "1.56",
       "procent": 91.4,
       "kwota": 125.0,
-      "przyrost": -1.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
       "typ": "U 2.5",
-      "kurs": "1.75",
-      "procent": 79.4,
-      "kwota": 962.0,
-      "przyrost": 9.0,
+      "kurs": "1.72",
+      "procent": 79.8,
+      "kwota": 987.0,
+      "przyrost": 25.0,
       "alert": false
     },
     {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
       "typ": "O 1.5",
-      "kurs": "1.43",
+      "kurs": "1.44",
       "procent": 62.2,
       "kwota": 83.0,
       "przyrost": 0.0,
@@ -89,7 +79,7 @@
       "kurs": "2.6",
       "procent": 55.1,
       "kwota": 74.0,
-      "przyrost": 22.0,
+      "przyrost": 0.0,
       "alert": false
     }
   ]
