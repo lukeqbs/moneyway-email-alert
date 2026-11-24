@@ -1,6 +1,6 @@
 {
-  "aktualizacja_utc": "2026-11-24 02:41",
-  "liczba_zdarzen": 8,
+  "aktualizacja_utc": "2026-11-24 04:46",
+  "liczba_zdarzen": 7,
   "zdarzenia": [
     {
       "rynek": "O/U 3.5 (Pre)",
@@ -14,19 +14,9 @@
     },
     {
       "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 24, 15:00 Egyptian Premier ZED FC — Abo Qair Semads",
-      "typ": "U 2.5",
-      "kurs": "1.59",
-      "procent": 100.0,
-      "kwota": 126.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
       "typ": "U 2.5",
-      "kurs": "1.7",
+      "kurs": "1.72",
       "procent": 100.0,
       "kwota": 103.0,
       "przyrost": 0.0,
@@ -36,7 +26,7 @@
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 24, 13:00 Indian I-League Sreenidhi FC — Chanmari FC",
       "typ": "O 1.5",
-      "kurs": "1.22",
+      "kurs": "1.23",
       "procent": 100.0,
       "kwota": 100.0,
       "przyrost": 0.0,
@@ -46,7 +36,7 @@
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 25, 18:00 Egyptian Premier ENPPI — Ceramica Cleopatra",
       "typ": "O 1.5",
-      "kurs": "1.42",
+      "kurs": "1.44",
       "procent": 100.0,
       "kwota": 100.0,
       "przyrost": 0.0,
@@ -54,31 +44,31 @@
     },
     {
       "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 24, 15:00 Egyptian Premier ZED FC — Abo Qair Semads",
+      "typ": "U 2.5",
+      "kurs": "1.59",
+      "procent": 91.4,
+      "kwota": 126.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
       "typ": "U 2.5",
-      "kurs": "1.86",
-      "procent": 78.9,
-      "kwota": 751.0,
-      "przyrost": 0.0,
+      "kurs": "1.78",
+      "procent": 79.3,
+      "kwota": 953.0,
+      "przyrost": 202.0,
       "alert": false
     },
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 02:00 Costa Rican Primera Division LD Alajuelense — CS Cartagines",
-      "typ": "1 LIVE",
-      "kurs": "2.52",
-      "procent": 74.5,
-      "kwota": 14099.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 02:00 Costa Rican Primera Division LD Alajuelense — CS Cartagines",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.24",
-      "procent": 68.2,
-      "kwota": 13784.0,
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
+      "typ": "O 1.5",
+      "kurs": "1.41",
+      "procent": 62.2,
+      "kwota": 83.0,
       "przyrost": 0.0,
       "alert": false
     }
