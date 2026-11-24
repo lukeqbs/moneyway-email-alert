@@ -1,5 +1,5 @@
 {
-  "aktualizacja_utc": "2026-11-24 08:12",
+  "aktualizacja_utc": "2026-11-24 08:13",
   "liczba_zdarzen": 13,
   "zdarzenia": [
     {
@@ -69,7 +69,7 @@
       "kurs": "1.41",
       "procent": 95.9,
       "kwota": 221.0,
-      "przyrost": 51.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -99,7 +99,7 @@
       "kurs": "1.73",
       "procent": 80.1,
       "kwota": 1006.0,
-      "przyrost": 19.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -119,7 +119,7 @@
       "kurs": "2.54",
       "procent": 65.5,
       "kwota": 114.0,
-      "przyrost": 40.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
