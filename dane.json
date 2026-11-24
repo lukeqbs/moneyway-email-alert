@@ -1,15 +1,15 @@
 {
-  "aktualizacja_utc": "2026-11-24 15:57",
-  "liczba_zdarzen": 29,
+  "aktualizacja_utc": "2026-11-24 17:02",
+  "liczba_zdarzen": 18,
   "zdarzenia": [
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 14:30 Other Competitions Soccer Al Riffa — Al-Zawraa",
-      "typ": "1 LIVE",
-      "kurs": "1.1",
-      "procent": 95.3,
-      "kwota": 8529.0,
-      "przyrost": 7979.0,
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 24, 15:00 Egyptian Premier ZED FC — Abo Qair Semads",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.71",
+      "procent": 91.4,
+      "kwota": 10560.0,
+      "przyrost": 2630.0,
       "alert": true
     },
     {
@@ -26,7 +26,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
       "typ": "U 2.5",
-      "kurs": "1.68",
+      "kurs": "1.69",
       "procent": 100.0,
       "kwota": 130.0,
       "przyrost": 0.0,
@@ -46,9 +46,19 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 24, 22:00 Chilean Cup Coquimbo Unido — Union La Calera",
       "typ": "U 2.5",
-      "kurs": "2.06",
-      "procent": 99.2,
-      "kwota": 126.0,
+      "kurs": "2.04",
+      "procent": 99.3,
+      "kwota": 146.0,
+      "przyrost": 20.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
+      "typ": "X",
+      "kurs": "3.05",
+      "procent": 94.1,
+      "kwota": 110.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -57,29 +67,19 @@
       "mecz": "Nov 24, 18:00 Egyptian Premier Al-Masry — Asyut Petroleum",
       "typ": "1",
       "kurs": "1.54",
-      "procent": 93.6,
-      "kwota": 1223.0,
-      "przyrost": 14.0,
+      "procent": 94.0,
+      "kwota": 1309.0,
+      "przyrost": 86.0,
       "alert": false
     },
     {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 25, 09:30 Japanese J League 2 FC Imabari — Tegevajaro Miyazaki",
-      "typ": "X",
-      "kurs": "4.1",
-      "procent": 91.9,
-      "kwota": 111.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 24, 17:30 South African Premier Division Orlando Pirates (SA) — Golden Arrows",
-      "typ": "1",
-      "kurs": "1.41",
-      "procent": 91.5,
-      "kwota": 721.0,
-      "przyrost": 0.0,
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 24, 17:00 Other Competitions Soccer Al-Duhail SC — NEOM Sports Club",
+      "typ": "U 3.5",
+      "kurs": "1.39",
+      "procent": 93.5,
+      "kwota": 1016.0,
+      "przyrost": 711.0,
       "alert": false
     },
     {
@@ -93,33 +93,13 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 15:00 Egyptian Premier ZED FC — Abo Qair Semads",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.13",
-      "procent": 90.8,
-      "kwota": 7930.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 24, 17:30 South African Premier Division Orlando Pirates (SA) — Golden Arrows",
       "typ": "U 3.5",
-      "kurs": "1.29",
-      "procent": 89.2,
+      "kurs": "1.3",
+      "procent": 87.9,
       "kwota": 222.0,
       "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 24, 17:30 South African Premier Division Orlando Pirates (SA) — Golden Arrows",
-      "typ": "U 2.5",
-      "kurs": "1.8",
-      "procent": 86.1,
-      "kwota": 115.0,
-      "przyrost": 9.0,
       "alert": false
     },
     {
@@ -127,9 +107,9 @@
       "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
       "typ": "O 2.5",
       "kurs": "1.67",
-      "procent": 86.0,
-      "kwota": 7496.0,
-      "przyrost": 41.0,
+      "procent": 85.4,
+      "kwota": 7514.0,
+      "przyrost": 18.0,
       "alert": false
     },
     {
@@ -137,69 +117,19 @@
       "mecz": "Nov 24, 18:00 Egyptian Premier Al-Masry — Asyut Petroleum",
       "typ": "X HT",
       "kurs": "2.42",
-      "procent": 84.6,
-      "kwota": 85.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 24, 17:00 Other Competitions Soccer Al-Duhail SC — NEOM Sports Club",
-      "typ": "U 3.5",
-      "kurs": "1.48",
-      "procent": 83.5,
-      "kwota": 305.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 24, 17:00 Other Competitions Soccer Al-Duhail SC — NEOM Sports Club",
-      "typ": "O 1.5",
-      "kurs": "1.26",
-      "procent": 82.4,
-      "kwota": 121.0,
-      "przyrost": 4.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 14:25 Saudi U21 Elite League Al-Khaleej U21 — Al Ansar U21",
-      "typ": "1 LIVE",
-      "kurs": "1.02",
-      "procent": 82.2,
-      "kwota": 388.0,
-      "przyrost": 322.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 15:30 Other Competitions Soccer Ajman Club — Al-Ettifaq",
-      "typ": "O 2.5 LIVE",
-      "kurs": "1.09",
-      "procent": 80.2,
-      "kwota": 3617.0,
-      "przyrost": 0.0,
+      "procent": 85.1,
+      "kwota": 88.0,
+      "przyrost": 3.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
+      "mecz": "Nov 24, 17:30 South African Premier Division Orlando Pirates (SA) — Golden Arrows",
       "typ": "U 2.5",
-      "kurs": "1.74",
-      "procent": 78.2,
-      "kwota": 1085.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 15:30 Other Competitions Soccer Ajman Club — Al-Ettifaq",
-      "typ": "1 LIVE",
-      "kurs": "2.48",
-      "procent": 78.1,
-      "kwota": 3756.0,
-      "przyrost": 0.0,
+      "kurs": "1.81",
+      "procent": 79.0,
+      "kwota": 124.0,
+      "przyrost": 9.0,
       "alert": false
     },
     {
@@ -207,39 +137,9 @@
       "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
       "typ": "O 3.5",
       "kurs": "2.66",
-      "procent": 78.1,
-      "kwota": 2017.0,
-      "przyrost": 149.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 14:25 Saudi U21 Elite League Al Ettifaq U21 — Al-Nassr Riyadh U21",
-      "typ": "2 LIVE",
-      "kurs": "1.35",
-      "procent": 76.2,
-      "kwota": 2246.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 15:00 Egyptian Premier ZED FC — Abo Qair Semads",
-      "typ": "1 LIVE",
-      "kurs": "2.34",
-      "procent": 71.9,
-      "kwota": 21040.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 14:30 Saudi 1st Division Hajer Club — Al Taee",
-      "typ": "O 2.5 LIVE",
-      "kurs": "1.45",
-      "procent": 71.9,
-      "kwota": 6103.0,
-      "przyrost": 6074.0,
+      "procent": 76.8,
+      "kwota": 2018.0,
+      "przyrost": 1.0,
       "alert": false
     },
     {
@@ -247,9 +147,19 @@
       "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
       "typ": "O 1.5",
       "kurs": "1.21",
-      "procent": 66.9,
-      "kwota": 111.0,
-      "przyrost": 0.0,
+      "procent": 76.8,
+      "kwota": 196.0,
+      "przyrost": 85.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 24, 17:00 Other Competitions Soccer Al-Duhail SC — NEOM Sports Club",
+      "typ": "O 1.5",
+      "kurs": "1.3",
+      "procent": 70.9,
+      "kwota": 140.0,
+      "przyrost": 19.0,
       "alert": false
     },
     {
@@ -263,33 +173,13 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 14:25 Saudi U21 Elite League Al Ettifaq U21 — Al-Nassr Riyadh U21",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.18",
-      "procent": 57.7,
-      "kwota": 366.0,
-      "przyrost": 199.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 14:30 Other Competitions Soccer Al Riffa — Al-Zawraa",
-      "typ": "O 2.5 LIVE",
-      "kurs": "1.35",
-      "procent": 55.9,
-      "kwota": 5160.0,
-      "przyrost": 5072.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 14:30 Saudi U21 Elite League Al-Fateh Al-Hasa U21 — AL Taawon Buraidah U21",
-      "typ": "2 LIVE",
-      "kurs": "1.13",
-      "procent": 50.7,
-      "kwota": 171.0,
-      "przyrost": 127.0,
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
+      "typ": "O 1.5",
+      "kurs": "1.43",
+      "procent": 51.2,
+      "kwota": 86.0,
+      "przyrost": 0.0,
       "alert": false
     }
   ]
