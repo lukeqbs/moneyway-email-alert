@@ -1,12 +1,12 @@
 {
-  "aktualizacja_utc": "2026-11-24 09:29",
+  "aktualizacja_utc": "2026-11-24 10:31",
   "liczba_zdarzen": 13,
   "zdarzenia": [
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League 2 Iwaki SC — Toyama",
       "typ": "U 3.5",
-      "kurs": "1.54",
+      "kurs": "1.5",
       "procent": 100.0,
       "kwota": 133.0,
       "przyrost": 0.0,
@@ -16,7 +16,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 24, 22:00 Chilean Cup Coquimbo Unido — Union La Calera",
       "typ": "U 2.5",
-      "kurs": "2.06",
+      "kurs": "2.0",
       "procent": 100.0,
       "kwota": 126.0,
       "przyrost": 0.0,
@@ -26,19 +26,9 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
       "typ": "U 2.5",
-      "kurs": "1.69",
+      "kurs": "1.67",
       "procent": 100.0,
       "kwota": 103.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 24, 13:00 Indian I-League Sreenidhi FC — Chanmari FC",
-      "typ": "O 1.5",
-      "kurs": "1.23",
-      "procent": 100.0,
-      "kwota": 100.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -50,6 +40,26 @@
       "procent": 100.0,
       "kwota": 100.0,
       "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 24, 13:00 Indian I-League Sreenidhi FC — Chanmari FC",
+      "typ": "O 1.5",
+      "kurs": "1.24",
+      "procent": 98.0,
+      "kwota": 100.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 24, 18:00 Egyptian Premier Al-Masry — Asyut Petroleum",
+      "typ": "1",
+      "kurs": "1.45",
+      "procent": 95.2,
+      "kwota": 877.0,
+      "przyrost": 345.0,
       "alert": false
     },
     {
@@ -66,50 +76,40 @@
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 24, 17:30 South African Premier Division Orlando Pirates (SA) — Golden Arrows",
       "typ": "1",
-      "kurs": "1.41",
-      "procent": 93.6,
-      "kwota": 250.0,
-      "przyrost": 29.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 24, 18:00 Egyptian Premier Al-Masry — Asyut Petroleum",
-      "typ": "1",
-      "kurs": "1.46",
-      "procent": 92.4,
-      "kwota": 532.0,
-      "przyrost": 0.0,
+      "kurs": "1.37",
+      "procent": 94.3,
+      "kwota": 304.0,
+      "przyrost": 54.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 24, 15:00 Egyptian Premier ZED FC — Abo Qair Semads",
       "typ": "U 2.5",
-      "kurs": "1.58",
-      "procent": 91.4,
-      "kwota": 125.0,
-      "przyrost": 0.0,
+      "kurs": "1.55",
+      "procent": 84.2,
+      "kwota": 126.0,
+      "przyrost": 1.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
       "typ": "U 2.5",
-      "kurs": "1.73",
+      "kurs": "1.74",
       "procent": 80.1,
       "kwota": 1006.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 08:00 Bangalore Super Division League ASC — Bangalore Dream United",
-      "typ": "1 LIVE",
-      "kurs": "1.22",
-      "procent": 72.2,
-      "kwota": 2076.0,
-      "przyrost": 1530.0,
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 24, 11:00 Thai League 2 Chanthaburi FC — Esan Pattaya",
+      "typ": "U 3.5",
+      "kurs": "1.35",
+      "procent": 68.6,
+      "kwota": 77.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -119,17 +119,17 @@
       "kurs": "2.5",
       "procent": 63.8,
       "kwota": 118.0,
-      "przyrost": 4.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
       "typ": "O 1.5",
-      "kurs": "1.44",
+      "kurs": "1.43",
       "procent": 62.4,
       "kwota": 84.0,
-      "przyrost": 1.0,
+      "przyrost": 0.0,
       "alert": false
     }
   ]
