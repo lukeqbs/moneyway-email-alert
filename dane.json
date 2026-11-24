@@ -1,6 +1,6 @@
 {
-  "aktualizacja_utc": "2026-11-24 18:56",
-  "liczba_zdarzen": 21,
+  "aktualizacja_utc": "2026-11-24 19:59",
+  "liczba_zdarzen": 19,
   "zdarzenia": [
     {
       "rynek": "O/U 3.5 (Pre)",
@@ -9,16 +9,6 @@
       "kurs": "1.52",
       "procent": 100.0,
       "kwota": 200.0,
-      "przyrost": 67.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
-      "typ": "U 2.5",
-      "kurs": "1.69",
-      "procent": 100.0,
-      "kwota": 130.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -43,22 +33,12 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 17:00 Saudi U21 Elite League Al Riyadh U21 — Al Ahli Jeddah U21",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.19",
-      "procent": 93.5,
-      "kwota": 1140.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
-      "typ": "U 3.5",
-      "kurs": "1.27",
-      "procent": 91.0,
-      "kwota": 94.0,
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
+      "typ": "U 2.5",
+      "kurs": "1.46",
+      "procent": 96.6,
+      "kwota": 502.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -67,99 +47,59 @@
       "mecz": "Nov 24, 22:00 Chilean Cup Coquimbo Unido — Union La Calera",
       "typ": "U 3.5",
       "kurs": "1.4",
-      "procent": 90.6,
-      "kwota": 134.0,
+      "procent": 93.6,
+      "kwota": 204.0,
+      "przyrost": 70.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
+      "typ": "O 1.5",
+      "kurs": "1.65",
+      "procent": 91.2,
+      "kwota": 481.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
-      "typ": "O 2.5",
-      "kurs": "1.68",
-      "procent": 84.5,
-      "kwota": 7517.0,
-      "przyrost": -3.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 17:30 South African Premier Division Orlando Pirates (SA) — Golden Arrows",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.06",
-      "procent": 84.4,
-      "kwota": 6181.0,
-      "przyrost": 4390.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 17:30 South African Premier Division Durban City — Polokwane City",
-      "typ": "X LIVE",
-      "kurs": "4.2",
-      "procent": 83.4,
-      "kwota": 8177.0,
-      "przyrost": 7050.0,
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 26, 23:00 Brazilian Serie A Sao Paulo — Remo",
+      "typ": "1",
+      "kurs": "1.38",
+      "procent": 90.4,
+      "kwota": 1564.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "1X2 (LIVE)",
       "mecz": "Nov 24, 18:00 Egyptian Premier Al-Masry — Asyut Petroleum",
       "typ": "1 LIVE",
-      "kurs": "1.18",
-      "procent": 82.5,
-      "kwota": 14617.0,
-      "przyrost": 0.0,
+      "kurs": "1.41",
+      "procent": 84.5,
+      "kwota": 19414.0,
+      "przyrost": 4797.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
-      "typ": "U 2.5",
-      "kurs": "1.75",
-      "procent": 78.6,
-      "kwota": 1109.0,
-      "przyrost": 20.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 17:00 Saudi U21 Elite League Al Riyadh U21 — Al Ahli Jeddah U21",
-      "typ": "1 LIVE",
-      "kurs": "1.06",
-      "procent": 78.0,
-      "kwota": 1144.0,
-      "przyrost": 421.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 17:30 South African Premier Division Orlando Pirates (SA) — Golden Arrows",
-      "typ": "1 LIVE",
-      "kurs": "2.18",
-      "procent": 77.0,
-      "kwota": 12318.0,
-      "przyrost": 6708.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
-      "typ": "O 3.5",
-      "kurs": "2.66",
-      "procent": 76.9,
-      "kwota": 2020.0,
-      "przyrost": 2.0,
+      "typ": "O 2.5",
+      "kurs": "1.65",
+      "procent": 83.3,
+      "kwota": 7886.0,
+      "przyrost": 369.0,
       "alert": false
     },
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 17:00 Other Competitions Soccer Al-Duhail SC — NEOM Sports Club",
-      "typ": "1 LIVE",
-      "kurs": "1.04",
-      "procent": 75.7,
-      "kwota": 29173.0,
-      "przyrost": 19781.0,
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League Okayama — Shimizu",
+      "typ": "U 2.5",
+      "kurs": "1.7",
+      "procent": 80.0,
+      "kwota": 168.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -173,23 +113,53 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 17:00 Saudi U21 Elite League Al Ittihad Jeddah U21 — Al Hazm U21",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.18",
-      "procent": 74.5,
-      "kwota": 504.0,
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
+      "typ": "U 2.5",
+      "kurs": "1.88",
+      "procent": 72.9,
+      "kwota": 1632.0,
+      "przyrost": 523.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
+      "typ": "U 3.5",
+      "kurs": "1.32",
+      "procent": 70.6,
+      "kwota": 94.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 17:30 South African Premier Division Durban City — Polokwane City",
+      "mecz": "Nov 24, 18:00 Egyptian Premier Al-Masry — Asyut Petroleum",
       "typ": "U 2.5 LIVE",
-      "kurs": "1.2",
-      "procent": 69.3,
-      "kwota": 3994.0,
-      "przyrost": 2192.0,
+      "kurs": "1.1",
+      "procent": 66.5,
+      "kwota": 10647.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
+      "typ": "U 3.5",
+      "kurs": "1.16",
+      "procent": 66.4,
+      "kwota": 142.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
+      "typ": "O 1.5",
+      "kurs": "1.38",
+      "procent": 63.4,
+      "kwota": 200.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -203,12 +173,22 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 18:00 Egyptian Premier Al Mokawloon — Olympic El Qanal",
-      "typ": "O 2.5 LIVE",
-      "kurs": "3.05",
-      "procent": 61.2,
-      "kwota": 1752.0,
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 25, 01:30 Colombian Primera A America de Cali S.A — Deportivo Cali",
+      "typ": "O 2.5",
+      "kurs": "2.98",
+      "procent": 53.6,
+      "kwota": 122.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League Okayama — Shimizu",
+      "typ": "O 1.5",
+      "kurs": "1.44",
+      "procent": 50.3,
+      "kwota": 50.0,
       "przyrost": 0.0,
       "alert": false
     }
