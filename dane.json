@@ -1,6 +1,6 @@
 {
-  "aktualizacja_utc": "2026-11-24 20:55",
-  "liczba_zdarzen": 20,
+  "aktualizacja_utc": "2026-11-24 21:52",
+  "liczba_zdarzen": 21,
   "zdarzenia": [
     {
       "rynek": "O/U 3.5 (Pre)",
@@ -33,16 +33,6 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 24, 22:00 Chilean Cup Coquimbo Unido — Union La Calera",
-      "typ": "U 2.5",
-      "kurs": "2.04",
-      "procent": 99.3,
-      "kwota": 146.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League 2 Shonan — Kofu",
       "typ": "X",
@@ -53,53 +43,43 @@
       "alert": false
     },
     {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 24, 22:00 Chilean Cup Coquimbo Unido — Union La Calera",
-      "typ": "U 3.5",
-      "kurs": "1.4",
-      "procent": 93.6,
-      "kwota": 204.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 HT (Pre)",
-      "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
-      "typ": "1 HT",
-      "kurs": "4.0",
-      "procent": 93.5,
-      "kwota": 127.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
       "typ": "U 2.5",
       "kurs": "1.48",
       "procent": 92.5,
       "kwota": 534.0,
-      "przyrost": 32.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
       "typ": "O 1.5",
-      "kurs": "1.64",
-      "procent": 91.1,
-      "kwota": 509.0,
-      "przyrost": 28.0,
+      "kurs": "1.63",
+      "procent": 91.4,
+      "kwota": 526.0,
+      "przyrost": 17.0,
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
-      "typ": "O 2.5",
-      "kurs": "1.71",
-      "procent": 80.6,
-      "kwota": 9210.0,
-      "przyrost": 1324.0,
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 24, 22:00 Chilean Cup Coquimbo Unido — Union La Calera",
+      "typ": "O 1.5",
+      "kurs": "1.25",
+      "procent": 85.1,
+      "kwota": 240.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
+      "typ": "U 3.5",
+      "kurs": "1.32",
+      "procent": 84.8,
+      "kwota": 219.0,
+      "przyrost": 125.0,
       "alert": false
     },
     {
@@ -116,19 +96,29 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
       "typ": "U 2.5",
-      "kurs": "1.87",
-      "procent": 72.6,
+      "kurs": "1.86",
+      "procent": 71.7,
       "kwota": 1716.0,
-      "przyrost": 84.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
+      "mecz": "Nov 24, 22:00 Chilean Cup Coquimbo Unido — Union La Calera",
       "typ": "U 3.5",
-      "kurs": "1.32",
-      "procent": 70.6,
-      "kwota": 94.0,
+      "kurs": "1.5",
+      "procent": 71.2,
+      "kwota": 290.0,
+      "przyrost": 86.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 24, 22:00 Chilean Cup Coquimbo Unido — Union La Calera",
+      "typ": "1 HT",
+      "kurs": "1.89",
+      "procent": 69.5,
+      "kwota": 248.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -146,10 +136,30 @@
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
       "typ": "O 1.5",
-      "kurs": "1.38",
-      "procent": 63.9,
-      "kwota": 204.0,
-      "przyrost": 4.0,
+      "kurs": "1.4",
+      "procent": 64.3,
+      "kwota": 220.0,
+      "przyrost": 16.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
+      "typ": "2 LIVE",
+      "kurs": "18.5",
+      "procent": 63.4,
+      "kwota": 201138.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 24, 22:00 Chilean Cup Coquimbo Unido — Union La Calera",
+      "typ": "U 2.5",
+      "kurs": "2.24",
+      "procent": 62.7,
+      "kwota": 361.0,
+      "przyrost": 215.0,
       "alert": false
     },
     {
@@ -157,18 +167,8 @@
       "mecz": "Nov 25, 01:30 Colombian Primera A America de Cali S.A — Deportivo Cali",
       "typ": "U 1.5",
       "kurs": "2.48",
-      "procent": 63.4,
+      "procent": 62.1,
       "kwota": 120.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
-      "typ": "O 3.5",
-      "kurs": "2.84",
-      "procent": 56.8,
-      "kwota": 2507.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -179,25 +179,35 @@
       "kurs": "3.0",
       "procent": 56.7,
       "kwota": 139.0,
-      "przyrost": 17.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "O/U 1.5 (Pre)",
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 25, 03:00 Japanese J League 3 FC Ryukyu — Kumamoto",
+      "typ": "U 2.5",
+      "kurs": "2.24",
+      "procent": 55.8,
+      "kwota": 143.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
       "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
-      "typ": "U 1.5",
-      "kurs": "5.0",
-      "procent": 55.9,
-      "kwota": 454.0,
-      "przyrost": 391.0,
+      "typ": "O 2.5 LIVE",
+      "kurs": "1.25",
+      "procent": 54.9,
+      "kwota": 16229.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League Okayama — Shimizu",
       "typ": "O 1.5",
-      "kurs": "1.44",
-      "procent": 50.3,
+      "kurs": "1.45",
+      "procent": 50.2,
       "kwota": 50.0,
       "przyrost": 0.0,
       "alert": false
