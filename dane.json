@@ -1,14 +1,24 @@
 {
-  "aktualizacja_utc": "2026-11-24 19:59",
-  "liczba_zdarzen": 19,
+  "aktualizacja_utc": "2026-11-24 20:55",
+  "liczba_zdarzen": 20,
   "zdarzenia": [
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League 2 Iwaki SC — Toyama",
       "typ": "U 3.5",
-      "kurs": "1.52",
+      "kurs": "1.53",
       "procent": 100.0,
       "kwota": 200.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
+      "typ": "U 2.5",
+      "kurs": "1.69",
+      "procent": 100.0,
+      "kwota": 130.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -33,12 +43,12 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
-      "typ": "U 2.5",
-      "kurs": "1.46",
-      "procent": 96.6,
-      "kwota": 502.0,
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League 2 Shonan — Kofu",
+      "typ": "X",
+      "kurs": "4.0",
+      "procent": 97.8,
+      "kwota": 100.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -49,66 +59,56 @@
       "kurs": "1.4",
       "procent": 93.6,
       "kwota": 204.0,
-      "przyrost": 70.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
+      "typ": "1 HT",
+      "kurs": "4.0",
+      "procent": 93.5,
+      "kwota": 127.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
+      "typ": "U 2.5",
+      "kurs": "1.48",
+      "procent": 92.5,
+      "kwota": 534.0,
+      "przyrost": 32.0,
       "alert": false
     },
     {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
       "typ": "O 1.5",
-      "kurs": "1.65",
-      "procent": 91.2,
-      "kwota": 481.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 26, 23:00 Brazilian Serie A Sao Paulo — Remo",
-      "typ": "1",
-      "kurs": "1.38",
-      "procent": 90.4,
-      "kwota": 1564.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 18:00 Egyptian Premier Al-Masry — Asyut Petroleum",
-      "typ": "1 LIVE",
-      "kurs": "1.41",
-      "procent": 84.5,
-      "kwota": 19414.0,
-      "przyrost": 4797.0,
+      "kurs": "1.64",
+      "procent": 91.1,
+      "kwota": 509.0,
+      "przyrost": 28.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
       "typ": "O 2.5",
-      "kurs": "1.65",
-      "procent": 83.3,
-      "kwota": 7886.0,
-      "przyrost": 369.0,
+      "kurs": "1.71",
+      "procent": 80.6,
+      "kwota": 9210.0,
+      "przyrost": 1324.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League Okayama — Shimizu",
       "typ": "U 2.5",
-      "kurs": "1.7",
+      "kurs": "1.68",
       "procent": 80.0,
       "kwota": 168.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
-      "typ": "O 1.5",
-      "kurs": "1.21",
-      "procent": 75.6,
-      "kwota": 196.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -116,10 +116,10 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
       "typ": "U 2.5",
-      "kurs": "1.88",
-      "procent": 72.9,
-      "kwota": 1632.0,
-      "przyrost": 523.0,
+      "kurs": "1.87",
+      "procent": 72.6,
+      "kwota": 1716.0,
+      "przyrost": 84.0,
       "alert": false
     },
     {
@@ -129,16 +129,6 @@
       "kurs": "1.32",
       "procent": 70.6,
       "kwota": 94.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 18:00 Egyptian Premier Al-Masry — Asyut Petroleum",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.1",
-      "procent": 66.5,
-      "kwota": 10647.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -157,9 +147,9 @@
       "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
       "typ": "O 1.5",
       "kurs": "1.38",
-      "procent": 63.4,
-      "kwota": 200.0,
-      "przyrost": 0.0,
+      "procent": 63.9,
+      "kwota": 204.0,
+      "przyrost": 4.0,
       "alert": false
     },
     {
@@ -173,13 +163,33 @@
       "alert": false
     },
     {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
+      "typ": "O 3.5",
+      "kurs": "2.84",
+      "procent": 56.8,
+      "kwota": 2507.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 25, 01:30 Colombian Primera A America de Cali S.A — Deportivo Cali",
       "typ": "O 2.5",
-      "kurs": "2.98",
-      "procent": 53.6,
-      "kwota": 122.0,
-      "przyrost": 0.0,
+      "kurs": "3.0",
+      "procent": 56.7,
+      "kwota": 139.0,
+      "przyrost": 17.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 24, 21:00 Brazilian Serie A Chapecoense — SE Palmeiras",
+      "typ": "U 1.5",
+      "kurs": "5.0",
+      "procent": 55.9,
+      "kwota": 454.0,
+      "przyrost": 391.0,
       "alert": false
     },
     {
