@@ -1,14 +1,34 @@
 {
-  "aktualizacja_utc": "2026-11-24 06:46",
-  "liczba_zdarzen": 8,
+  "aktualizacja_utc": "2026-11-24 08:12",
+  "liczba_zdarzen": 13,
   "zdarzenia": [
     {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 24, 17:30 South African Premier Division Orlando Pirates (SA) — Golden Arrows",
-      "typ": "1",
-      "kurs": "1.4",
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 25, 00:00 Paraguayan Primera Division Sportivo San Lorenzo — Club Sportivo Ameliano",
+      "typ": "X HT",
+      "kurs": "1.02",
       "procent": 100.0,
-      "kwota": 170.0,
+      "kwota": 320.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League 2 Iwaki SC — Toyama",
+      "typ": "U 3.5",
+      "kurs": "1.54",
+      "procent": 100.0,
+      "kwota": 133.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 24, 22:00 Chilean Cup Coquimbo Unido — Union La Calera",
+      "typ": "U 2.5",
+      "kurs": "2.06",
+      "procent": 100.0,
+      "kwota": 126.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -43,10 +63,30 @@
       "alert": false
     },
     {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 24, 17:30 South African Premier Division Orlando Pirates (SA) — Golden Arrows",
+      "typ": "1",
+      "kurs": "1.41",
+      "procent": 95.9,
+      "kwota": 221.0,
+      "przyrost": 51.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 24, 08:00 Bangalore Super Division League ASC — Bangalore Dream United",
+      "typ": "O 2.5 LIVE",
+      "kurs": "1.47",
+      "procent": 93.9,
+      "kwota": 808.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 24, 15:00 Egyptian Premier ZED FC — Abo Qair Semads",
       "typ": "U 2.5",
-      "kurs": "1.56",
+      "kurs": "1.58",
       "procent": 91.4,
       "kwota": 125.0,
       "przyrost": 0.0,
@@ -56,10 +96,30 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
       "typ": "U 2.5",
-      "kurs": "1.72",
-      "procent": 79.8,
-      "kwota": 987.0,
-      "przyrost": 25.0,
+      "kurs": "1.73",
+      "procent": 80.1,
+      "kwota": 1006.0,
+      "przyrost": 19.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 24, 08:00 Bangalore Super Division League ASC — Bangalore Dream United",
+      "typ": "1 LIVE",
+      "kurs": "1.56",
+      "procent": 80.1,
+      "kwota": 546.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 01:30 Colombian Primera A America de Cali S.A — Deportivo Cali",
+      "typ": "U 1.5",
+      "kurs": "2.54",
+      "procent": 65.5,
+      "kwota": 114.0,
+      "przyrost": 40.0,
       "alert": false
     },
     {
@@ -69,16 +129,6 @@
       "kurs": "1.44",
       "procent": 62.2,
       "kwota": 83.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 25, 01:30 Colombian Primera A America de Cali S.A — Deportivo Cali",
-      "typ": "U 1.5",
-      "kurs": "2.6",
-      "procent": 55.1,
-      "kwota": 74.0,
       "przyrost": 0.0,
       "alert": false
     }
