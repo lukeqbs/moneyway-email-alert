@@ -1,17 +1,7 @@
 {
-  "aktualizacja_utc": "2026-11-25 05:04",
-  "liczba_zdarzen": 40,
+  "aktualizacja_utc": "2026-11-25 06:04",
+  "liczba_zdarzen": 46,
   "zdarzenia": [
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 25, 10:00 Japanese J League FC Tokyo — Hiroshima",
-      "typ": "U 1.5",
-      "kurs": "4.8",
-      "procent": 100.0,
-      "kwota": 154.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
     {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 28, 21:00 Chilean Primera Division Coquimbo Unido — Deportes Limache",
@@ -19,6 +9,16 @@
       "kurs": "1.81",
       "procent": 100.0,
       "kwota": 140.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 25, 23:00 Bolivian Cup Real Potosi — Always Ready",
+      "typ": "2",
+      "kurs": "1.17",
+      "procent": 100.0,
+      "kwota": 138.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -56,10 +56,30 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 25, 09:00 Japanese J League 3 Mio Biwako Shiga — Kochi United",
       "typ": "U 2.5",
-      "kurs": "1.86",
+      "kurs": "1.87",
       "procent": 99.5,
       "kwota": 149.0,
-      "przyrost": 21.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League Jef Utd Chiba — Nagoya",
+      "typ": "U 3.5",
+      "kurs": "1.35",
+      "procent": 98.8,
+      "kwota": 140.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League 3 Renofa Yamaguchi — Fukushima Utd",
+      "typ": "U 3.5",
+      "kurs": "1.57",
+      "procent": 98.2,
+      "kwota": 110.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -83,12 +103,12 @@
       "alert": false
     },
     {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 25, 05:00 Japanese J League 3 Kitakyushu — Kanazawa",
-      "typ": "O 1.5",
-      "kurs": "1.3",
-      "procent": 96.7,
-      "kwota": 944.0,
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League 3 Nagano Parceiro — Kagoshima Utd",
+      "typ": "1",
+      "kurs": "4.9",
+      "procent": 97.2,
+      "kwota": 151.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -106,7 +126,7 @@
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 25, 22:30 Venezuelan Cup Deportivo Tachira — Carabobo FC",
       "typ": "U 3.5",
-      "kurs": "1.25",
+      "kurs": "1.24",
       "procent": 96.3,
       "kwota": 835.0,
       "przyrost": 0.0,
@@ -134,9 +154,19 @@
     },
     {
       "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League Nagasaki — Kawasaki",
+      "typ": "U 1.5",
+      "kurs": "5.4",
+      "procent": 95.6,
+      "kwota": 161.0,
+      "przyrost": 57.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League 2 Yamagata — Iwata",
       "typ": "O 1.5",
-      "kurs": "1.29",
+      "kurs": "1.28",
       "procent": 95.0,
       "kwota": 170.0,
       "przyrost": 0.0,
@@ -149,36 +179,6 @@
       "kurs": "1.71",
       "procent": 94.4,
       "kwota": 1590.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 25, 10:00 Japanese J League 3 FC Gifu — Thespakusatsu Gunma",
-      "typ": "1",
-      "kurs": "1.42",
-      "procent": 94.2,
-      "kwota": 271.0,
-      "przyrost": 20.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 27, 23:00 Paraguayan Primera Division Sportivo Luqueno — Olimpia",
-      "typ": "2",
-      "kurs": "1.67",
-      "procent": 93.3,
-      "kwota": 2327.0,
-      "przyrost": 2.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 25, 10:00 Japanese J League Nagasaki — Kawasaki",
-      "typ": "U 1.5",
-      "kurs": "5.4",
-      "procent": 93.3,
-      "kwota": 104.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -199,7 +199,7 @@
       "kurs": "1.54",
       "procent": 92.7,
       "kwota": 548.0,
-      "przyrost": 62.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -214,21 +214,41 @@
     },
     {
       "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 25, 10:00 Japanese J League Okayama — Shimizu",
+      "mecz": "Nov 25, 10:00 Japanese J League Nagasaki — Kawasaki",
       "typ": "U 3.5",
-      "kurs": "1.25",
-      "procent": 87.7,
-      "kwota": 143.0,
-      "przyrost": 0.0,
+      "kurs": "1.59",
+      "procent": 90.8,
+      "kwota": 176.0,
+      "przyrost": 66.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
       "typ": "U 2.5",
-      "kurs": "1.48",
-      "procent": 86.8,
-      "kwota": 835.0,
+      "kurs": "1.47",
+      "procent": 87.3,
+      "kwota": 886.0,
+      "przyrost": 51.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 25, 10:30 Japanese J League Urawa — Cerezo Osaka",
+      "typ": "U 2.5",
+      "kurs": "2.3",
+      "procent": 86.6,
+      "kwota": 279.0,
+      "przyrost": 137.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 09:30 Japanese J League 2 FC Imabari — Tegevajaro Miyazaki",
+      "typ": "O 1.5",
+      "kurs": "1.28",
+      "procent": 84.9,
+      "kwota": 181.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -236,39 +256,39 @@
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League FC Tokyo — Hiroshima",
       "typ": "U 3.5",
-      "kurs": "1.5",
-      "procent": 86.8,
-      "kwota": 133.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 25, 10:00 Japanese J League Nagasaki — Kawasaki",
-      "typ": "U 3.5",
-      "kurs": "1.6",
-      "procent": 86.0,
-      "kwota": 110.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 25, 05:00 Japanese J League 3 Kitakyushu — Kanazawa",
-      "typ": "U 3.5",
-      "kurs": "1.44",
-      "procent": 83.8,
-      "kwota": 315.0,
-      "przyrost": 86.0,
+      "kurs": "1.53",
+      "procent": 84.7,
+      "kwota": 164.0,
+      "przyrost": 31.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League FC Tokyo — Hiroshima",
       "typ": "U 2.5",
-      "kurs": "2.26",
-      "procent": 80.6,
-      "kwota": 142.0,
+      "kurs": "2.3",
+      "procent": 83.7,
+      "kwota": 184.0,
+      "przyrost": 42.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League Okayama — Shimizu",
+      "typ": "U 3.5",
+      "kurs": "1.27",
+      "procent": 82.7,
+      "kwota": 254.0,
+      "przyrost": 111.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 25, 05:00 Japanese J League 3 Kitakyushu — Kanazawa",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.16",
+      "procent": 81.9,
+      "kwota": 2422.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -277,58 +297,8 @@
       "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
       "typ": "O 1.5",
       "kurs": "1.64",
-      "procent": 78.4,
+      "procent": 75.0,
       "kwota": 590.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 25, 10:30 Japanese J League Urawa — Cerezo Osaka",
-      "typ": "U 2.5",
-      "kurs": "2.32",
-      "procent": 76.7,
-      "kwota": 142.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 HT (Pre)",
-      "mecz": "Nov 25, 15:00 Egyptian Premier El Geish — Modern Sport FC",
-      "typ": "X HT",
-      "kurs": "1.95",
-      "procent": 76.0,
-      "kwota": 114.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 25, 10:00 Japanese J League Okayama — Shimizu",
-      "typ": "O 1.5",
-      "kurs": "1.45",
-      "procent": 73.0,
-      "kwota": 298.0,
-      "przyrost": 181.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 25, 10:30 Japanese J League Urawa — Cerezo Osaka",
-      "typ": "U 3.5",
-      "kurs": "1.53",
-      "procent": 72.2,
-      "kwota": 154.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 25, 10:00 Japanese J League Jef Utd Chiba — Nagoya",
-      "typ": "O 1.5",
-      "kurs": "1.34",
-      "procent": 72.0,
-      "kwota": 242.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -337,9 +307,69 @@
       "mecz": "Nov 25, 10:00 Japanese J League 2 Sapporo — Fujieda Myfc",
       "typ": "O 1.5",
       "kurs": "1.34",
-      "procent": 69.3,
-      "kwota": 95.0,
+      "procent": 74.6,
+      "kwota": 130.0,
+      "przyrost": 35.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League Okayama — Shimizu",
+      "typ": "O 1.5",
+      "kurs": "1.44",
+      "procent": 74.4,
+      "kwota": 320.0,
+      "przyrost": 22.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 25, 15:00 Egyptian Premier El Geish — Modern Sport FC",
+      "typ": "X HT",
+      "kurs": "1.92",
+      "procent": 72.2,
+      "kwota": 163.0,
+      "przyrost": 49.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League Jef Utd Chiba — Nagoya",
+      "typ": "O 1.5",
+      "kurs": "1.34",
+      "procent": 71.9,
+      "kwota": 242.0,
       "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 25, 10:30 Japanese J League Urawa — Cerezo Osaka",
+      "typ": "U 3.5",
+      "kurs": "1.51",
+      "procent": 71.5,
+      "kwota": 284.0,
+      "przyrost": 130.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League FC Tokyo — Hiroshima",
+      "typ": "U 1.5",
+      "kurs": "4.9",
+      "procent": 70.0,
+      "kwota": 197.0,
+      "przyrost": 43.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League 2 Tosu — Oita",
+      "typ": "U 3.5",
+      "kurs": "1.39",
+      "procent": 68.8,
+      "kwota": 163.0,
+      "przyrost": 26.0,
       "alert": false
     },
     {
@@ -353,22 +383,62 @@
       "alert": false
     },
     {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 25, 10:00 Japanese J League 2 Tosu — Oita",
-      "typ": "U 3.5",
-      "kurs": "1.35",
-      "procent": 65.0,
-      "kwota": 137.0,
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League Fukuoka — Yokohama FM",
+      "typ": "O 1.5",
+      "kurs": "1.39",
+      "procent": 63.7,
+      "kwota": 300.0,
       "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League 2 Yamagata — Iwata",
+      "typ": "U 3.5",
+      "kurs": "1.44",
+      "procent": 63.3,
+      "kwota": 97.0,
+      "przyrost": 43.0,
       "alert": false
     },
     {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League 2 Tosu — Oita",
       "typ": "O 1.5",
-      "kurs": "1.33",
+      "kurs": "1.3",
       "procent": 61.7,
       "kwota": 75.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League 2 Yamagata — Iwata",
+      "typ": "2 HT",
+      "kurs": "2.46",
+      "procent": 59.7,
+      "kwota": 77.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 09:30 Japanese J League 3 Sagamihara — Ehime",
+      "typ": "O 1.5",
+      "kurs": "1.2",
+      "procent": 56.8,
+      "kwota": 58.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League 2 Tosu — Oita",
+      "typ": "1 HT",
+      "kurs": "2.06",
+      "procent": 54.5,
+      "kwota": 78.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -386,18 +456,8 @@
       "rynek": "1X2 HT (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League Okayama — Shimizu",
       "typ": "1 HT",
-      "kurs": "2.84",
+      "kurs": "2.76",
       "procent": 52.5,
-      "kwota": 56.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 25, 10:00 Japanese J League 2 Yamagata — Iwata",
-      "typ": "O 3.5",
-      "kurs": "3.25",
-      "procent": 51.2,
       "kwota": 56.0,
       "przyrost": 0.0,
       "alert": false
