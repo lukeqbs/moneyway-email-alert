@@ -1,7 +1,27 @@
 {
-  "aktualizacja_utc": "2026-11-25 15:40",
-  "liczba_zdarzen": 28,
+  "aktualizacja_utc": "2026-11-25 16:47",
+  "liczba_zdarzen": 30,
   "zdarzenia": [
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 25, 15:00 Egyptian Premier El Geish — Modern Sport FC",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.37",
+      "procent": 94.8,
+      "kwota": 11734.0,
+      "przyrost": 6430.0,
+      "alert": true
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 25, 15:10 Saudi 1st Division Al-Ula FC — Al-Adalh",
+      "typ": "1 LIVE",
+      "kurs": "1.14",
+      "procent": 92.9,
+      "kwota": 6880.0,
+      "przyrost": 3938.0,
+      "alert": true
+    },
     {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 25, 18:00 Egyptian Premier ENPPI — Ceramica Cleopatra",
@@ -39,7 +59,7 @@
       "kurs": "2.04",
       "procent": 97.9,
       "kwota": 301.0,
-      "przyrost": 193.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -93,10 +113,20 @@
       "alert": false
     },
     {
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
+      "typ": "2 HT",
+      "kurs": "7.4",
+      "procent": 96.0,
+      "kwota": 146.0,
+      "przyrost": 7.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 25, 22:30 Venezuelan Cup Deportivo Tachira — Carabobo FC",
       "typ": "U 3.5",
-      "kurs": "1.27",
+      "kurs": "1.28",
       "procent": 95.9,
       "kwota": 849.0,
       "przyrost": 0.0,
@@ -109,16 +139,6 @@
       "kurs": "1.51",
       "procent": 95.8,
       "kwota": 773.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 HT (Pre)",
-      "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
-      "typ": "2 HT",
-      "kurs": "7.4",
-      "procent": 95.8,
-      "kwota": 139.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -143,16 +163,6 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 25, 15:00 Egyptian Premier El Geish — Modern Sport FC",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.17",
-      "procent": 93.1,
-      "kwota": 5304.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
       "typ": "U 2.5",
@@ -169,26 +179,26 @@
       "kurs": "1.27",
       "procent": 92.7,
       "kwota": 209.0,
-      "przyrost": 12.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 25, 23:20 Colombian Primera A Santa Fe — Once Caldas",
       "typ": "U 3.5",
-      "kurs": "1.25",
+      "kurs": "1.24",
       "procent": 92.4,
       "kwota": 232.0,
-      "przyrost": 1.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 25, 15:10 Saudi 1st Division Al-Ula FC — Al-Adalh",
-      "typ": "1 LIVE",
-      "kurs": "1.44",
-      "procent": 89.7,
-      "kwota": 2942.0,
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 25, 16:00 Kuwaiti Emir Cup Al-Qadsia — Al Fahaheel FC",
+      "typ": "O 2.5 LIVE",
+      "kurs": "1.01",
+      "procent": 78.4,
+      "kwota": 101.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -197,28 +207,38 @@
       "mecz": "Nov 25, 18:00 Egyptian Premier ENPPI — Ceramica Cleopatra",
       "typ": "U 3.5",
       "kurs": "1.28",
-      "procent": 82.3,
+      "procent": 77.4,
       "kwota": 88.0,
       "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 25, 23:20 Colombian Primera A Santa Fe — Once Caldas",
+      "typ": "U 2.5",
+      "kurs": "1.67",
+      "procent": 77.3,
+      "kwota": 1220.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 23:20 Colombian Primera A Santa Fe — Once Caldas",
+      "typ": "O 1.5",
+      "kurs": "1.48",
+      "procent": 70.9,
+      "kwota": 272.0,
+      "przyrost": 30.0,
       "alert": false
     },
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 26, 01:30 Colombian Primera A Atletico Nacional Medellin — Ind Medellin",
       "typ": "U 3.5",
-      "kurs": "1.25",
-      "procent": 74.7,
+      "kurs": "1.28",
+      "procent": 70.6,
       "kwota": 206.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 25, 15:00 Egyptian Premier El Geish — Modern Sport FC",
-      "typ": "2 LIVE",
-      "kurs": "3.3",
-      "procent": 73.6,
-      "kwota": 13022.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -233,23 +253,13 @@
       "alert": false
     },
     {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 25, 23:20 Colombian Primera A Santa Fe — Once Caldas",
-      "typ": "O 1.5",
-      "kurs": "1.46",
-      "procent": 68.5,
-      "kwota": 242.0,
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 25, 16:00 Kuwaiti Emir Cup Al-Qadsia — Al Fahaheel FC",
+      "typ": "1 LIVE",
+      "kurs": "1.01",
+      "procent": 68.2,
+      "kwota": 191.0,
       "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 26, 01:30 Colombian Primera A Atletico Nacional Medellin — Ind Medellin",
-      "typ": "O 1.5",
-      "kurs": "1.46",
-      "procent": 66.2,
-      "kwota": 443.0,
-      "przyrost": 237.0,
       "alert": false
     },
     {
@@ -264,22 +274,32 @@
     },
     {
       "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 26, 01:30 Colombian Primera A Atletico Nacional Medellin — Ind Medellin",
+      "typ": "O 1.5",
+      "kurs": "1.42",
+      "procent": 64.2,
+      "kwota": 473.0,
+      "przyrost": 30.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
       "typ": "U 1.5",
       "kurs": "3.25",
       "procent": 63.1,
       "kwota": 100.0,
-      "przyrost": 9.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (LIVE)",
       "mecz": "Nov 25, 15:10 Saudi 1st Division Al-Ula FC — Al-Adalh",
       "typ": "O 2.5 LIVE",
-      "kurs": "2.38",
-      "procent": 52.8,
-      "kwota": 4257.0,
-      "przyrost": 0.0,
+      "kurs": "5.6",
+      "procent": 50.9,
+      "kwota": 4694.0,
+      "przyrost": 437.0,
       "alert": false
     }
   ]
