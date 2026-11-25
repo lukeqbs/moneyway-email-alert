@@ -1,7 +1,27 @@
 {
-  "aktualizacja_utc": "2026-11-24 23:37",
-  "liczba_zdarzen": 27,
+  "aktualizacja_utc": "2026-11-25 00:32",
+  "liczba_zdarzen": 25,
   "zdarzenia": [
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 01:30 Colombian Primera A America de Cali S.A — Deportivo Cali",
+      "typ": "O 1.5",
+      "kurs": "1.69",
+      "procent": 85.8,
+      "kwota": 1910.0,
+      "przyrost": 1787.0,
+      "alert": true
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
+      "typ": "1 LIVE",
+      "kurs": "1.08",
+      "procent": 85.2,
+      "kwota": 43307.0,
+      "przyrost": 25549.0,
+      "alert": true
+    },
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League 2 Iwaki SC — Toyama",
@@ -13,12 +33,12 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
-      "typ": "U 2.5",
-      "kurs": "1.69",
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 25, 01:30 Colombian Primera A America de Cali S.A — Deportivo Cali",
+      "typ": "X HT",
+      "kurs": "1.98",
       "procent": 100.0,
-      "kwota": 130.0,
+      "kwota": 150.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -39,14 +59,14 @@
       "kurs": "1.41",
       "procent": 99.3,
       "kwota": 249.0,
-      "przyrost": 100.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 22:00 Argentinian Primera Nacional CA Atlanta — Ciudad de Bolivar",
       "typ": "U 2.5",
-      "kurs": "1.44",
+      "kurs": "1.48",
       "procent": 97.2,
       "kwota": 549.0,
       "przyrost": 0.0,
@@ -86,7 +106,7 @@
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 26, 23:00 Brazilian Serie A Sao Paulo — Remo",
       "typ": "U 3.5",
-      "kurs": "1.48",
+      "kurs": "1.49",
       "procent": 96.1,
       "kwota": 773.0,
       "przyrost": 0.0,
@@ -94,9 +114,19 @@
     },
     {
       "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 27, 23:30 Uruguayan Primera Division Racing Club (Uru) — Liverpool Montevideo",
+      "typ": "U 2.5",
+      "kurs": "1.71",
+      "procent": 95.7,
+      "kwota": 1650.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 23:00 Brazilian Serie B Vila Nova — Atletico Go",
       "typ": "U 2.5",
-      "kurs": "1.7",
+      "kurs": "1.71",
       "procent": 94.4,
       "kwota": 1590.0,
       "przyrost": 0.0,
@@ -106,7 +136,7 @@
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 27, 23:00 Paraguayan Primera Division Sportivo Luqueno — Olimpia",
       "typ": "2",
-      "kurs": "1.66",
+      "kurs": "1.67",
       "procent": 93.3,
       "kwota": 2325.0,
       "przyrost": 0.0,
@@ -114,11 +144,11 @@
     },
     {
       "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
-      "typ": "U 2.5",
-      "kurs": "2.16",
-      "procent": 92.7,
-      "kwota": 1655.0,
+      "mecz": "Nov 25, 05:00 Japanese J League 3 Kitakyushu — Kanazawa",
+      "typ": "O 2.5",
+      "kurs": "1.69",
+      "procent": 93.1,
+      "kwota": 150.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -126,7 +156,7 @@
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League 2 Sapporo — Fujieda Myfc",
       "typ": "O 1.5",
-      "kurs": "1.36",
+      "kurs": "1.35",
       "procent": 90.4,
       "kwota": 95.0,
       "przyrost": 0.0,
@@ -137,59 +167,39 @@
       "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
       "typ": "U 2.5",
       "kurs": "1.48",
-      "procent": 89.7,
-      "kwota": 779.0,
-      "przyrost": 77.0,
+      "procent": 87.0,
+      "kwota": 825.0,
+      "przyrost": 46.0,
       "alert": false
     },
     {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
       "typ": "O 1.5",
-      "kurs": "1.62",
-      "procent": 85.8,
-      "kwota": 572.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
-      "typ": "U 2.5 LIVE",
-      "kurs": "2.16",
-      "procent": 79.6,
-      "kwota": 9065.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 23:20 Colombian Primera A Millonarios — Atletico Bucaramanga",
-      "typ": "1 LIVE",
-      "kurs": "1.3",
-      "procent": 77.1,
-      "kwota": 17758.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 22:00 Chilean Cup Coquimbo Unido — Union La Calera",
-      "typ": "U 2.5 LIVE",
-      "kurs": "2.06",
-      "procent": 71.7,
-      "kwota": 15700.0,
-      "przyrost": 8186.0,
+      "kurs": "1.63",
+      "procent": 80.5,
+      "kwota": 590.0,
+      "przyrost": 18.0,
       "alert": false
     },
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 25, 03:00 Japanese J League 3 FC Ryukyu — Kumamoto",
       "typ": "U 3.5",
-      "kurs": "1.58",
-      "procent": 71.0,
-      "kwota": 412.0,
-      "przyrost": 110.0,
+      "kurs": "1.57",
+      "procent": 75.6,
+      "kwota": 523.0,
+      "przyrost": 111.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 24, 23:30 Venezuelan Cup Universidad de Venezuela — Academia Anzoategui FC",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.16",
+      "procent": 74.2,
+      "kwota": 2965.0,
+      "przyrost": 2755.0,
       "alert": false
     },
     {
@@ -203,12 +213,12 @@
       "alert": false
     },
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 23:30 Venezuelan Cup Universidad de Venezuela — Academia Anzoategui FC",
-      "typ": "2 LIVE",
-      "kurs": "6.4",
-      "procent": 64.2,
-      "kwota": 545.0,
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 25, 01:30 Colombian Primera A America de Cali S.A — Deportivo Cali",
+      "typ": "U 2.5",
+      "kurs": "1.45",
+      "procent": 63.1,
+      "kwota": 497.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -219,16 +229,6 @@
       "kurs": "1.67",
       "procent": 61.7,
       "kwota": 654.0,
-      "przyrost": 28.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 25, 10:00 Japanese J League Okayama — Shimizu",
-      "typ": "U 2.5",
-      "kurs": "1.71",
-      "procent": 61.6,
-      "kwota": 177.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -239,37 +239,17 @@
       "kurs": "1.46",
       "procent": 60.4,
       "kwota": 83.0,
-      "przyrost": 33.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 25, 01:30 Colombian Primera A America de Cali S.A — Deportivo Cali",
-      "typ": "U 1.5",
-      "kurs": "2.46",
-      "procent": 58.0,
-      "kwota": 170.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 24, 23:30 Venezuelan Cup Universidad de Venezuela — Academia Anzoategui FC",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.95",
-      "procent": 51.4,
-      "kwota": 210.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 24, 22:00 Chilean Cup Coquimbo Unido — Union La Calera",
+      "mecz": "Nov 24, 23:30 Venezuelan Cup Universidad de Venezuela — Academia Anzoategui FC",
       "typ": "1 LIVE",
-      "kurs": "2.8",
-      "procent": 50.1,
-      "kwota": 35045.0,
-      "przyrost": 8226.0,
+      "kurs": "2.04",
+      "procent": 53.7,
+      "kwota": 1270.0,
+      "przyrost": 1087.0,
       "alert": false
     }
   ]
