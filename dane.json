@@ -1,6 +1,6 @@
 {
-  "aktualizacja_utc": "2026-11-25 01:58",
-  "liczba_zdarzen": 22,
+  "aktualizacja_utc": "2026-11-25 02:55",
+  "liczba_zdarzen": 23,
   "zdarzenia": [
     {
       "rynek": "O/U 3.5 (Pre)",
@@ -29,6 +29,16 @@
       "kurs": "1.44",
       "procent": 100.0,
       "kwota": 100.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 25, 05:00 Japanese J League 3 Kitakyushu — Kanazawa",
+      "typ": "U 3.5",
+      "kurs": "1.51",
+      "procent": 99.4,
+      "kwota": 183.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -86,7 +96,7 @@
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 26, 23:00 Brazilian Serie A Sao Paulo — Remo",
       "typ": "U 3.5",
-      "kurs": "1.49",
+      "kurs": "1.5",
       "procent": 96.1,
       "kwota": 773.0,
       "przyrost": 0.0,
@@ -149,56 +159,46 @@
       "kurs": "1.48",
       "procent": 87.1,
       "kwota": 835.0,
-      "przyrost": 10.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 25, 05:00 Japanese J League 3 Kitakyushu — Kanazawa",
-      "typ": "O 2.5",
-      "kurs": "1.71",
-      "procent": 86.6,
-      "kwota": 156.0,
-      "przyrost": 6.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 25, 01:30 Colombian Primera A America de Cali S.A — Deportivo Cali",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.27",
-      "procent": 85.2,
-      "kwota": 20516.0,
       "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
-      "typ": "O 1.5",
-      "kurs": "1.63",
-      "procent": 78.4,
-      "kwota": 590.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 25, 03:00 Japanese J League 3 FC Ryukyu — Kumamoto",
-      "typ": "U 3.5",
-      "kurs": "1.6",
-      "procent": 76.6,
-      "kwota": 593.0,
-      "przyrost": 70.0,
       "alert": false
     },
     {
       "rynek": "1X2 (LIVE)",
       "mecz": "Nov 25, 01:30 Colombian Primera A America de Cali S.A — Deportivo Cali",
       "typ": "1 LIVE",
-      "kurs": "2.3",
-      "procent": 71.7,
-      "kwota": 27884.0,
+      "kurs": "1.3",
+      "procent": 81.1,
+      "kwota": 92435.0,
+      "przyrost": 64551.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 25, 03:00 Japanese J League 3 FC Ryukyu — Kumamoto",
+      "typ": "U 3.5",
+      "kurs": "1.49",
+      "procent": 79.8,
+      "kwota": 909.0,
+      "przyrost": 316.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 10:00 Japanese J League Mito — Tokyo-V",
+      "typ": "O 1.5",
+      "kurs": "1.64",
+      "procent": 78.4,
+      "kwota": 590.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 25, 03:00 Japanese J League 3 FC Ryukyu — Kumamoto",
+      "typ": "O 2.5",
+      "kurs": "1.8",
+      "procent": 73.3,
+      "kwota": 1955.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -209,7 +209,7 @@
       "kurs": "1.45",
       "procent": 68.2,
       "kwota": 117.0,
-      "przyrost": 34.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -219,6 +219,16 @@
       "kurs": "1.16",
       "procent": 66.4,
       "kwota": 142.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 25, 03:00 Japanese J League 3 FC Ryukyu — Kumamoto",
+      "typ": "O 1.5",
+      "kurs": "1.26",
+      "procent": 53.7,
+      "kwota": 61.0,
       "przyrost": 0.0,
       "alert": false
     }
