@@ -1,15 +1,25 @@
 {
-  "aktualizacja_utc": "2026-11-26 01:48",
-  "liczba_zdarzen": 26,
+  "aktualizacja_utc": "2026-11-26 02:44",
+  "liczba_zdarzen": 27,
   "zdarzenia": [
     {
       "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
+      "mecz": "Nov 26, 01:00 Nicaraguan Primera Division Real Esteli FC — Rancho Santana",
       "typ": "1 LIVE",
-      "kurs": "1.43",
-      "procent": 91.6,
-      "kwota": 107827.0,
-      "przyrost": 68626.0,
+      "kurs": "1.13",
+      "procent": 98.4,
+      "kwota": 5676.0,
+      "przyrost": 2074.0,
+      "alert": true
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 26, 01:00 Salvadoran Primera Division CD Platense — CD Fas",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.04",
+      "procent": 90.7,
+      "kwota": 4919.0,
+      "przyrost": 2425.0,
       "alert": true
     },
     {
@@ -18,18 +28,18 @@
       "typ": "1",
       "kurs": "1.74",
       "procent": 100.0,
-      "kwota": 3405.0,
-      "przyrost": 12.0,
+      "kwota": 3407.0,
+      "przyrost": 2.0,
       "alert": false
     },
     {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 28, 19:00 Bolivian Liga de Futbol Profesional CD Gualberto Villarroel — Real Potosi",
       "typ": "2",
-      "kurs": "2.02",
+      "kurs": "2.04",
       "procent": 100.0,
-      "kwota": 408.0,
-      "przyrost": 0.0,
+      "kwota": 452.0,
+      "przyrost": 44.0,
       "alert": false
     },
     {
@@ -39,16 +49,6 @@
       "kurs": "1.1",
       "procent": 100.0,
       "kwota": 311.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 01:00 Nicaraguan Primera Division Managua FC — CD Walter Ferreti",
-      "typ": "O 2.5 LIVE",
-      "kurs": "2.0",
-      "procent": 99.2,
-      "kwota": 1045.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -69,16 +69,6 @@
       "kurs": "1.94",
       "procent": 98.1,
       "kwota": 111.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 01:00 Nicaraguan Primera Division Real Esteli FC — Rancho Santana",
-      "typ": "1 LIVE",
-      "kurs": "1.01",
-      "procent": 97.9,
-      "kwota": 3602.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -106,7 +96,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 26, 14:25 Saudi Professional League Al-Fateh (KSA) — Al Riyadh SC",
       "typ": "O 2.5",
-      "kurs": "1.75",
+      "kurs": "1.76",
       "procent": 96.9,
       "kwota": 350.0,
       "przyrost": 0.0,
@@ -149,7 +139,7 @@
       "kurs": "1.51",
       "procent": 94.9,
       "kwota": 787.0,
-      "przyrost": 14.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -163,32 +153,12 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
-      "typ": "U 2.5",
-      "kurs": "2.24",
-      "procent": 92.4,
-      "kwota": 1655.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 01:00 Nicaraguan Primera Division Real Esteli FC — Rancho Santana",
-      "typ": "O 2.5 LIVE",
-      "kurs": "1.09",
-      "procent": 92.4,
-      "kwota": 404.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 01:00 Salvadoran Primera Division CD Platense — CD Fas",
+      "mecz": "Nov 26, 02:00 Salvadoran Primera Division Internacional Santa Tecla — CD Aguila",
       "typ": "U 2.5 LIVE",
-      "kurs": "1.15",
-      "procent": 90.8,
-      "kwota": 2494.0,
+      "kurs": "1.17",
+      "procent": 93.5,
+      "kwota": 1565.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -196,29 +166,79 @@
       "rynek": "1X2 HT (Pre)",
       "mecz": "Nov 29, 23:00 Paraguayan Primera Division Sportivo San Lorenzo — Club Sportivo Ameliano",
       "typ": "X HT",
-      "kurs": "2.1",
+      "kurs": "2.24",
       "procent": 89.2,
       "kwota": 982.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 26, 02:00 Guatemalan Liga Nacional CSD Municipal — Aurora FC",
+      "typ": "1 LIVE",
+      "kurs": "1.09",
+      "procent": 88.0,
+      "kwota": 2125.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 26, 02:00 Salvadoran Primera Division Internacional Santa Tecla — CD Aguila",
+      "typ": "X LIVE",
+      "kurs": "2.38",
+      "procent": 85.8,
+      "kwota": 561.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.55",
-      "procent": 67.5,
-      "kwota": 48900.0,
-      "przyrost": 43661.0,
+      "mecz": "Nov 26, 01:30 Colombian Primera A Atletico Nacional Medellin — Ind Medellin",
+      "typ": "O 2.5 LIVE",
+      "kurs": "1.29",
+      "procent": 80.1,
+      "kwota": 53833.0,
+      "przyrost": 51501.0,
       "alert": false
     },
     {
       "rynek": "1X2 (LIVE)",
       "mecz": "Nov 26, 01:30 Colombian Primera A Atletico Nacional Medellin — Ind Medellin",
       "typ": "1 LIVE",
-      "kurs": "1.97",
-      "procent": 66.8,
-      "kwota": 7928.0,
+      "kurs": "1.56",
+      "procent": 74.0,
+      "kwota": 47836.0,
+      "przyrost": 39908.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 26, 01:00 Nicaraguan Primera Division Managua FC — CD Walter Ferreti",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.78",
+      "procent": 68.1,
+      "kwota": 3176.0,
+      "przyrost": 3168.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 26, 01:00 Panamanian Liga Prom Udelas FC — Chorrillo FC",
+      "typ": "U 2.5 LIVE",
+      "kurs": "2.02",
+      "procent": 66.6,
+      "kwota": 1716.0,
+      "przyrost": 776.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 26, 02:00 Guatemalan Liga Nacional CSD Municipal — Aurora FC",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.4",
+      "procent": 66.6,
+      "kwota": 111.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -226,40 +246,30 @@
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 29, 23:00 Paraguayan Primera Division Sportivo San Lorenzo — Club Sportivo Ameliano",
       "typ": "O 3.5",
-      "kurs": "1.2",
+      "kurs": "1.16",
       "procent": 66.3,
       "kwota": 100.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 01:30 Colombian Primera A Atletico Nacional Medellin — Ind Medellin",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.89",
-      "procent": 60.0,
-      "kwota": 3499.0,
-      "przyrost": 0.0,
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 26, 01:00 Nicaraguan Primera Division Managua FC — CD Walter Ferreti",
+      "typ": "X LIVE",
+      "kurs": "38.0",
+      "procent": 60.3,
+      "kwota": 4039.0,
+      "przyrost": 2155.0,
       "alert": false
     },
     {
       "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 01:00 Panamanian Liga Prom Udelas FC — Chorrillo FC",
+      "mecz": "Nov 26, 01:00 Salvadoran Primera Division CD Platense — CD Fas",
       "typ": "2 LIVE",
-      "kurs": "2.78",
-      "procent": 59.0,
-      "kwota": 139.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 01:00 Panamanian Liga Prom Udelas FC — Chorrillo FC",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.17",
-      "procent": 54.3,
-      "kwota": 940.0,
-      "przyrost": 0.0,
+      "kurs": "1.12",
+      "procent": 55.7,
+      "kwota": 660.0,
+      "przyrost": 496.0,
       "alert": false
     }
   ]
