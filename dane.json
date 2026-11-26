@@ -1,15 +1,15 @@
 {
-  "aktualizacja_utc": "2026-11-26 09:42",
-  "liczba_zdarzen": 33,
+  "aktualizacja_utc": "2026-11-26 10:40",
+  "liczba_zdarzen": 25,
   "zdarzenia": [
     {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 29, 21:15 Bolivian Liga de Futbol Profesional Bolivar — Always Ready",
       "typ": "1",
-      "kurs": "1.73",
+      "kurs": "1.8",
       "procent": 100.0,
       "kwota": 3685.0,
-      "przyrost": 34.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -29,14 +29,14 @@
       "kurs": "1.29",
       "procent": 100.0,
       "kwota": 259.0,
-      "przyrost": 90.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 26, 17:30 Saudi Professional League Al Faisaly ( KSA ) — Al Draih",
       "typ": "O 1.5",
-      "kurs": "1.25",
+      "kurs": "1.24",
       "procent": 100.0,
       "kwota": 145.0,
       "przyrost": 0.0,
@@ -56,17 +56,17 @@
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 26, 11:00 Thai League 2 Uttaradit FC — Songkla FC",
       "typ": "1",
-      "kurs": "1.69",
-      "procent": 97.3,
-      "kwota": 855.0,
-      "przyrost": 738.0,
+      "kurs": "1.71",
+      "procent": 97.7,
+      "kwota": 1198.0,
+      "przyrost": 343.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 22:00 Argentinian Primera Nacional CA Atlanta — Ciudad de Bolivar",
       "typ": "U 2.5",
-      "kurs": "1.44",
+      "kurs": "1.41",
       "procent": 97.2,
       "kwota": 549.0,
       "przyrost": 0.0,
@@ -76,9 +76,19 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 28, 00:00 Argentinian Primera Nacional Tristan Suarez — Club Gimnasia y Tiro",
       "typ": "U 2.5",
-      "kurs": "1.39",
+      "kurs": "1.38",
       "procent": 97.2,
       "kwota": 412.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 26, 12:30 Egyptian 2nd Division Al Nasr Cairo — Tersana SC",
+      "typ": "U 3.5",
+      "kurs": "1.18",
+      "procent": 97.0,
+      "kwota": 121.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -96,7 +106,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 00:30 Uruguayan Cup Torque — Nacional (Uru)",
       "typ": "U 2.5",
-      "kurs": "2.1",
+      "kurs": "2.08",
       "procent": 96.2,
       "kwota": 888.0,
       "przyrost": 0.0,
@@ -106,10 +116,20 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 23:30 Uruguayan Primera Division Racing Club (Uru) — Liverpool Montevideo",
       "typ": "U 2.5",
-      "kurs": "1.64",
+      "kurs": "1.63",
       "procent": 96.0,
       "kwota": 1770.0,
       "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 26, 12:30 Jordan 1st Division Sahl Houran — Alhashemyya",
+      "typ": "1",
+      "kurs": "1.68",
+      "procent": 96.0,
+      "kwota": 343.0,
+      "przyrost": 111.0,
       "alert": false
     },
     {
@@ -123,22 +143,12 @@
       "alert": false
     },
     {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 26, 12:30 Jordan 1st Division Sahl Houran — Alhashemyya",
-      "typ": "1",
-      "kurs": "1.69",
-      "procent": 94.2,
-      "kwota": 232.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 08:30 Indonesian Liga 3 Tri Brata Rafflesia FC — Bojonegoro FC",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.03",
-      "procent": 93.7,
-      "kwota": 835.0,
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 26, 10:30 Azerbaijan 1st Division Baku Sporting — FK Sahdag Qusar",
+      "typ": "2 LIVE",
+      "kurs": "1.11",
+      "procent": 94.1,
+      "kwota": 258.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -153,6 +163,16 @@
       "alert": false
     },
     {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 26, 23:00 Brazilian Serie A Sao Paulo — Remo",
+      "typ": "U 3.5",
+      "kurs": "1.49",
+      "procent": 92.6,
+      "kwota": 1017.0,
+      "przyrost": 69.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
       "typ": "U 2.5",
@@ -163,42 +183,12 @@
       "alert": false
     },
     {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 26, 23:00 Brazilian Serie A Sao Paulo — Remo",
-      "typ": "U 3.5",
-      "kurs": "1.48",
-      "procent": 92.1,
-      "kwota": 948.0,
-      "przyrost": 111.0,
-      "alert": false
-    },
-    {
       "rynek": "1X2 HT (Pre)",
       "mecz": "Nov 29, 23:00 Paraguayan Primera Division Sportivo San Lorenzo — Club Sportivo Ameliano",
       "typ": "X HT",
       "kurs": "2.22",
       "procent": 89.2,
       "kwota": 982.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 08:30 Thai U21 League Port FC U21 — Pattaya United U21",
-      "typ": "1 LIVE",
-      "kurs": "1.3",
-      "procent": 85.2,
-      "kwota": 1322.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 08:30 Indonesian Liga 3 Persiba Bantul — Persinga Ngawi",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.68",
-      "procent": 81.3,
-      "kwota": 172.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -213,52 +203,22 @@
       "alert": false
     },
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 08:30 Indonesian Liga 3 Gresik United — Persibangga Purbalingga",
-      "typ": "1 LIVE",
-      "kurs": "2.86",
-      "procent": 76.9,
-      "kwota": 835.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 08:30 Indonesian Super League Pusamania Borneo FC — Persita Tangerang",
-      "typ": "U 2.5 LIVE",
-      "kurs": "3.5",
-      "procent": 76.6,
-      "kwota": 19948.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 08:30 Indonesian Liga 3 Gresik United — Persibangga Purbalingga",
-      "typ": "O 2.5 LIVE",
-      "kurs": "1.94",
-      "procent": 74.0,
-      "kwota": 426.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 29, 21:15 Bolivian Liga de Futbol Profesional Bolivar — Always Ready",
       "typ": "O 3.5",
       "kurs": "1.16",
       "procent": 73.0,
       "kwota": 306.0,
-      "przyrost": 68.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 08:30 Indonesian Super League Pusamania Borneo FC — Persita Tangerang",
-      "typ": "1 LIVE",
-      "kurs": "2.74",
-      "procent": 72.9,
-      "kwota": 7875.0,
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 26, 10:30 Azerbaijan 1st Division Baku Sporting — FK Sahdag Qusar",
+      "typ": "O 2.5 LIVE",
+      "kurs": "1.47",
+      "procent": 71.3,
+      "kwota": 221.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -266,20 +226,10 @@
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 26, 15:05 Saudi Professional League Abha — Al-Shabab (KSA)",
       "typ": "U 3.5",
-      "kurs": "1.57",
-      "procent": 67.8,
-      "kwota": 173.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 08:30 Indonesian Liga 3 Persiba Bantul — Persinga Ngawi",
-      "typ": "2 LIVE",
-      "kurs": "1.4",
-      "procent": 66.1,
-      "kwota": 1442.0,
-      "przyrost": 0.0,
+      "kurs": "1.56",
+      "procent": 68.6,
+      "kwota": 179.0,
+      "przyrost": 6.0,
       "alert": false
     },
     {
@@ -297,38 +247,8 @@
       "mecz": "Nov 29, 23:00 Paraguayan Primera Division Sportivo San Lorenzo — Club Sportivo Ameliano",
       "typ": "O 3.5",
       "kurs": "2.76",
-      "procent": 62.4,
+      "procent": 62.5,
       "kwota": 110.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 08:30 Thai U21 League Port FC U21 — Pattaya United U21",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.5",
-      "procent": 58.3,
-      "kwota": 841.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 08:30 Indonesian Liga 3 Tri Brata Rafflesia FC — Bojonegoro FC",
-      "typ": "X LIVE",
-      "kurs": "2.18",
-      "procent": 58.3,
-      "kwota": 143.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 08:30 Indonesian Liga 3 Persipal FC — Persikutim United",
-      "typ": "1 LIVE",
-      "kurs": "3.0",
-      "procent": 52.4,
-      "kwota": 62.0,
       "przyrost": 0.0,
       "alert": false
     }
