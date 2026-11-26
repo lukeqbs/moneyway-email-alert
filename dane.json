@@ -1,7 +1,17 @@
 {
-  "aktualizacja_utc": "2026-11-26 17:25",
+  "aktualizacja_utc": "2026-11-26 18:16",
   "liczba_zdarzen": 25,
   "zdarzenia": [
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 28, 23:30 Bolivian Liga de Futbol Profesional Nacional Potosi — Oriente Petrolero",
+      "typ": "1",
+      "kurs": "1.26",
+      "procent": 100.0,
+      "kwota": 452.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
     {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 27, 19:00 Bolivian Liga de Futbol Profesional Academia de Balompie Boliviano — Real Tomayapo",
@@ -28,8 +38,8 @@
       "typ": "1",
       "kurs": "1.91",
       "procent": 99.9,
-      "kwota": 3693.0,
-      "przyrost": 0.0,
+      "kwota": 3697.0,
+      "przyrost": 4.0,
       "alert": false
     },
     {
@@ -56,7 +66,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 22:00 Argentinian Primera Nacional CA Atlanta — Ciudad de Bolivar",
       "typ": "U 2.5",
-      "kurs": "1.41",
+      "kurs": "1.42",
       "procent": 97.2,
       "kwota": 549.0,
       "przyrost": 0.0,
@@ -66,7 +76,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 28, 00:00 Argentinian Primera Nacional Tristan Suarez — Club Gimnasia y Tiro",
       "typ": "U 2.5",
-      "kurs": "1.4",
+      "kurs": "1.42",
       "procent": 97.2,
       "kwota": 412.0,
       "przyrost": 0.0,
@@ -86,7 +96,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 00:30 Uruguayan Cup Torque — Nacional (Uru)",
       "typ": "U 2.5",
-      "kurs": "2.08",
+      "kurs": "2.1",
       "procent": 96.2,
       "kwota": 888.0,
       "przyrost": 0.0,
@@ -147,9 +157,9 @@
       "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
       "typ": "U 2.5",
       "kurs": "2.22",
-      "procent": 92.4,
-      "kwota": 1655.0,
-      "przyrost": 0.0,
+      "procent": 91.9,
+      "kwota": 1665.0,
+      "przyrost": 10.0,
       "alert": false
     },
     {
@@ -169,7 +179,7 @@
       "kurs": "1.37",
       "procent": 90.1,
       "kwota": 1156.0,
-      "przyrost": 20.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -183,22 +193,22 @@
       "alert": false
     },
     {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 26, 17:30 Saudi Professional League Al Faisaly ( KSA ) — Al Draih",
+      "typ": "2 LIVE",
+      "kurs": "1.35",
+      "procent": 81.3,
+      "kwota": 16820.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 26, 22:30 Paraguayan Cup Cerro Porteno — Libertad",
       "typ": "O 1.5",
       "kurs": "1.36",
       "procent": 78.7,
       "kwota": 118.0,
-      "przyrost": 13.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 HT (Pre)",
-      "mecz": "Nov 26, 17:30 Saudi Professional League Al Faisaly ( KSA ) — Al Draih",
-      "typ": "2 HT",
-      "kurs": "2.52",
-      "procent": 78.0,
-      "kwota": 79.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -214,16 +224,6 @@
     },
     {
       "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 26, 17:30 Saudi Professional League Al Faisaly ( KSA ) — Al Draih",
-      "typ": "U 3.5",
-      "kurs": "1.5",
-      "procent": 74.8,
-      "kwota": 684.0,
-      "przyrost": 464.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 29, 21:15 Bolivian Liga de Futbol Profesional Bolivar — Always Ready",
       "typ": "O 3.5",
       "kurs": "1.16",
@@ -233,22 +233,22 @@
       "alert": false
     },
     {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 26, 17:30 Saudi Professional League Al Faisaly ( KSA ) — Al Draih",
-      "typ": "O 1.5",
-      "kurs": "1.26",
-      "procent": 71.5,
-      "kwota": 419.0,
-      "przyrost": 157.0,
-      "alert": false
-    },
-    {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 29, 23:00 Paraguayan Primera Division Sportivo San Lorenzo — Club Sportivo Ameliano",
       "typ": "O 3.5",
       "kurs": "2.72",
       "procent": 62.5,
       "kwota": 110.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 26, 17:30 Saudi Professional League Al Faisaly ( KSA ) — Al Draih",
+      "typ": "O 2.5 LIVE",
+      "kurs": "1.69",
+      "procent": 56.7,
+      "kwota": 6299.0,
       "przyrost": 0.0,
       "alert": false
     }
