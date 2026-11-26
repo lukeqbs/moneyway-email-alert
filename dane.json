@@ -1,45 +1,35 @@
 {
-  "aktualizacja_utc": "2026-11-26 02:44",
-  "liczba_zdarzen": 27,
+  "aktualizacja_utc": "2026-11-26 03:43",
+  "liczba_zdarzen": 18,
   "zdarzenia": [
     {
       "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 01:00 Nicaraguan Primera Division Real Esteli FC — Rancho Santana",
+      "mecz": "Nov 26, 02:00 Guatemalan Liga Nacional CSD Municipal — Aurora FC",
       "typ": "1 LIVE",
-      "kurs": "1.13",
-      "procent": 98.4,
-      "kwota": 5676.0,
-      "przyrost": 2074.0,
-      "alert": true
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 01:00 Salvadoran Primera Division CD Platense — CD Fas",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.04",
-      "procent": 90.7,
-      "kwota": 4919.0,
-      "przyrost": 2425.0,
+      "kurs": "1.08",
+      "procent": 93.5,
+      "kwota": 12954.0,
+      "przyrost": 10829.0,
       "alert": true
     },
     {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 29, 21:15 Bolivian Liga de Futbol Profesional Bolivar — Always Ready",
       "typ": "1",
-      "kurs": "1.74",
+      "kurs": "1.73",
       "procent": 100.0,
-      "kwota": 3407.0,
-      "przyrost": 2.0,
+      "kwota": 3470.0,
+      "przyrost": 63.0,
       "alert": false
     },
     {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 28, 19:00 Bolivian Liga de Futbol Profesional CD Gualberto Villarroel — Real Potosi",
       "typ": "2",
-      "kurs": "2.04",
+      "kurs": "2.2",
       "procent": 100.0,
-      "kwota": 452.0,
-      "przyrost": 44.0,
+      "kwota": 590.0,
+      "przyrost": 138.0,
       "alert": false
     },
     {
@@ -49,16 +39,6 @@
       "kurs": "1.1",
       "procent": 100.0,
       "kwota": 311.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 28, 21:00 Chilean Primera Division Coquimbo Unido — Deportes Limache",
-      "typ": "1",
-      "kurs": "1.9",
-      "procent": 98.5,
-      "kwota": 197.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -136,7 +116,7 @@
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 26, 23:00 Brazilian Serie A Sao Paulo — Remo",
       "typ": "U 3.5",
-      "kurs": "1.51",
+      "kurs": "1.5",
       "procent": 94.9,
       "kwota": 787.0,
       "przyrost": 0.0,
@@ -153,12 +133,12 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 02:00 Salvadoran Primera Division Internacional Santa Tecla — CD Aguila",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.17",
-      "procent": 93.5,
-      "kwota": 1565.0,
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
+      "typ": "U 2.5",
+      "kurs": "2.24",
+      "procent": 92.4,
+      "kwota": 1655.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -166,80 +146,30 @@
       "rynek": "1X2 HT (Pre)",
       "mecz": "Nov 29, 23:00 Paraguayan Primera Division Sportivo San Lorenzo — Club Sportivo Ameliano",
       "typ": "X HT",
-      "kurs": "2.24",
+      "kurs": "2.14",
       "procent": 89.2,
       "kwota": 982.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 02:00 Guatemalan Liga Nacional CSD Municipal — Aurora FC",
-      "typ": "1 LIVE",
-      "kurs": "1.09",
-      "procent": 88.0,
-      "kwota": 2125.0,
-      "przyrost": 0.0,
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 26, 02:00 Salvadoran Primera Division Internacional Santa Tecla — CD Aguila",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.04",
+      "procent": 88.8,
+      "kwota": 2154.0,
+      "przyrost": 589.0,
       "alert": false
     },
     {
       "rynek": "1X2 (LIVE)",
       "mecz": "Nov 26, 02:00 Salvadoran Primera Division Internacional Santa Tecla — CD Aguila",
       "typ": "X LIVE",
-      "kurs": "2.38",
-      "procent": 85.8,
-      "kwota": 561.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 01:30 Colombian Primera A Atletico Nacional Medellin — Ind Medellin",
-      "typ": "O 2.5 LIVE",
-      "kurs": "1.29",
-      "procent": 80.1,
-      "kwota": 53833.0,
-      "przyrost": 51501.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 01:30 Colombian Primera A Atletico Nacional Medellin — Ind Medellin",
-      "typ": "1 LIVE",
-      "kurs": "1.56",
-      "procent": 74.0,
-      "kwota": 47836.0,
-      "przyrost": 39908.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 01:00 Nicaraguan Primera Division Managua FC — CD Walter Ferreti",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.78",
-      "procent": 68.1,
-      "kwota": 3176.0,
-      "przyrost": 3168.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 01:00 Panamanian Liga Prom Udelas FC — Chorrillo FC",
-      "typ": "U 2.5 LIVE",
-      "kurs": "2.02",
-      "procent": 66.6,
-      "kwota": 1716.0,
-      "przyrost": 776.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 02:00 Guatemalan Liga Nacional CSD Municipal — Aurora FC",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.4",
-      "procent": 66.6,
-      "kwota": 111.0,
-      "przyrost": 0.0,
+      "kurs": "6.6",
+      "procent": 67.3,
+      "kwota": 1520.0,
+      "przyrost": 959.0,
       "alert": false
     },
     {
@@ -250,26 +180,6 @@
       "procent": 66.3,
       "kwota": 100.0,
       "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 01:00 Nicaraguan Primera Division Managua FC — CD Walter Ferreti",
-      "typ": "X LIVE",
-      "kurs": "38.0",
-      "procent": 60.3,
-      "kwota": 4039.0,
-      "przyrost": 2155.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 01:00 Salvadoran Primera Division CD Platense — CD Fas",
-      "typ": "2 LIVE",
-      "kurs": "1.12",
-      "procent": 55.7,
-      "kwota": 660.0,
-      "przyrost": 496.0,
       "alert": false
     }
   ]
