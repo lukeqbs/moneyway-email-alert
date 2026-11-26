@@ -1,16 +1,46 @@
 {
-  "aktualizacja_utc": "2026-11-25 23:25",
-  "liczba_zdarzen": 28,
+  "aktualizacja_utc": "2026-11-26 00:19",
+  "liczba_zdarzen": 27,
   "zdarzenia": [
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 25, 22:00 Nicaraguan Primera Division UNAN Managua — Sebaco FC",
-      "typ": "2 LIVE",
-      "kurs": "1.57",
-      "procent": 91.3,
-      "kwota": 33500.0,
-      "przyrost": 17888.0,
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 25, 23:20 Colombian Primera A Santa Fe — Once Caldas",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.51",
+      "procent": 89.0,
+      "kwota": 32126.0,
+      "przyrost": 25342.0,
       "alert": true
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 25, 23:00 Brazilian Serie A Atletico MG — Corinthians",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.12",
+      "procent": 87.9,
+      "kwota": 149016.0,
+      "przyrost": 48638.0,
+      "alert": true
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 25, 22:30 Venezuelan Cup Deportivo Tachira — Carabobo FC",
+      "typ": "1 LIVE",
+      "kurs": "2.14",
+      "procent": 87.0,
+      "kwota": 22099.0,
+      "przyrost": 6143.0,
+      "alert": true
+    },
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 29, 21:15 Bolivian Liga de Futbol Profesional Bolivar — Always Ready",
+      "typ": "1",
+      "kurs": "1.73",
+      "procent": 100.0,
+      "kwota": 3393.0,
+      "przyrost": 0.0,
+      "alert": false
     },
     {
       "rynek": "1X2 (Pre)",
@@ -19,27 +49,7 @@
       "kurs": "1.1",
       "procent": 100.0,
       "kwota": 311.0,
-      "przyrost": 150.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 26, 14:25 Saudi Professional League Al-Fateh (KSA) — Al Riyadh SC",
-      "typ": "O 2.5",
-      "kurs": "1.78",
-      "procent": 99.0,
-      "kwota": 100.0,
       "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 26, 02:00 Salvadoran Primera Division Internacional Santa Tecla — CD Aguila",
-      "typ": "X",
-      "kurs": "3.05",
-      "procent": 98.9,
-      "kwota": 267.0,
-      "przyrost": 146.0,
       "alert": false
     },
     {
@@ -53,10 +63,20 @@
       "alert": false
     },
     {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 26, 02:00 Salvadoran Primera Division Internacional Santa Tecla — CD Aguila",
+      "typ": "X",
+      "kurs": "3.05",
+      "procent": 98.2,
+      "kwota": 267.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 22:00 Argentinian Primera Nacional CA Atlanta — Ciudad de Bolivar",
       "typ": "U 2.5",
-      "kurs": "1.39",
+      "kurs": "1.4",
       "procent": 97.2,
       "kwota": 549.0,
       "przyrost": 0.0,
@@ -66,10 +86,20 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 28, 00:00 Argentinian Primera Nacional Tristan Suarez — Club Gimnasia y Tiro",
       "typ": "U 2.5",
-      "kurs": "1.39",
+      "kurs": "1.37",
       "procent": 97.2,
       "kwota": 412.0,
       "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 26, 14:25 Saudi Professional League Al-Fateh (KSA) — Al Riyadh SC",
+      "typ": "O 2.5",
+      "kurs": "1.75",
+      "procent": 96.9,
+      "kwota": 350.0,
+      "przyrost": 250.0,
       "alert": false
     },
     {
@@ -84,12 +114,12 @@
     },
     {
       "rynek": "1X2 (Pre)",
-      "mecz": "Nov 26, 01:00 Nicaraguan Primera Division Managua FC — CD Walter Ferreti",
+      "mecz": "Nov 26, 02:00 Guatemalan Liga Nacional CSD Municipal — Aurora FC",
       "typ": "1",
-      "kurs": "2.0",
-      "procent": 96.4,
-      "kwota": 583.0,
-      "przyrost": 235.0,
+      "kurs": "1.32",
+      "procent": 96.3,
+      "kwota": 304.0,
+      "przyrost": 17.0,
       "alert": false
     },
     {
@@ -103,23 +133,23 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 27, 23:30 Uruguayan Primera Division Racing Club (Uru) — Liverpool Montevideo",
-      "typ": "U 2.5",
-      "kurs": "1.68",
-      "procent": 96.0,
-      "kwota": 1770.0,
-      "przyrost": 18.0,
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 26, 01:00 Nicaraguan Primera Division Managua FC — CD Walter Ferreti",
+      "typ": "1",
+      "kurs": "1.97",
+      "procent": 96.2,
+      "kwota": 673.0,
+      "przyrost": 90.0,
       "alert": false
     },
     {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 26, 02:00 Guatemalan Liga Nacional CSD Municipal — Aurora FC",
-      "typ": "1",
-      "kurs": "1.32",
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 27, 23:30 Uruguayan Primera Division Racing Club (Uru) — Liverpool Montevideo",
+      "typ": "U 2.5",
+      "kurs": "1.66",
       "procent": 96.0,
-      "kwota": 287.0,
-      "przyrost": 57.0,
+      "kwota": 1770.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -164,51 +194,61 @@
     },
     {
       "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 25, 22:30 Venezuelan Cup Deportivo Tachira — Carabobo FC",
-      "typ": "1 LIVE",
-      "kurs": "1.52",
-      "procent": 85.7,
-      "kwota": 15956.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 25, 23:00 Brazilian Serie A Atletico MG — Corinthians",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.46",
-      "procent": 84.5,
-      "kwota": 100378.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
-      "typ": "U 3.5",
-      "kurs": "1.33",
-      "procent": 84.5,
-      "kwota": 300.0,
-      "przyrost": 48.0,
+      "typ": "1 LIVE",
+      "kurs": "1.14",
+      "procent": 85.1,
+      "kwota": 39201.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
+      "mecz": "Nov 26, 01:30 Colombian Primera A Atletico Nacional Medellin — Ind Medellin",
       "typ": "O 1.5",
       "kurs": "1.36",
-      "procent": 77.4,
-      "kwota": 580.0,
-      "przyrost": 50.0,
+      "procent": 67.9,
+      "kwota": 688.0,
+      "przyrost": 54.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 29, 23:00 Paraguayan Primera Division Sportivo San Lorenzo — Club Sportivo Ameliano",
+      "typ": "O 3.5",
+      "kurs": "1.16",
+      "procent": 66.3,
+      "kwota": 100.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 25, 23:20 Colombian Primera A Santa Fe — Once Caldas",
+      "typ": "1 LIVE",
+      "kurs": "1.41",
+      "procent": 64.5,
+      "kwota": 13764.0,
+      "przyrost": 12120.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 26, 01:30 Colombian Primera A Atletico Nacional Medellin — Ind Medellin",
+      "typ": "U 3.5",
+      "kurs": "1.33",
+      "procent": 58.2,
+      "kwota": 252.0,
+      "przyrost": 22.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 25, 23:20 Colombian Primera A Santa Fe — Once Caldas",
+      "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
       "typ": "U 2.5 LIVE",
-      "kurs": "1.49",
-      "procent": 76.6,
-      "kwota": 6784.0,
+      "kurs": "2.44",
+      "procent": 58.1,
+      "kwota": 5239.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -216,70 +256,20 @@
       "rynek": "O/U 2.5 (LIVE)",
       "mecz": "Nov 25, 23:00 Bolivian Cup Real Potosi — Always Ready",
       "typ": "O 2.5 LIVE",
-      "kurs": "2.46",
-      "procent": 76.5,
-      "kwota": 1587.0,
-      "przyrost": 0.0,
+      "kurs": "8.4",
+      "procent": 55.0,
+      "kwota": 2213.0,
+      "przyrost": 626.0,
       "alert": false
     },
     {
-      "rynek": "1X2 HT (Pre)",
-      "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
-      "typ": "2 HT",
-      "kurs": "8.6",
-      "procent": 72.3,
-      "kwota": 230.0,
-      "przyrost": 65.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 26, 01:00 Salvadoran Primera Division CD Platense — CD Fas",
-      "typ": "U 2.5",
-      "kurs": "1.72",
-      "procent": 71.4,
-      "kwota": 77.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 26, 01:30 Colombian Primera A Atletico Nacional Medellin — Ind Medellin",
-      "typ": "O 1.5",
-      "kurs": "1.37",
-      "procent": 66.4,
-      "kwota": 634.0,
-      "przyrost": 2.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 29, 23:00 Paraguayan Primera Division Sportivo San Lorenzo — Club Sportivo Ameliano",
-      "typ": "O 3.5",
-      "kurs": "2.76",
-      "procent": 66.3,
-      "kwota": 100.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 26, 00:00 Argentinian Primera Division Boca Juniors — Independiente Rivadavia",
-      "typ": "O 2.5",
-      "kurs": "2.06",
-      "procent": 62.1,
-      "kwota": 771.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 26, 01:30 Colombian Primera A Atletico Nacional Medellin — Ind Medellin",
-      "typ": "U 3.5",
-      "kurs": "1.34",
-      "procent": 55.9,
-      "kwota": 230.0,
-      "przyrost": 21.0,
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 25, 23:00 Brazilian Serie A Atletico MG — Corinthians",
+      "typ": "1 LIVE",
+      "kurs": "3.0",
+      "procent": 52.1,
+      "kwota": 121552.0,
+      "przyrost": 71406.0,
       "alert": false
     }
   ]
