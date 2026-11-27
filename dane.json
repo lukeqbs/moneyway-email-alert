@@ -1,17 +1,7 @@
 {
-  "aktualizacja_utc": "2026-11-27 03:50",
-  "liczba_zdarzen": 24,
+  "aktualizacja_utc": "2026-11-27 04:54",
+  "liczba_zdarzen": 23,
   "zdarzenia": [
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 29, 19:00 Bolivian Liga de Futbol Profesional Aurora — The Strongest",
-      "typ": "1",
-      "kurs": "2.02",
-      "procent": 100.0,
-      "kwota": 4960.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
     {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 28, 23:30 Bolivian Liga de Futbol Profesional Nacional Potosi — Oriente Petrolero",
@@ -36,7 +26,7 @@
       "rynek": "1X2 HT (Pre)",
       "mecz": "Nov 27, 14:20 Saudi Professional League Al-Quadisiya (KSA) — Al-Feiha",
       "typ": "2 HT",
-      "kurs": "8.8",
+      "kurs": "9.0",
       "procent": 100.0,
       "kwota": 381.0,
       "przyrost": 0.0,
@@ -46,20 +36,10 @@
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 27, 19:00 Bolivian Liga de Futbol Profesional Academia de Balompie Boliviano — Real Tomayapo",
       "typ": "1",
-      "kurs": "1.73",
+      "kurs": "1.78",
       "procent": 100.0,
-      "kwota": 263.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 28, 13:00 Qatari Stars League Al-Wakra — Al-Sadd",
-      "typ": "1",
-      "kurs": "3.3",
-      "procent": 100.0,
-      "kwota": 179.0,
-      "przyrost": 0.0,
+      "kwota": 266.0,
+      "przyrost": 3.0,
       "alert": false
     },
     {
@@ -73,23 +53,23 @@
       "alert": false
     },
     {
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 27, 22:00 Argentinian Primera Nacional CA Atlanta — Ciudad de Bolivar",
+      "typ": "X HT",
+      "kurs": "1.95",
+      "procent": 100.0,
+      "kwota": 121.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 29, 21:15 Bolivian Liga de Futbol Profesional Bolivar — Always Ready",
       "typ": "1",
       "kurs": "1.91",
       "procent": 99.9,
-      "kwota": 3695.0,
-      "przyrost": -2.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 27, 12:30 Egyptian 2nd Division Tanta — El Mansurah",
-      "typ": "U 2.5",
-      "kurs": "1.5",
-      "procent": 99.1,
-      "kwota": 106.0,
-      "przyrost": 0.0,
+      "kwota": 3696.0,
+      "przyrost": 1.0,
       "alert": false
     },
     {
@@ -99,7 +79,7 @@
       "kurs": "1.2",
       "procent": 98.6,
       "kwota": 537.0,
-      "przyrost": 403.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -116,27 +96,17 @@
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
       "typ": "1",
-      "kurs": "2.16",
-      "procent": 97.7,
-      "kwota": 148.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 27, 22:00 Argentinian Primera Nacional CA Atlanta — Ciudad de Bolivar",
-      "typ": "U 2.5",
-      "kurs": "1.42",
-      "procent": 97.2,
-      "kwota": 549.0,
-      "przyrost": 0.0,
+      "kurs": "2.14",
+      "procent": 97.8,
+      "kwota": 152.0,
+      "przyrost": 4.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 28, 00:00 Argentinian Primera Nacional Tristan Suarez — Club Gimnasia y Tiro",
       "typ": "U 2.5",
-      "kurs": "1.41",
+      "kurs": "1.42",
       "procent": 97.2,
       "kwota": 412.0,
       "przyrost": 0.0,
@@ -156,7 +126,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 19:15 Swiss Challenge League Etoile Carouge — Stade Lausanne-Ouchy",
       "typ": "U 2.5",
-      "kurs": "2.22",
+      "kurs": "2.34",
       "procent": 96.6,
       "kwota": 976.0,
       "przyrost": 0.0,
@@ -166,9 +136,19 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 23:30 Uruguayan Primera Division Racing Club (Uru) — Liverpool Montevideo",
       "typ": "U 2.5",
-      "kurs": "1.66",
-      "procent": 96.1,
-      "kwota": 1823.0,
+      "kurs": "1.62",
+      "procent": 96.2,
+      "kwota": 1873.0,
+      "przyrost": 50.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 27, 22:00 Argentinian Primera Nacional CA Atlanta — Ciudad de Bolivar",
+      "typ": "U 2.5",
+      "kurs": "1.42",
+      "procent": 96.2,
+      "kwota": 549.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -194,12 +174,12 @@
     },
     {
       "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 29, 01:00 Argentinian Primera Division Instituto — River Plate",
-      "typ": "O 2.5",
-      "kurs": "2.68",
-      "procent": 94.3,
-      "kwota": 120.0,
-      "przyrost": 0.0,
+      "mecz": "Nov 27, 12:30 Egyptian 2nd Division Tanta — El Mansurah",
+      "typ": "U 2.5",
+      "kurs": "1.52",
+      "procent": 92.1,
+      "kwota": 129.0,
+      "przyrost": 23.0,
       "alert": false
     },
     {
@@ -229,7 +209,7 @@
       "kurs": "1.19",
       "procent": 73.0,
       "kwota": 306.0,
-      "przyrost": -1.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -239,6 +219,16 @@
       "kurs": "2.74",
       "procent": 62.4,
       "kwota": 110.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 27, 14:20 Saudi Professional League Al-Quadisiya (KSA) — Al-Feiha",
+      "typ": "U 3.5",
+      "kurs": "2.4",
+      "procent": 58.4,
+      "kwota": 69.0,
       "przyrost": 0.0,
       "alert": false
     }
