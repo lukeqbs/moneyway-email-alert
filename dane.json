@@ -1,25 +1,15 @@
 {
-  "aktualizacja_utc": "2026-11-27 00:28",
-  "liczba_zdarzen": 29,
+  "aktualizacja_utc": "2026-11-27 01:55",
+  "liczba_zdarzen": 24,
   "zdarzenia": [
     {
       "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 23:00 Brazilian Serie A Sao Paulo — Remo",
+      "mecz": "Nov 27, 00:00 Nicaraguan Primera Division Diriangen FC — Indigenas de Matagalpa FC",
       "typ": "1 LIVE",
-      "kurs": "1.98",
-      "procent": 88.7,
-      "kwota": 240470.0,
-      "przyrost": 121580.0,
-      "alert": true
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 22:30 Paraguayan Cup Cerro Porteno — Libertad",
-      "typ": "2 LIVE",
-      "kurs": "3.3",
-      "procent": 88.0,
-      "kwota": 46353.0,
-      "przyrost": 26175.0,
+      "kurs": "1.02",
+      "procent": 97.2,
+      "kwota": 5262.0,
+      "przyrost": 4968.0,
       "alert": true
     },
     {
@@ -29,7 +19,7 @@
       "kurs": "2.02",
       "procent": 100.0,
       "kwota": 4957.0,
-      "przyrost": 106.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -44,9 +34,19 @@
     },
     {
       "rynek": "1X2 (Pre)",
+      "mecz": "Nov 29, 05:00 Japanese J League 2 Tegevajaro Miyazaki — Tosu",
+      "typ": "1",
+      "kurs": "2.28",
+      "procent": 100.0,
+      "kwota": 643.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (Pre)",
       "mecz": "Nov 27, 19:00 Bolivian Liga de Futbol Profesional Academia de Balompie Boliviano — Real Tomayapo",
       "typ": "1",
-      "kurs": "1.71",
+      "kurs": "1.72",
       "procent": 100.0,
       "kwota": 263.0,
       "przyrost": 0.0,
@@ -113,16 +113,6 @@
       "alert": false
     },
     {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
-      "typ": "1",
-      "kurs": "2.14",
-      "procent": 97.7,
-      "kwota": 148.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 22:00 Argentinian Primera Nacional CA Atlanta — Ciudad de Bolivar",
       "typ": "U 2.5",
@@ -143,6 +133,16 @@
       "alert": false
     },
     {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 28, 05:00 South Korean K2 League Yongin FC — Paju Citizen",
+      "typ": "1",
+      "kurs": "1.92",
+      "procent": 96.7,
+      "kwota": 293.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 19:15 Swiss Challenge League Etoile Carouge — Stade Lausanne-Ouchy",
       "typ": "U 2.5",
@@ -156,7 +156,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 23:30 Uruguayan Primera Division Racing Club (Uru) — Liverpool Montevideo",
       "typ": "U 2.5",
-      "kurs": "1.66",
+      "kurs": "1.67",
       "procent": 96.1,
       "kwota": 1823.0,
       "przyrost": 0.0,
@@ -174,31 +174,21 @@
     },
     {
       "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 27, 00:30 Uruguayan Cup Torque — Nacional (Uru)",
+      "mecz": "Nov 27, 23:00 Brazilian Serie B Vila Nova — Atletico Go",
       "typ": "U 2.5",
-      "kurs": "2.04",
-      "procent": 95.3,
-      "kwota": 995.0,
-      "przyrost": 77.0,
+      "kurs": "1.72",
+      "procent": 94.4,
+      "kwota": 1620.0,
+      "przyrost": 13.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 27, 23:00 Brazilian Serie B Vila Nova — Atletico Go",
-      "typ": "U 2.5",
-      "kurs": "1.71",
-      "procent": 94.4,
-      "kwota": 1607.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 27, 00:30 Uruguayan Cup Torque — Nacional (Uru)",
-      "typ": "U 3.5",
-      "kurs": "1.41",
-      "procent": 93.1,
-      "kwota": 254.0,
+      "mecz": "Nov 29, 01:00 Argentinian Primera Division Instituto — River Plate",
+      "typ": "O 2.5",
+      "kurs": "2.68",
+      "procent": 94.3,
+      "kwota": 120.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -207,18 +197,8 @@
       "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
       "typ": "U 2.5",
       "kurs": "2.22",
-      "procent": 91.9,
+      "procent": 91.8,
       "kwota": 1665.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 27, 00:30 Uruguayan Cup Torque — Nacional (Uru)",
-      "typ": "O 1.5",
-      "kurs": "1.3",
-      "procent": 90.4,
-      "kwota": 234.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -233,22 +213,12 @@
       "alert": false
     },
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 22:00 Chilean Primera B Santiago Wanderers — Deportes Recoleta",
-      "typ": "2 LIVE",
-      "kurs": "1.04",
-      "procent": 79.3,
-      "kwota": 32358.0,
-      "przyrost": 13339.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 27, 00:00 Nicaraguan Primera Division Diriangen FC — Indigenas de Matagalpa FC",
-      "typ": "1 LIVE",
-      "kurs": "1.12",
-      "procent": 73.1,
-      "kwota": 294.0,
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 27, 00:30 Uruguayan Cup Torque — Nacional (Uru)",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.03",
+      "procent": 88.4,
+      "kwota": 6778.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -258,18 +228,8 @@
       "typ": "O 3.5",
       "kurs": "1.19",
       "procent": 73.0,
-      "kwota": 306.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 23:00 Brazilian Serie A Sao Paulo — Remo",
-      "typ": "U 2.5 LIVE",
-      "kurs": "3.05",
-      "procent": 71.8,
-      "kwota": 66961.0,
-      "przyrost": 30034.0,
+      "kwota": 307.0,
+      "przyrost": 1.0,
       "alert": false
     },
     {
@@ -279,16 +239,6 @@
       "kurs": "2.72",
       "procent": 62.5,
       "kwota": 110.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 27, 00:00 Nicaraguan Primera Division Diriangen FC — Indigenas de Matagalpa FC",
-      "typ": "U 2.5 LIVE",
-      "kurs": "4.3",
-      "procent": 57.8,
-      "kwota": 97.0,
       "przyrost": 0.0,
       "alert": false
     }
