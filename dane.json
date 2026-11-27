@@ -1,25 +1,15 @@
 {
-  "aktualizacja_utc": "2026-11-27 01:55",
-  "liczba_zdarzen": 24,
+  "aktualizacja_utc": "2026-11-27 02:52",
+  "liczba_zdarzen": 23,
   "zdarzenia": [
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 27, 00:00 Nicaraguan Primera Division Diriangen FC — Indigenas de Matagalpa FC",
-      "typ": "1 LIVE",
-      "kurs": "1.02",
-      "procent": 97.2,
-      "kwota": 5262.0,
-      "przyrost": 4968.0,
-      "alert": true
-    },
     {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 29, 19:00 Bolivian Liga de Futbol Profesional Aurora — The Strongest",
       "typ": "1",
       "kurs": "2.02",
       "procent": 100.0,
-      "kwota": 4957.0,
-      "przyrost": 0.0,
+      "kwota": 4960.0,
+      "przyrost": 3.0,
       "alert": false
     },
     {
@@ -28,8 +18,8 @@
       "typ": "1",
       "kurs": "1.1",
       "procent": 100.0,
-      "kwota": 4018.0,
-      "przyrost": 0.0,
+      "kwota": 4017.0,
+      "przyrost": -1.0,
       "alert": false
     },
     {
@@ -43,10 +33,20 @@
       "alert": false
     },
     {
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 27, 14:20 Saudi Professional League Al-Quadisiya (KSA) — Al-Feiha",
+      "typ": "2 HT",
+      "kurs": "8.8",
+      "procent": 100.0,
+      "kwota": 381.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 27, 19:00 Bolivian Liga de Futbol Profesional Academia de Balompie Boliviano — Real Tomayapo",
       "typ": "1",
-      "kurs": "1.72",
+      "kurs": "1.73",
       "procent": 100.0,
       "kwota": 263.0,
       "przyrost": 0.0,
@@ -104,11 +104,11 @@
     },
     {
       "rynek": "1X2 (Pre)",
-      "mecz": "Nov 28, 12:15 Saudi Professional League Al-Hazm (KSA) — Al Nassr",
-      "typ": "2",
-      "kurs": "1.26",
-      "procent": 98.0,
-      "kwota": 330.0,
+      "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
+      "typ": "1",
+      "kurs": "2.14",
+      "procent": 97.7,
+      "kwota": 148.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -116,7 +116,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 22:00 Argentinian Primera Nacional CA Atlanta — Ciudad de Bolivar",
       "typ": "U 2.5",
-      "kurs": "1.42",
+      "kurs": "1.41",
       "procent": 97.2,
       "kwota": 549.0,
       "przyrost": 0.0,
@@ -156,7 +156,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 23:30 Uruguayan Primera Division Racing Club (Uru) — Liverpool Montevideo",
       "typ": "U 2.5",
-      "kurs": "1.67",
+      "kurs": "1.66",
       "procent": 96.1,
       "kwota": 1823.0,
       "przyrost": 0.0,
@@ -173,13 +173,23 @@
       "alert": false
     },
     {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 28, 12:15 Saudi Professional League Al-Hazm (KSA) — Al Nassr",
+      "typ": "2",
+      "kurs": "1.26",
+      "procent": 95.2,
+      "kwota": 331.0,
+      "przyrost": 1.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 23:00 Brazilian Serie B Vila Nova — Atletico Go",
       "typ": "U 2.5",
-      "kurs": "1.72",
+      "kurs": "1.73",
       "procent": 94.4,
       "kwota": 1620.0,
-      "przyrost": 13.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -189,16 +199,6 @@
       "kurs": "2.68",
       "procent": 94.3,
       "kwota": 120.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
-      "typ": "U 2.5",
-      "kurs": "2.22",
-      "procent": 91.8,
-      "kwota": 1665.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -213,23 +213,13 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 27, 00:30 Uruguayan Cup Torque — Nacional (Uru)",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.03",
-      "procent": 88.4,
-      "kwota": 6778.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 29, 21:15 Bolivian Liga de Futbol Profesional Bolivar — Always Ready",
       "typ": "O 3.5",
       "kurs": "1.19",
       "procent": 73.0,
       "kwota": 307.0,
-      "przyrost": 1.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
