@@ -1,17 +1,7 @@
 {
-  "aktualizacja_utc": "2026-11-27 11:38",
-  "liczba_zdarzen": 43,
+  "aktualizacja_utc": "2026-11-27 12:44",
+  "liczba_zdarzen": 46,
   "zdarzenia": [
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 27, 10:30 Azerbaijan 1st Division Zaqatala — Khankhedi",
-      "typ": "2 LIVE",
-      "kurs": "1.07",
-      "procent": 94.9,
-      "kwota": 2873.0,
-      "przyrost": 2660.0,
-      "alert": true
-    },
     {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 29, 19:00 Bolivian Liga de Futbol Profesional Aurora — The Strongest",
@@ -28,8 +18,8 @@
       "typ": "1",
       "kurs": "1.1",
       "procent": 100.0,
-      "kwota": 4017.0,
-      "przyrost": 0.0,
+      "kwota": 4015.0,
+      "przyrost": -2.0,
       "alert": false
     },
     {
@@ -49,7 +39,17 @@
       "kurs": "2.02",
       "procent": 100.0,
       "kwota": 232.0,
-      "przyrost": 25.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 27, 12:30 Egyptian 2nd Division Tanta — El Mansurah",
+      "typ": "X HT",
+      "kurs": "1.88",
+      "procent": 100.0,
+      "kwota": 204.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -83,16 +83,6 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 27, 10:30 Bangalore Super Division League HAL SC Bangalore — ASC",
-      "typ": "O 2.5 LIVE",
-      "kurs": "1.19",
-      "procent": 99.9,
-      "kwota": 637.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 28, 23:30 Bolivian Liga de Futbol Profesional Nacional Potosi — Oriente Petrolero",
       "typ": "O 2.5",
@@ -103,12 +93,22 @@
       "alert": false
     },
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 27, 10:30 Bangalore Super Division League HAL SC Bangalore — ASC",
-      "typ": "2 LIVE",
-      "kurs": "2.78",
-      "procent": 97.6,
-      "kwota": 1218.0,
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 27, 12:20 Saudi 2nd Division Al Rayyan Ar Rawdah — Al Batin",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.61",
+      "procent": 98.2,
+      "kwota": 111.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 28, 14:20 Saudi Professional League Al-Ettifaq — Al-Hilal",
+      "typ": "2",
+      "kurs": "1.22",
+      "procent": 98.1,
+      "kwota": 725.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -123,22 +123,32 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 28, 00:00 Argentinian Primera Nacional Tristan Suarez — Club Gimnasia y Tiro",
-      "typ": "U 2.5",
-      "kurs": "1.42",
-      "procent": 97.2,
-      "kwota": 412.0,
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 27, 15:30 Qatari Stars League Lusail — Al Arabi (QAT)",
+      "typ": "2",
+      "kurs": "1.75",
+      "procent": 97.3,
+      "kwota": 1452.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 27, 12:20 Saudi 2nd Division Al Qalah — Al Taraji",
+      "typ": "1 LIVE",
+      "kurs": "1.32",
+      "procent": 97.1,
+      "kwota": 206.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "1X2 (Pre)",
-      "mecz": "Nov 28, 23:00 Argentinian Primera Division Velez Sarsfield — CA Independiente",
-      "typ": "2",
-      "kurs": "4.0",
+      "mecz": "Nov 27, 12:40 Omani Sultan Cup Sohar — Al-Mudhaibi",
+      "typ": "1",
+      "kurs": "1.65",
       "procent": 97.1,
-      "kwota": 170.0,
+      "kwota": 191.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -146,19 +156,9 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 19:15 Swiss Challenge League Etoile Carouge — Stade Lausanne-Ouchy",
       "typ": "U 2.5",
-      "kurs": "2.34",
+      "kurs": "2.26",
       "procent": 96.6,
       "kwota": 976.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 27, 12:20 Saudi 2nd Division Al Qalah — Al Taraji",
-      "typ": "1",
-      "kurs": "2.06",
-      "procent": 96.0,
-      "kwota": 125.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -167,9 +167,9 @@
       "mecz": "Nov 28, 12:15 Saudi Professional League Al-Hazm (KSA) — Al Nassr",
       "typ": "2",
       "kurs": "1.26",
-      "procent": 95.9,
-      "kwota": 393.0,
-      "przyrost": 0.0,
+      "procent": 95.8,
+      "kwota": 396.0,
+      "przyrost": 3.0,
       "alert": false
     },
     {
@@ -183,13 +183,23 @@
       "alert": false
     },
     {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 28, 19:30 Swiss Super League Servette — Lausanne",
+      "typ": "2",
+      "kurs": "3.65",
+      "procent": 95.6,
+      "kwota": 98.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 23:30 Uruguayan Primera Division Racing Club (Uru) — Liverpool Montevideo",
       "typ": "U 2.5",
-      "kurs": "1.6",
+      "kurs": "1.61",
       "procent": 95.5,
-      "kwota": 1883.0,
-      "przyrost": 0.0,
+      "kwota": 1886.0,
+      "przyrost": 3.0,
       "alert": false
     },
     {
@@ -199,16 +209,6 @@
       "kurs": "1.91",
       "procent": 94.8,
       "kwota": 333.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 27, 23:00 Paraguayan Primera Division Sportivo Luqueno — Olimpia",
-      "typ": "2",
-      "kurs": "1.75",
-      "procent": 94.5,
-      "kwota": 4876.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -236,19 +236,19 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 12:30 Egyptian 2nd Division Tanta — El Mansurah",
       "typ": "U 2.5",
-      "kurs": "1.51",
-      "procent": 93.5,
-      "kwota": 159.0,
-      "przyrost": 30.0,
+      "kurs": "1.5",
+      "procent": 90.4,
+      "kwota": 160.0,
+      "przyrost": 1.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 27, 10:30 Azerbaijan 1st Division Zaqatala — Khankhedi",
-      "typ": "O 2.5 LIVE",
-      "kurs": "1.22",
-      "procent": 90.8,
-      "kwota": 326.0,
+      "mecz": "Nov 27, 11:50 Saudi 2nd Division AL-Sahel — Hottain",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.37",
+      "procent": 90.3,
+      "kwota": 91.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -274,41 +274,11 @@
     },
     {
       "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 27, 12:00 Thai League 1 Uthai Thani — Sisaket United",
-      "typ": "O 1.5",
-      "kurs": "1.25",
-      "procent": 86.1,
-      "kwota": 108.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 27, 17:30 Saudi Professional League Al-Ittihad — NEOM Sports Club",
       "typ": "O 1.5",
-      "kurs": "1.29",
+      "kurs": "1.3",
       "procent": 84.8,
       "kwota": 359.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 27, 10:00 Israeli Liga Alef Nord Jerusalem — Ramat Hasharon",
-      "typ": "2 LIVE",
-      "kurs": "1.07",
-      "procent": 84.6,
-      "kwota": 1372.0,
-      "przyrost": 1081.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 27, 11:00 Vietnamese V-League Song Lam Nghe An — Ninh Binh",
-      "typ": "X LIVE",
-      "kurs": "3.3",
-      "procent": 83.1,
-      "kwota": 4950.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -323,10 +293,20 @@
       "alert": false
     },
     {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 27, 12:30 Egyptian 2nd Division Telecom Egypt SC — Team FC",
+      "typ": "1 LIVE",
+      "kurs": "1.74",
+      "procent": 82.3,
+      "kwota": 461.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "1X2 HT (Pre)",
       "mecz": "Nov 27, 14:20 Saudi Professional League Al-Quadisiya (KSA) — Al-Feiha",
       "typ": "2 HT",
-      "kurs": "11.0",
+      "kurs": "12.0",
       "procent": 81.9,
       "kwota": 381.0,
       "przyrost": 0.0,
@@ -336,29 +316,29 @@
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
       "typ": "O 1.5",
-      "kurs": "1.3",
+      "kurs": "1.29",
       "procent": 81.7,
-      "kwota": 159.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 27, 12:15 Saudi Professional League Al-Kholood Club — Al-Khaleej Saihat",
-      "typ": "O 1.5",
-      "kurs": "1.26",
-      "procent": 80.2,
-      "kwota": 124.0,
-      "przyrost": 0.0,
+      "kwota": 160.0,
+      "przyrost": 1.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 27, 11:00 Vietnamese V-League Song Lam Nghe An — Ninh Binh",
-      "typ": "U 2.5 LIVE",
-      "kurs": "2.28",
-      "procent": 74.1,
-      "kwota": 727.0,
+      "mecz": "Nov 27, 12:30 Egyptian 2nd Division Telecom Egypt SC — Team FC",
+      "typ": "O 2.5 LIVE",
+      "kurs": "2.78",
+      "procent": 78.7,
+      "kwota": 176.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 27, 13:00 Qatari Stars League Al Sailiya — Al Gharafa",
+      "typ": "U 3.5",
+      "kurs": "1.71",
+      "procent": 75.4,
+      "kwota": 76.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -373,12 +353,22 @@
       "alert": false
     },
     {
-      "rynek": "O/U 3.5 (Pre)",
+      "rynek": "O/U 2.5 (LIVE)",
       "mecz": "Nov 27, 12:15 Saudi Professional League Al-Kholood Club — Al-Khaleej Saihat",
-      "typ": "U 3.5",
-      "kurs": "1.48",
-      "procent": 71.5,
-      "kwota": 350.0,
+      "typ": "U 2.5 LIVE",
+      "kurs": "3.45",
+      "procent": 72.6,
+      "kwota": 3332.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 27, 12:20 Saudi 2nd Division Al Rayyan Ar Rawdah — Al Batin",
+      "typ": "X LIVE",
+      "kurs": "3.25",
+      "procent": 69.1,
+      "kwota": 217.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -386,29 +376,59 @@
       "rynek": "O/U 2.5 (LIVE)",
       "mecz": "Nov 27, 11:00 Vietnamese V-League Nam Dinh — Cong An Ha Noi",
       "typ": "U 2.5 LIVE",
-      "kurs": "1.44",
-      "procent": 62.7,
-      "kwota": 1247.0,
-      "przyrost": 0.0,
+      "kurs": "1.01",
+      "procent": 66.1,
+      "kwota": 2498.0,
+      "przyrost": 1251.0,
       "alert": false
     },
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 27, 14:20 Saudi Professional League Al-Quadisiya (KSA) — Al-Feiha",
       "typ": "U 3.5",
-      "kurs": "2.38",
-      "procent": 62.7,
-      "kwota": 371.0,
-      "przyrost": 146.0,
+      "kurs": "2.4",
+      "procent": 64.7,
+      "kwota": 412.0,
+      "przyrost": 41.0,
       "alert": false
     },
     {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 29, 23:00 Paraguayan Primera Division Sportivo San Lorenzo — Club Sportivo Ameliano",
-      "typ": "O 3.5",
-      "kurs": "2.74",
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 27, 11:00 Vietnamese V-League Song Lam Nghe An — Ninh Binh",
+      "typ": "X LIVE",
+      "kurs": "4.5",
+      "procent": 64.2,
+      "kwota": 6411.0,
+      "przyrost": 1461.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 27, 11:00 Vietnamese V-League Song Lam Nghe An — Ninh Binh",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.09",
+      "procent": 63.6,
+      "kwota": 2653.0,
+      "przyrost": 1926.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 27, 12:45 UAE Division 1 Gulf United — Palm City FC",
+      "typ": "2 HT",
+      "kurs": "2.86",
+      "procent": 63.3,
+      "kwota": 95.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 27, 12:15 Saudi 2nd Division Al Qotah — Al Qwarah",
+      "typ": "2 LIVE",
+      "kurs": "1.69",
       "procent": 62.4,
-      "kwota": 110.0,
+      "kwota": 127.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -416,20 +436,30 @@
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 28, 01:40 Colombian Primera A Millonarios — America de Cali S.A",
       "typ": "U 1.5",
-      "kurs": "2.88",
+      "kurs": "2.86",
       "procent": 58.2,
       "kwota": 124.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 27, 12:00 Thai League 1 Uthai Thani — Sisaket United",
+      "typ": "U 2.5 LIVE",
+      "kurs": "7.0",
+      "procent": 56.1,
+      "kwota": 339.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "1X2 (LIVE)",
       "mecz": "Nov 27, 11:00 Vietnamese V-League Nam Dinh — Cong An Ha Noi",
-      "typ": "1 LIVE",
-      "kurs": "3.05",
-      "procent": 50.1,
-      "kwota": 985.0,
-      "przyrost": 0.0,
+      "typ": "X LIVE",
+      "kurs": "1.58",
+      "procent": 50.0,
+      "kwota": 2600.0,
+      "przyrost": 1968.0,
       "alert": false
     }
   ]
