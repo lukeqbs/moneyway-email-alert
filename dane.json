@@ -1,15 +1,25 @@
 {
-  "aktualizacja_utc": "2026-11-26 23:27",
-  "liczba_zdarzen": 26,
+  "aktualizacja_utc": "2026-11-27 00:28",
+  "liczba_zdarzen": 29,
   "zdarzenia": [
     {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 28, 23:30 Bolivian Liga de Futbol Profesional Nacional Potosi — Oriente Petrolero",
-      "typ": "1",
-      "kurs": "1.1",
-      "procent": 100.0,
-      "kwota": 4018.0,
-      "przyrost": 3465.0,
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 26, 23:00 Brazilian Serie A Sao Paulo — Remo",
+      "typ": "1 LIVE",
+      "kurs": "1.98",
+      "procent": 88.7,
+      "kwota": 240470.0,
+      "przyrost": 121580.0,
+      "alert": true
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 26, 22:30 Paraguayan Cup Cerro Porteno — Libertad",
+      "typ": "2 LIVE",
+      "kurs": "3.3",
+      "procent": 88.0,
+      "kwota": 46353.0,
+      "przyrost": 26175.0,
       "alert": true
     },
     {
@@ -18,8 +28,18 @@
       "typ": "1",
       "kurs": "2.02",
       "procent": 100.0,
-      "kwota": 4851.0,
-      "przyrost": 172.0,
+      "kwota": 4957.0,
+      "przyrost": 106.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 28, 23:30 Bolivian Liga de Futbol Profesional Nacional Potosi — Oriente Petrolero",
+      "typ": "1",
+      "kurs": "1.1",
+      "procent": 100.0,
+      "kwota": 4018.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -106,7 +126,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 22:00 Argentinian Primera Nacional CA Atlanta — Ciudad de Bolivar",
       "typ": "U 2.5",
-      "kurs": "1.41",
+      "kurs": "1.42",
       "procent": 97.2,
       "kwota": 549.0,
       "przyrost": 0.0,
@@ -136,9 +156,19 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 23:30 Uruguayan Primera Division Racing Club (Uru) — Liverpool Montevideo",
       "typ": "U 2.5",
-      "kurs": "1.65",
+      "kurs": "1.66",
       "procent": 96.1,
       "kwota": 1823.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 28, 23:30 Bolivian Liga de Futbol Profesional Nacional Potosi — Oriente Petrolero",
+      "typ": "O 2.5",
+      "kurs": "1.2",
+      "procent": 95.7,
+      "kwota": 134.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -147,9 +177,9 @@
       "mecz": "Nov 27, 00:30 Uruguayan Cup Torque — Nacional (Uru)",
       "typ": "U 2.5",
       "kurs": "2.04",
-      "procent": 96.1,
-      "kwota": 918.0,
-      "przyrost": 10.0,
+      "procent": 95.3,
+      "kwota": 995.0,
+      "przyrost": 77.0,
       "alert": false
     },
     {
@@ -163,12 +193,32 @@
       "alert": false
     },
     {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 27, 00:30 Uruguayan Cup Torque — Nacional (Uru)",
+      "typ": "U 3.5",
+      "kurs": "1.41",
+      "procent": 93.1,
+      "kwota": 254.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
       "typ": "U 2.5",
       "kurs": "2.22",
       "procent": 91.9,
       "kwota": 1665.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 27, 00:30 Uruguayan Cup Torque — Nacional (Uru)",
+      "typ": "O 1.5",
+      "kurs": "1.3",
+      "procent": 90.4,
+      "kwota": 234.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -184,39 +234,29 @@
     },
     {
       "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 23:00 Brazilian Serie A Sao Paulo — Remo",
-      "typ": "1 LIVE",
-      "kurs": "1.52",
-      "procent": 87.5,
-      "kwota": 118890.0,
-      "przyrost": 0.0,
+      "mecz": "Nov 26, 22:00 Chilean Primera B Santiago Wanderers — Deportes Recoleta",
+      "typ": "2 LIVE",
+      "kurs": "1.04",
+      "procent": 79.3,
+      "kwota": 32358.0,
+      "przyrost": 13339.0,
       "alert": false
     },
     {
       "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 22:30 Paraguayan Cup Cerro Porteno — Libertad",
-      "typ": "2 LIVE",
-      "kurs": "1.13",
-      "procent": 78.3,
-      "kwota": 20178.0,
+      "mecz": "Nov 27, 00:00 Nicaraguan Primera Division Diriangen FC — Indigenas de Matagalpa FC",
+      "typ": "1 LIVE",
+      "kurs": "1.12",
+      "procent": 73.1,
+      "kwota": 294.0,
       "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 22:00 Chilean Primera B Santiago Wanderers — Deportes Recoleta",
-      "typ": "O 2.5 LIVE",
-      "kurs": "1.41",
-      "procent": 77.3,
-      "kwota": 24237.0,
-      "przyrost": 15752.0,
       "alert": false
     },
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 29, 21:15 Bolivian Liga de Futbol Profesional Bolivar — Always Ready",
       "typ": "O 3.5",
-      "kurs": "1.17",
+      "kurs": "1.19",
       "procent": 73.0,
       "kwota": 306.0,
       "przyrost": 0.0,
@@ -226,20 +266,10 @@
       "rynek": "O/U 2.5 (LIVE)",
       "mecz": "Nov 26, 23:00 Brazilian Serie A Sao Paulo — Remo",
       "typ": "U 2.5 LIVE",
-      "kurs": "1.5",
-      "procent": 72.5,
-      "kwota": 36927.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 26, 22:00 Chilean Primera B Santiago Wanderers — Deportes Recoleta",
-      "typ": "2 LIVE",
-      "kurs": "1.12",
-      "procent": 69.6,
-      "kwota": 19019.0,
-      "przyrost": 18210.0,
+      "kurs": "3.05",
+      "procent": 71.8,
+      "kwota": 66961.0,
+      "przyrost": 30034.0,
       "alert": false
     },
     {
@@ -254,11 +284,11 @@
     },
     {
       "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 26, 22:30 Paraguayan Cup Cerro Porteno — Libertad",
-      "typ": "O 2.5 LIVE",
-      "kurs": "1.29",
-      "procent": 55.8,
-      "kwota": 4898.0,
+      "mecz": "Nov 27, 00:00 Nicaraguan Primera Division Diriangen FC — Indigenas de Matagalpa FC",
+      "typ": "U 2.5 LIVE",
+      "kurs": "4.3",
+      "procent": 57.8,
+      "kwota": 97.0,
       "przyrost": 0.0,
       "alert": false
     }
