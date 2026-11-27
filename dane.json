@@ -1,5 +1,5 @@
 {
-  "aktualizacja_utc": "2026-11-27 05:57",
+  "aktualizacja_utc": "2026-11-27 07:14",
   "liczba_zdarzen": 25,
   "zdarzenia": [
     {
@@ -26,20 +26,20 @@
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 29, 05:00 Japanese J League 2 Tegevajaro Miyazaki — Tosu",
       "typ": "1",
-      "kurs": "2.46",
+      "kurs": "2.48",
       "procent": 100.0,
-      "kwota": 644.0,
-      "przyrost": 1.0,
+      "kwota": 653.0,
+      "przyrost": 9.0,
       "alert": false
     },
     {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 27, 19:00 Bolivian Liga de Futbol Profesional Academia de Balompie Boliviano — Real Tomayapo",
       "typ": "1",
-      "kurs": "1.8",
+      "kurs": "1.79",
       "procent": 100.0,
-      "kwota": 266.0,
-      "przyrost": 0.0,
+      "kwota": 268.0,
+      "przyrost": 2.0,
       "alert": false
     },
     {
@@ -69,7 +69,17 @@
       "kurs": "1.91",
       "procent": 99.9,
       "kwota": 3695.0,
-      "przyrost": -1.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 28, 21:00 Chilean Primera Division Coquimbo Unido — Deportes Limache",
+      "typ": "1",
+      "kurs": "1.81",
+      "procent": 98.7,
+      "kwota": 231.0,
+      "przyrost": 31.0,
       "alert": false
     },
     {
@@ -79,16 +89,6 @@
       "kurs": "1.2",
       "procent": 98.6,
       "kwota": 537.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 28, 21:00 Chilean Primera Division Coquimbo Unido — Deportes Limache",
-      "typ": "1",
-      "kurs": "1.91",
-      "procent": 98.5,
-      "kwota": 200.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -133,16 +133,6 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 27, 22:00 Argentinian Primera Nacional CA Atlanta — Ciudad de Bolivar",
-      "typ": "U 2.5",
-      "kurs": "1.42",
-      "procent": 96.2,
-      "kwota": 549.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 28, 12:15 Saudi Professional League Al-Hazm (KSA) — Al Nassr",
       "typ": "2",
@@ -159,14 +149,14 @@
       "kurs": "2.08",
       "procent": 95.0,
       "kwota": 254.0,
-      "przyrost": 102.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 29, 01:00 Argentinian Primera Division Instituto — River Plate",
       "typ": "O 2.5",
-      "kurs": "2.68",
+      "kurs": "2.74",
       "procent": 94.3,
       "kwota": 120.0,
       "przyrost": 0.0,
@@ -196,10 +186,10 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 27, 23:00 Brazilian Serie B Vila Nova — Atletico Go",
       "typ": "U 2.5",
-      "kurs": "1.68",
-      "procent": 91.3,
-      "kwota": 1622.0,
-      "przyrost": 2.0,
+      "kurs": "1.66",
+      "procent": 91.0,
+      "kwota": 1669.0,
+      "przyrost": 47.0,
       "alert": false
     },
     {
@@ -219,6 +209,16 @@
       "kurs": "1.3",
       "procent": 81.6,
       "kwota": 159.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 27, 17:30 Saudi Professional League Al-Ittihad — NEOM Sports Club",
+      "typ": "O 1.5",
+      "kurs": "1.26",
+      "procent": 78.9,
+      "kwota": 208.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -246,10 +246,10 @@
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 27, 14:20 Saudi Professional League Al-Quadisiya (KSA) — Al-Feiha",
       "typ": "U 3.5",
-      "kurs": "2.44",
+      "kurs": "2.24",
       "procent": 57.8,
       "kwota": 90.0,
-      "przyrost": 21.0,
+      "przyrost": 0.0,
       "alert": false
     }
   ]
