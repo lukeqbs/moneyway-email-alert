@@ -1,15 +1,25 @@
 {
-  "aktualizacja_utc": "2026-11-27 21:56",
-  "liczba_zdarzen": 37,
+  "aktualizacja_utc": "2026-11-27 22:53",
+  "liczba_zdarzen": 43,
   "zdarzenia": [
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 28, 12:15 Saudi Professional League Al-Hazm (KSA) — Al Nassr",
+      "typ": "2",
+      "kurs": "1.23",
+      "procent": 96.9,
+      "kwota": 2974.0,
+      "przyrost": 2574.0,
+      "alert": true
+    },
     {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 29, 19:00 Bolivian Liga de Futbol Profesional Aurora — The Strongest",
       "typ": "1",
       "kurs": "2.14",
       "procent": 100.0,
-      "kwota": 5877.0,
-      "przyrost": 0.0,
+      "kwota": 5876.0,
+      "przyrost": -1.0,
       "alert": false
     },
     {
@@ -19,7 +29,7 @@
       "kurs": "1.1",
       "procent": 100.0,
       "kwota": 4335.0,
-      "przyrost": 2.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -33,23 +43,13 @@
       "alert": false
     },
     {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 29, 21:30 Brazilian Serie A Mirassol — Athletico-PR",
-      "typ": "1",
-      "kurs": "2.06",
-      "procent": 100.0,
-      "kwota": 383.0,
-      "przyrost": 27.0,
-      "alert": false
-    },
-    {
       "rynek": "1X2 HT (Pre)",
-      "mecz": "Nov 27, 22:00 Argentinian Primera Nacional CA Atlanta — Ciudad de Bolivar",
+      "mecz": "Nov 27, 23:00 Brazilian Serie B Vila Nova — Atletico Go",
       "typ": "X HT",
-      "kurs": "1.91",
+      "kurs": "2.04",
       "procent": 100.0,
-      "kwota": 264.0,
-      "przyrost": 0.0,
+      "kwota": 160.0,
+      "przyrost": 24.0,
       "alert": false
     },
     {
@@ -63,22 +63,22 @@
       "alert": false
     },
     {
-      "rynek": "1X2 HT (Pre)",
-      "mecz": "Nov 27, 23:00 Brazilian Serie B Vila Nova — Atletico Go",
-      "typ": "X HT",
-      "kurs": "2.02",
-      "procent": 100.0,
-      "kwota": 136.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 29, 07:30 South Korean K1 League Incheon Utd — Gangwon",
       "typ": "X",
       "kurs": "3.1",
       "procent": 100.0,
       "kwota": 135.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 27, 23:35 Colombian Primera A Deportivo Cali — Atletico Bucaramanga",
+      "typ": "X HT",
+      "kurs": "2.14",
+      "procent": 100.0,
+      "kwota": 124.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -99,7 +99,7 @@
       "kurs": "1.9",
       "procent": 99.9,
       "kwota": 3792.0,
-      "przyrost": -1.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -108,17 +108,17 @@
       "typ": "1",
       "kurs": "1.01",
       "procent": 99.7,
-      "kwota": 861.0,
-      "przyrost": 108.0,
+      "kwota": 860.0,
+      "przyrost": -1.0,
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 28, 06:00 Japanese J League Kashima — Okayama",
-      "typ": "O 2.5",
-      "kurs": "1.95",
-      "procent": 99.5,
-      "kwota": 195.0,
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 28, 12:00 Thai League 1 Rasi Salai United FC — Buriram Utd",
+      "typ": "2",
+      "kurs": "1.22",
+      "procent": 99.4,
+      "kwota": 595.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -133,6 +133,16 @@
       "alert": false
     },
     {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 29, 21:30 Brazilian Serie A Mirassol — Athletico-PR",
+      "typ": "1",
+      "kurs": "2.12",
+      "procent": 98.3,
+      "kwota": 425.0,
+      "przyrost": 42.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 28, 14:15 UAE Arabian Gulf League Al Wasl — Al Dhafra",
       "typ": "O 3.5",
@@ -143,22 +153,32 @@
       "alert": false
     },
     {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 28, 21:00 Chilean Primera Division Coquimbo Unido — Deportes Limache",
-      "typ": "1",
-      "kurs": "1.82",
-      "procent": 97.6,
-      "kwota": 323.0,
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 29, 22:30 Brazilian Serie A Atletico MG — Vasco da Gama",
+      "typ": "O 1.5",
+      "kurs": "1.27",
+      "procent": 98.1,
+      "kwota": 530.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 28, 06:00 Japanese J League Kashima — Okayama",
+      "typ": "O 2.5",
+      "kurs": "1.95",
+      "procent": 98.0,
+      "kwota": 213.0,
+      "przyrost": 18.0,
+      "alert": false
+    },
+    {
       "rynek": "1X2 (Pre)",
-      "mecz": "Nov 28, 19:30 Swiss Super League Servette — Lausanne",
-      "typ": "2",
-      "kurs": "3.8",
-      "procent": 97.4,
-      "kwota": 263.0,
+      "mecz": "Nov 28, 21:00 Chilean Primera Division Coquimbo Unido — Deportes Limache",
+      "typ": "1",
+      "kurs": "1.81",
+      "procent": 97.6,
+      "kwota": 323.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -169,46 +189,26 @@
       "kurs": "1.21",
       "procent": 97.1,
       "kwota": 801.0,
-      "przyrost": 13.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 28, 12:15 Saudi Professional League Al-Hazm (KSA) — Al Nassr",
-      "typ": "2",
-      "kurs": "1.26",
-      "procent": 95.8,
-      "kwota": 400.0,
-      "przyrost": 0.0,
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 28, 01:40 Colombian Primera A Millonarios — America de Cali S.A",
+      "typ": "U 3.5",
+      "kurs": "1.19",
+      "procent": 96.9,
+      "kwota": 249.0,
+      "przyrost": 147.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 27, 23:30 Uruguayan Primera Division Racing Club (Uru) — Liverpool Montevideo",
-      "typ": "U 2.5",
-      "kurs": "1.61",
-      "procent": 94.7,
-      "kwota": 1895.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 27, 23:00 Paraguayan Primera Division Sportivo Luqueno — Olimpia",
-      "typ": "2",
-      "kurs": "1.92",
-      "procent": 94.6,
-      "kwota": 8521.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 28, 05:00 South Korean K2 League Yongin FC — Paju Citizen",
-      "typ": "1",
-      "kurs": "1.91",
-      "procent": 94.4,
-      "kwota": 341.0,
+      "mecz": "Nov 28, 06:00 Japanese J League Kobe — Jef Utd Chiba",
+      "typ": "O 2.5",
+      "kurs": "1.85",
+      "procent": 95.3,
+      "kwota": 210.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -216,29 +216,49 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 29, 01:00 Argentinian Primera Division Instituto — River Plate",
       "typ": "O 2.5",
-      "kurs": "2.76",
+      "kurs": "2.72",
       "procent": 94.4,
       "kwota": 121.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 27, 22:00 Argentinian Primera Nacional CA Atlanta — Ciudad de Bolivar",
-      "typ": "U 2.5",
-      "kurs": "1.41",
-      "procent": 93.3,
-      "kwota": 685.0,
-      "przyrost": 88.0,
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 27, 23:00 Paraguayan Primera Division Sportivo Luqueno — Olimpia",
+      "typ": "2 HT",
+      "kurs": "2.46",
+      "procent": 92.6,
+      "kwota": 209.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 28, 01:40 Colombian Primera A Millonarios — America de Cali S.A",
-      "typ": "U 3.5",
-      "kurs": "1.2",
-      "procent": 92.8,
-      "kwota": 102.0,
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 27, 23:30 Uruguayan Primera Division Racing Club (Uru) — Liverpool Montevideo",
+      "typ": "U 2.5",
+      "kurs": "1.59",
+      "procent": 91.8,
+      "kwota": 2042.0,
+      "przyrost": 147.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 27, 22:00 CONCACAF Women's Matches Jamaica (W) — Costa Rica (W)",
+      "typ": "1 LIVE",
+      "kurs": "1.19",
+      "procent": 91.7,
+      "kwota": 12118.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 27, 22:00 Argentinian Primera Nacional CA Atlanta — Ciudad de Bolivar",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.53",
+      "procent": 91.6,
+      "kwota": 12080.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -246,20 +266,10 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 28, 00:00 Argentinian Primera Nacional Tristan Suarez — Club Gimnasia y Tiro",
       "typ": "U 2.5",
-      "kurs": "1.43",
-      "procent": 90.7,
-      "kwota": 461.0,
-      "przyrost": 14.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 28, 05:00 Japanese J League Kyoto — Cerezo Osaka",
-      "typ": "O 2.5",
-      "kurs": "1.8",
-      "procent": 89.9,
-      "kwota": 203.0,
-      "przyrost": 9.0,
+      "kurs": "1.44",
+      "procent": 91.0,
+      "kwota": 479.0,
+      "przyrost": 18.0,
       "alert": false
     },
     {
@@ -273,72 +283,52 @@
       "alert": false
     },
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 27, 20:30 Paraguayan Primera Division Nacional (Par) — Rubio Nu",
-      "typ": "1 LIVE",
-      "kurs": "1.21",
-      "procent": 81.7,
-      "kwota": 12682.0,
-      "przyrost": 4422.0,
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 28, 05:00 Japanese J League Kyoto — Cerezo Osaka",
+      "typ": "O 2.5",
+      "kurs": "1.8",
+      "procent": 88.8,
+      "kwota": 228.0,
+      "przyrost": 25.0,
       "alert": false
     },
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 27, 23:00 Bolivian Liga de Futbol Profesional Ind Petrolero — Real Oruro",
       "typ": "O 3.5",
-      "kurs": "2.04",
-      "procent": 78.7,
-      "kwota": 1221.0,
-      "przyrost": 182.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 27, 23:35 Colombian Primera A Deportivo Cali — Atletico Bucaramanga",
-      "typ": "U 3.5",
-      "kurs": "1.22",
-      "procent": 75.0,
-      "kwota": 91.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 29, 21:15 Bolivian Liga de Futbol Profesional Bolivar — Always Ready",
-      "typ": "O 3.5",
-      "kurs": "1.19",
-      "procent": 72.6,
-      "kwota": 307.0,
-      "przyrost": 0.0,
+      "kurs": "1.98",
+      "procent": 75.1,
+      "kwota": 1382.0,
+      "przyrost": 161.0,
       "alert": false
     },
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 27, 23:00 Brazilian Serie B Vila Nova — Atletico Go",
       "typ": "U 3.5",
-      "kurs": "1.19",
-      "procent": 72.4,
-      "kwota": 386.0,
-      "przyrost": 0.0,
+      "kurs": "1.2",
+      "procent": 73.2,
+      "kwota": 509.0,
+      "przyrost": 123.0,
       "alert": false
     },
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
       "typ": "U 3.5",
-      "kurs": "1.34",
-      "procent": 71.2,
-      "kwota": 1935.0,
-      "przyrost": 596.0,
+      "kurs": "1.36",
+      "procent": 72.9,
+      "kwota": 2328.0,
+      "przyrost": 393.0,
       "alert": false
     },
     {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 28, 01:40 Colombian Primera A Millonarios — America de Cali S.A",
-      "typ": "U 1.5",
-      "kurs": "2.7",
-      "procent": 64.8,
-      "kwota": 316.0,
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 29, 21:15 Bolivian Liga de Futbol Profesional Bolivar — Always Ready",
+      "typ": "O 3.5",
+      "kurs": "1.2",
+      "procent": 70.2,
+      "kwota": 307.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -346,10 +336,40 @@
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
       "typ": "O 1.5",
-      "kurs": "1.35",
-      "procent": 63.4,
-      "kwota": 995.0,
-      "przyrost": 226.0,
+      "kurs": "1.34",
+      "procent": 69.7,
+      "kwota": 2915.0,
+      "przyrost": 1920.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 27, 22:00 CONCACAF Women's Matches Jamaica (W) — Costa Rica (W)",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.81",
+      "procent": 68.0,
+      "kwota": 9467.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 27, 23:00 Paraguayan Primera Division Sportivo Luqueno — Olimpia",
+      "typ": "O 3.5",
+      "kurs": "3.1",
+      "procent": 65.9,
+      "kwota": 68.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 28, 01:40 Colombian Primera A Millonarios — America de Cali S.A",
+      "typ": "U 1.5",
+      "kurs": "2.66",
+      "procent": 63.9,
+      "kwota": 318.0,
+      "przyrost": 2.0,
       "alert": false
     },
     {
@@ -363,13 +383,53 @@
       "alert": false
     },
     {
+      "rynek": "1X2 HT (Pre)",
+      "mecz": "Nov 27, 23:00 Brazilian Serie A Fluminense — Cruzeiro MG",
+      "typ": "1 HT",
+      "kurs": "2.48",
+      "procent": 60.1,
+      "kwota": 120.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 27, 23:00 Brazilian Serie B Vila Nova — Atletico Go",
       "typ": "O 1.5",
-      "kurs": "1.58",
-      "procent": 56.3,
-      "kwota": 1199.0,
-      "przyrost": 130.0,
+      "kurs": "1.56",
+      "procent": 56.6,
+      "kwota": 1410.0,
+      "przyrost": 211.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 27, 23:35 Colombian Primera A Deportivo Cali — Atletico Bucaramanga",
+      "typ": "U 3.5",
+      "kurs": "1.23",
+      "procent": 55.9,
+      "kwota": 118.0,
+      "przyrost": 27.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 27, 23:35 Colombian Primera A Deportivo Cali — Atletico Bucaramanga",
+      "typ": "O 1.5",
+      "kurs": "1.5",
+      "procent": 51.9,
+      "kwota": 657.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 27, 23:00 Paraguayan Primera Division Sportivo Luqueno — Olimpia",
+      "typ": "O 1.5",
+      "kurs": "1.28",
+      "procent": 50.1,
+      "kwota": 621.0,
+      "przyrost": 0.0,
       "alert": false
     }
   ]
