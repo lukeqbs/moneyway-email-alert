@@ -1,15 +1,25 @@
 {
-  "aktualizacja_utc": "2026-11-28 06:45",
-  "liczba_zdarzen": 77,
+  "aktualizacja_utc": "2026-11-28 08:00",
+  "liczba_zdarzen": 61,
   "zdarzenia": [
     {
       "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 05:00 Japanese J League 2 Omiya — FC Imabari",
+      "mecz": "Nov 28, 06:00 Japanese J League Kashima — Okayama",
       "typ": "1 LIVE",
-      "kurs": "1.19",
-      "procent": 90.7,
-      "kwota": 26052.0,
-      "przyrost": 20042.0,
+      "kurs": "1.07",
+      "procent": 88.8,
+      "kwota": 118629.0,
+      "przyrost": 80767.0,
+      "alert": true
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 28, 06:00 Japanese J League Kobe — Jef Utd Chiba",
+      "typ": "1 LIVE",
+      "kurs": "1.1",
+      "procent": 87.5,
+      "kwota": 107767.0,
+      "przyrost": 48145.0,
       "alert": true
     },
     {
@@ -39,16 +49,6 @@
       "kurs": "2.52",
       "procent": 100.0,
       "kwota": 656.0,
-      "przyrost": 4.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 29, 05:00 Japanese J League 3 Kanazawa — FC Gifu",
-      "typ": "2",
-      "kurs": "2.36",
-      "procent": 100.0,
-      "kwota": 241.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -58,8 +58,8 @@
       "typ": "2",
       "kurs": "2.36",
       "procent": 100.0,
-      "kwota": 142.0,
-      "przyrost": 0.0,
+      "kwota": 211.0,
+      "przyrost": 69.0,
       "alert": false
     },
     {
@@ -70,16 +70,6 @@
       "procent": 100.0,
       "kwota": 135.0,
       "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 HT (Pre)",
-      "mecz": "Nov 28, 07:30 South Korean K1 League Bucheon FC 1995 — Gimcheon Sangmu",
-      "typ": "X HT",
-      "kurs": "2.28",
-      "procent": 100.0,
-      "kwota": 135.0,
-      "przyrost": 6.0,
       "alert": false
     },
     {
@@ -94,12 +84,22 @@
     },
     {
       "rynek": "1X2 (Pre)",
+      "mecz": "Nov 29, 05:00 Japanese J League 3 Kanazawa — FC Gifu",
+      "typ": "2",
+      "kurs": "2.38",
+      "procent": 99.6,
+      "kwota": 253.0,
+      "przyrost": 12.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (Pre)",
       "mecz": "Nov 28, 12:00 Thai League 1 Rasi Salai United FC — Buriram Utd",
       "typ": "2",
-      "kurs": "1.23",
+      "kurs": "1.22",
       "procent": 99.4,
-      "kwota": 597.0,
-      "przyrost": 0.0,
+      "kwota": 648.0,
+      "przyrost": 51.0,
       "alert": false
     },
     {
@@ -166,7 +166,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 29, 01:00 Honduras Liga Nacional Olancho — CD Motagua",
       "typ": "O 2.5",
-      "kurs": "1.23",
+      "kurs": "1.25",
       "procent": 98.8,
       "kwota": 3263.0,
       "przyrost": 0.0,
@@ -174,31 +174,41 @@
     },
     {
       "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 29, 05:00 Japanese J League 3 Thespakusatsu Gunma — Matsumoto",
+      "typ": "O 2.5",
+      "kurs": "1.8",
+      "procent": 98.8,
+      "kwota": 2373.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 29, 05:00 Japanese J League 3 Kanazawa — FC Gifu",
       "typ": "O 2.5",
-      "kurs": "1.86",
+      "kurs": "1.85",
       "procent": 98.7,
       "kwota": 1508.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 28, 23:30 Bolivian Liga de Futbol Profesional Nacional Potosi — Oriente Petrolero",
-      "typ": "1",
-      "kurs": "1.1",
-      "procent": 98.5,
-      "kwota": 4566.0,
-      "przyrost": 31.0,
-      "alert": false
-    },
-    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 28, 23:30 Bolivian Liga de Futbol Profesional Nacional Potosi — Oriente Petrolero",
       "typ": "O 2.5",
-      "kurs": "1.1",
+      "kurs": "1.11",
+      "procent": 98.6,
+      "kwota": 1022.0,
+      "przyrost": 149.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 28, 23:30 Bolivian Liga de Futbol Profesional Nacional Potosi — Oriente Petrolero",
+      "typ": "1",
+      "kurs": "1.11",
       "procent": 98.3,
-      "kwota": 873.0,
+      "kwota": 4566.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -236,7 +246,7 @@
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 29, 23:00 Paraguayan Primera Division Libertad — Club 2 de Mayo de PJC",
       "typ": "O 1.5",
-      "kurs": "1.26",
+      "kurs": "1.25",
       "procent": 98.1,
       "kwota": 1078.0,
       "przyrost": 0.0,
@@ -284,11 +294,11 @@
     },
     {
       "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 29, 05:00 Japanese J League 3 Kanazawa — FC Gifu",
-      "typ": "O 3.5",
-      "kurs": "3.15",
+      "mecz": "Nov 28, 23:00 Brazilian Serie B Fortaleza EC — Criciuma",
+      "typ": "U 3.5",
+      "kurs": "1.15",
       "procent": 97.9,
-      "kwota": 1531.0,
+      "kwota": 114.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -316,19 +326,19 @@
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 29, 01:00 Honduras Liga Nacional CD Olimpia — Estrella Roja",
       "typ": "O 3.5",
-      "kurs": "1.19",
+      "kurs": "1.33",
       "procent": 97.8,
       "kwota": 1262.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 29, 21:30 Brazilian Serie A Mirassol — Athletico-PR",
-      "typ": "1",
-      "kurs": "2.06",
-      "procent": 97.7,
-      "kwota": 669.0,
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 29, 05:00 Japanese J League 3 Kanazawa — FC Gifu",
+      "typ": "O 3.5",
+      "kurs": "3.25",
+      "procent": 97.6,
+      "kwota": 1531.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -363,20 +373,10 @@
       "alert": false
     },
     {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 28, 23:30 Bolivian Liga de Futbol Profesional Nacional Potosi — Oriente Petrolero",
-      "typ": "O 3.5",
-      "kurs": "1.28",
-      "procent": 97.4,
-      "kwota": 1198.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 29, 05:00 Japanese J League 3 Mio Biwako Shiga — Ehime",
       "typ": "O 2.5",
-      "kurs": "1.72",
+      "kurs": "1.7",
       "procent": 97.4,
       "kwota": 369.0,
       "przyrost": 0.0,
@@ -424,16 +424,6 @@
     },
     {
       "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 29, 05:00 Japanese J League 3 Thespakusatsu Gunma — Matsumoto",
-      "typ": "U 1.5",
-      "kurs": "4.3",
-      "procent": 97.1,
-      "kwota": 288.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 28, 23:00 Nicaraguan Primera Division UNAN Managua — CD Walter Ferreti",
       "typ": "U 1.5",
       "kurs": "5.7",
@@ -444,12 +434,22 @@
     },
     {
       "rynek": "1X2 (Pre)",
-      "mecz": "Nov 28, 12:15 Saudi Professional League Al-Hazm (KSA) — Al Nassr",
-      "typ": "2",
-      "kurs": "1.24",
+      "mecz": "Nov 29, 05:00 Japanese J League 2 Shonan — Toyama",
+      "typ": "1",
+      "kurs": "2.6",
+      "procent": 96.5,
+      "kwota": 395.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 28, 23:00 Brazilian Serie B Fortaleza EC — Criciuma",
+      "typ": "U 2.5",
+      "kurs": "1.42",
       "procent": 96.4,
-      "kwota": 5525.0,
-      "przyrost": 25.0,
+      "kwota": 188.0,
+      "przyrost": 9.0,
       "alert": false
     },
     {
@@ -463,22 +463,22 @@
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 28, 23:00 Brazilian Serie B Fortaleza EC — Criciuma",
-      "typ": "U 2.5",
-      "kurs": "1.43",
-      "procent": 96.2,
-      "kwota": 179.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 29, 19:00 Brazilian Serie A Coritiba — Flamengo",
       "typ": "2",
       "kurs": "1.77",
       "procent": 96.1,
       "kwota": 825.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 28, 23:30 Bolivian Liga de Futbol Profesional Nacional Potosi — Oriente Petrolero",
+      "typ": "O 3.5",
+      "kurs": "1.28",
+      "procent": 95.9,
+      "kwota": 1198.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -496,29 +496,19 @@
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 29, 05:00 Japanese J League 3 Nagano Parceiro — Kitakyushu",
       "typ": "U 1.5",
-      "kurs": "3.7",
+      "kurs": "3.9",
       "procent": 95.9,
       "kwota": 514.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 28, 13:00 Qatari Stars League Al-Wakra — Al-Sadd",
-      "typ": "O 2.5",
-      "kurs": "1.32",
-      "procent": 94.9,
-      "kwota": 106.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 29, 01:00 Honduras Liga Nacional CD Marathon — Genesis Huracan",
-      "typ": "U 1.5",
-      "kurs": "3.85",
-      "procent": 94.5,
-      "kwota": 2252.0,
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 28, 21:00 Chilean Primera Division Coquimbo Unido — Deportes Limache",
+      "typ": "1",
+      "kurs": "1.7",
+      "procent": 95.7,
+      "kwota": 474.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -553,16 +543,6 @@
       "alert": false
     },
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 06:00 Japanese J League Kobe — Jef Utd Chiba",
-      "typ": "1 LIVE",
-      "kurs": "1.33",
-      "procent": 92.8,
-      "kwota": 59622.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 28, 21:30 CONCACAF Women's Matches Mexico (W) — Haiti (W)",
       "typ": "U 1.5",
@@ -583,192 +563,52 @@
       "alert": false
     },
     {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 06:00 Japanese J League Kashima — Okayama",
-      "typ": "1 LIVE",
-      "kurs": "1.74",
-      "procent": 87.0,
-      "kwota": 37862.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 1.5 (Pre)",
-      "mecz": "Nov 28, 07:30 South Korean K1 League Pohang Steelers — Gwangju FC",
-      "typ": "O 1.5",
-      "kurs": "1.4",
-      "procent": 86.8,
-      "kwota": 135.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
       "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 28, 05:00 Japanese J League Shimizu — Urawa",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.06",
-      "procent": 84.7,
-      "kwota": 17180.0,
-      "przyrost": 15181.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 28, 07:30 South Korean K1 League Bucheon FC 1995 — Gimcheon Sangmu",
-      "typ": "U 3.5",
-      "kurs": "1.36",
-      "procent": 84.6,
-      "kwota": 135.0,
-      "przyrost": 34.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 28, 07:00 Japanese J League Kashiwa — Hiroshima",
-      "typ": "O 3.5",
-      "kurs": "2.84",
-      "procent": 83.6,
-      "kwota": 198.0,
-      "przyrost": 28.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 05:00 Japanese J League Kyoto — Cerezo Osaka",
-      "typ": "1 LIVE",
-      "kurs": "2.54",
-      "procent": 81.9,
-      "kwota": 38528.0,
-      "przyrost": 33362.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 28, 05:00 Japanese J League 3 Kochi United — Nara Club",
       "typ": "U 2.5 LIVE",
-      "kurs": "1.05",
-      "procent": 79.0,
-      "kwota": 10010.0,
-      "przyrost": 7271.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 05:00 South Korean K1 League FC Anyang — Jeju Utd",
-      "typ": "1 LIVE",
-      "kurs": "1.18",
-      "procent": 78.5,
-      "kwota": 28594.0,
-      "przyrost": 9049.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 28, 14:15 UAE Arabian Gulf League Al Wasl — Al Dhafra",
-      "typ": "O 3.5",
-      "kurs": "1.83",
-      "procent": 78.2,
-      "kwota": 154.0,
-      "przyrost": 35.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 28, 05:00 South Korean K2 League Gimhae City — Seongnam FC",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.38",
-      "procent": 74.2,
-      "kwota": 1173.0,
-      "przyrost": 760.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 28, 05:00 South Korean K1 League FC Anyang — Jeju Utd",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.05",
-      "procent": 74.1,
-      "kwota": 3937.0,
-      "przyrost": 1256.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 29, 21:15 Bolivian Liga de Futbol Profesional Bolivar — Always Ready",
-      "typ": "O 3.5",
-      "kurs": "1.21",
-      "procent": 70.2,
-      "kwota": 307.0,
+      "kurs": "1.49",
+      "procent": 79.2,
+      "kwota": 2101.0,
       "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 05:00 Japanese J League 3 Kochi United — Nara Club",
-      "typ": "2 LIVE",
-      "kurs": "60.0",
-      "procent": 68.2,
-      "kwota": 4629.0,
-      "przyrost": 3651.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 05:00 South Korean K1 League FC Seoul — Daejeon Citizen",
-      "typ": "1 LIVE",
-      "kurs": "1.02",
-      "procent": 66.6,
-      "kwota": 20078.0,
-      "przyrost": 19105.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 05:00 South Korean K2 League Gimhae City — Seongnam FC",
-      "typ": "2 LIVE",
-      "kurs": "2.62",
-      "procent": 65.1,
-      "kwota": 1968.0,
-      "przyrost": 1367.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 28, 06:00 Japanese J League Kobe — Jef Utd Chiba",
-      "typ": "O 2.5 LIVE",
-      "kurs": "1.74",
-      "procent": 57.2,
-      "kwota": 2243.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 05:00 Japanese J League Shimizu — Urawa",
-      "typ": "2 LIVE",
-      "kurs": "44.0",
-      "procent": 54.6,
-      "kwota": 35051.0,
-      "przyrost": 13444.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 28, 05:00 South Korean K2 League Yongin FC — Paju Citizen",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.43",
-      "procent": 54.1,
-      "kwota": 1652.0,
-      "przyrost": 576.0,
       "alert": false
     },
     {
       "rynek": "O/U 2.5 (LIVE)",
       "mecz": "Nov 28, 06:00 Japanese J League Kashima — Okayama",
-      "typ": "O 2.5 LIVE",
-      "kurs": "3.85",
-      "procent": 53.2,
-      "kwota": 4678.0,
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.01",
+      "procent": 75.3,
+      "kwota": 21354.0,
+      "przyrost": 17231.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 28, 07:30 South Korean K1 League Pohang Steelers — Gwangju FC",
+      "typ": "U 2.5 LIVE",
+      "kurs": "1.4",
+      "procent": 58.5,
+      "kwota": 545.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 28, 07:30 South Korean K1 League Pohang Steelers — Gwangju FC",
+      "typ": "1 LIVE",
+      "kurs": "2.46",
+      "procent": 56.6,
+      "kwota": 10432.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 28, 07:30 South Korean K1 League Bucheon FC 1995 — Gimcheon Sangmu",
+      "typ": "2 LIVE",
+      "kurs": "2.54",
+      "procent": 51.4,
+      "kwota": 597.0,
       "przyrost": 0.0,
       "alert": false
     }
