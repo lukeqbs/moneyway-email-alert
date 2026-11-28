@@ -1,15 +1,15 @@
 {
-  "aktualizacja_utc": "2026-11-28 14:28",
-  "liczba_zdarzen": 68,
+  "aktualizacja_utc": "2026-11-28 15:20",
+  "liczba_zdarzen": 69,
   "zdarzenia": [
     {
       "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 12:30 Thai League 1 Lamphun Warrior — Chonburi",
+      "mecz": "Nov 28, 14:15 UAE Arabian Gulf League Al Wasl — Al Dhafra",
       "typ": "1 LIVE",
-      "kurs": "1.05",
-      "procent": 92.5,
-      "kwota": 16616.0,
-      "przyrost": 13828.0,
+      "kurs": "1.2",
+      "procent": 96.9,
+      "kwota": 11770.0,
+      "przyrost": 11374.0,
       "alert": true
     },
     {
@@ -19,6 +19,16 @@
       "kurs": "2.2",
       "procent": 100.0,
       "kwota": 372.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 28, 15:30 Qatari Stars League Al Ahli (QAT) — Al-Duhail SC",
+      "typ": "O 1.5",
+      "kurs": "1.13",
+      "procent": 100.0,
+      "kwota": 289.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -39,7 +49,7 @@
       "kurs": "2.22",
       "procent": 99.6,
       "kwota": 6396.0,
-      "przyrost": 31.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -56,7 +66,7 @@
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 29, 05:00 Japanese J League 3 Kanazawa — FC Gifu",
       "typ": "2",
-      "kurs": "2.5",
+      "kurs": "2.48",
       "procent": 99.5,
       "kwota": 253.0,
       "przyrost": 0.0,
@@ -86,10 +96,10 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 29, 01:00 Honduras Liga Nacional CD Marathon — Genesis Huracan",
       "typ": "O 2.5",
-      "kurs": "1.85",
+      "kurs": "1.75",
       "procent": 99.1,
-      "kwota": 2013.0,
-      "przyrost": 2.0,
+      "kwota": 2022.0,
+      "przyrost": 9.0,
       "alert": false
     },
     {
@@ -149,7 +159,7 @@
       "kurs": "2.06",
       "procent": 98.9,
       "kwota": 3836.0,
-      "przyrost": 7.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -206,7 +216,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 29, 05:00 Japanese J League 3 Kanazawa — FC Gifu",
       "typ": "O 2.5",
-      "kurs": "1.85",
+      "kurs": "1.88",
       "procent": 98.7,
       "kwota": 1508.0,
       "przyrost": 0.0,
@@ -220,6 +230,16 @@
       "procent": 98.5,
       "kwota": 1727.0,
       "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 29, 05:00 Japanese J League Yokohama FM — FC Tokyo",
+      "typ": "O 2.5",
+      "kurs": "1.81",
+      "procent": 98.5,
+      "kwota": 570.0,
+      "przyrost": 145.0,
       "alert": false
     },
     {
@@ -238,15 +258,15 @@
       "typ": "1",
       "kurs": "1.07",
       "procent": 98.2,
-      "kwota": 5410.0,
-      "przyrost": 0.0,
+      "kwota": 5415.0,
+      "przyrost": 5.0,
       "alert": false
     },
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 29, 11:30 Thai League 2 Muang Loei United F.C. — Satun United FC",
       "typ": "O 3.5",
-      "kurs": "3.15",
+      "kurs": "3.2",
       "procent": 98.2,
       "kwota": 2384.0,
       "przyrost": 0.0,
@@ -283,30 +303,30 @@
       "alert": false
     },
     {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 29, 22:30 Brazilian Serie A Atletico MG — Vasco da Gama",
+      "typ": "O 1.5",
+      "kurs": "1.29",
+      "procent": 98.1,
+      "kwota": 530.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 29, 23:30 Bolivian Liga de Futbol Profesional Blooming Santa Cruz — San Antonio Bulo Bulo",
       "typ": "U 3.5",
-      "kurs": "1.56",
+      "kurs": "1.09",
       "procent": 98.0,
       "kwota": 1280.0,
       "przyrost": 0.0,
       "alert": false
     },
     {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 29, 05:00 Japanese J League Yokohama FM — FC Tokyo",
-      "typ": "O 2.5",
-      "kurs": "1.81",
-      "procent": 98.0,
-      "kwota": 425.0,
-      "przyrost": 50.0,
-      "alert": false
-    },
-    {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 29, 23:30 Bolivian Liga de Futbol Profesional Blooming Santa Cruz — San Antonio Bulo Bulo",
       "typ": "O 1.5",
-      "kurs": "1.16",
+      "kurs": "1.15",
       "procent": 97.9,
       "kwota": 2555.0,
       "przyrost": 0.0,
@@ -329,6 +349,16 @@
       "kurs": "2.62",
       "procent": 97.8,
       "kwota": 2071.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 29, 06:00 Japanese J League 3 FC Ryukyu — Renofa Yamaguchi",
+      "typ": "O 3.5",
+      "kurs": "2.92",
+      "procent": 97.8,
+      "kwota": 1945.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -374,16 +404,6 @@
     },
     {
       "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 29, 05:00 Japanese J League 3 Fukushima Utd — Tottori",
-      "typ": "O 3.5",
-      "kurs": "2.48",
-      "procent": 97.5,
-      "kwota": 1514.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 29, 23:30 Argentinian Primera Division Boca Juniors — Gimnasia La Plata",
       "typ": "U 3.5",
       "kurs": "1.33",
@@ -398,15 +418,15 @@
       "typ": "O 2.5",
       "kurs": "1.11",
       "procent": 97.5,
-      "kwota": 1037.0,
-      "przyrost": 0.0,
+      "kwota": 1047.0,
+      "przyrost": 10.0,
       "alert": false
     },
     {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 29, 05:00 Japanese J League 3 Kagoshima Utd — Kamatamare Sanuki",
       "typ": "O 3.5",
-      "kurs": "3.1",
+      "kurs": "3.05",
       "procent": 97.4,
       "kwota": 976.0,
       "przyrost": 0.0,
@@ -419,6 +439,16 @@
       "kurs": "1.7",
       "procent": 97.4,
       "kwota": 369.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 28, 23:00 Brazilian Serie B Fortaleza EC — Criciuma",
+      "typ": "U 2.5",
+      "kurs": "1.4",
+      "procent": 97.4,
+      "kwota": 262.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -443,6 +473,16 @@
       "alert": false
     },
     {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 29, 13:30 South African Premier Division Marumo Gallants FC — Richards Bay FC",
+      "typ": "U 1.5",
+      "kurs": "3.0",
+      "procent": 97.2,
+      "kwota": 937.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 29, 01:00 Honduras Liga Nacional Olancho — CD Motagua",
       "typ": "O 3.5",
@@ -450,16 +490,6 @@
       "procent": 97.2,
       "kwota": 748.0,
       "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 28, 18:00 CONCACAF Women's Matches Canada (W) — Panama (W)",
-      "typ": "U 3.5",
-      "kurs": "1.96",
-      "procent": 97.1,
-      "kwota": 4713.0,
-      "przyrost": 44.0,
       "alert": false
     },
     {
@@ -493,30 +523,30 @@
       "alert": false
     },
     {
-      "rynek": "1X2 (Pre)",
-      "mecz": "Nov 29, 05:00 Japanese J League 2 Shonan — Toyama",
-      "typ": "1",
-      "kurs": "2.54",
-      "procent": 96.7,
-      "kwota": 793.0,
-      "przyrost": 20.0,
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 28, 18:00 CONCACAF Women's Matches Canada (W) — Panama (W)",
+      "typ": "U 3.5",
+      "kurs": "2.0",
+      "procent": 96.6,
+      "kwota": 4751.0,
+      "przyrost": 38.0,
       "alert": false
     },
     {
-      "rynek": "1X2 HT (Pre)",
-      "mecz": "Nov 28, 14:20 Saudi Professional League Al-Ettifaq — Al-Hilal",
-      "typ": "2 HT",
-      "kurs": "1.56",
-      "procent": 96.7,
-      "kwota": 462.0,
-      "przyrost": 161.0,
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 29, 05:00 Japanese J League 2 Shonan — Toyama",
+      "typ": "1",
+      "kurs": "2.58",
+      "procent": 96.6,
+      "kwota": 824.0,
+      "przyrost": 31.0,
       "alert": false
     },
     {
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 29, 16:00 South African Premier Division Sekhukhune United — Siwelele FC",
       "typ": "U 1.5",
-      "kurs": "2.88",
+      "kurs": "2.78",
       "procent": 96.5,
       "kwota": 1111.0,
       "przyrost": 0.0,
@@ -529,7 +559,7 @@
       "kurs": "2.02",
       "procent": 96.5,
       "kwota": 714.0,
-      "przyrost": 17.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -546,7 +576,7 @@
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 28, 23:30 Bolivian Liga de Futbol Profesional Nacional Potosi — Oriente Petrolero",
       "typ": "O 3.5",
-      "kurs": "1.25",
+      "kurs": "1.24",
       "procent": 96.1,
       "kwota": 1249.0,
       "przyrost": 0.0,
@@ -584,11 +614,51 @@
     },
     {
       "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 29, 05:00 Japanese J League Yokohama FM — FC Tokyo",
+      "typ": "O 1.5",
+      "kurs": "1.28",
+      "procent": 95.2,
+      "kwota": 399.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 28, 14:20 Saudi Professional League Al-Ettifaq — Al-Hilal",
+      "typ": "2 LIVE",
+      "kurs": "1.39",
+      "procent": 94.9,
+      "kwota": 34440.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 29, 05:00 Japanese J League 3 Thespakusatsu Gunma — Matsumoto",
       "typ": "U 1.5",
       "kurs": "3.85",
       "procent": 94.9,
       "kwota": 292.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (Pre)",
+      "mecz": "Nov 29, 01:00 Costa Rican Primera Division Cs Cartagines — Municipal Perez Zeledon",
+      "typ": "U 2.5",
+      "kurs": "3.0",
+      "procent": 93.8,
+      "kwota": 126.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (Pre)",
+      "mecz": "Nov 29, 06:00 Japanese J League Nagoya — Fukuoka",
+      "typ": "1",
+      "kurs": "1.86",
+      "procent": 93.6,
+      "kwota": 161.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -614,71 +684,11 @@
     },
     {
       "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 28, 13:00 Qatari Stars League Al-Wakra — Al-Sadd",
+      "mecz": "Nov 28, 14:20 Saudi Professional League Al-Ettifaq — Al-Hilal",
       "typ": "O 2.5 LIVE",
-      "kurs": "1.97",
-      "procent": 82.9,
-      "kwota": 1914.0,
-      "przyrost": 1129.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 14:15 UAE Arabian Gulf League Al Wasl — Al Dhafra",
-      "typ": "1 LIVE",
-      "kurs": "1.2",
-      "procent": 82.9,
-      "kwota": 396.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 13:30 South African Premier Division Chippa Utd — Kaizer Chiefs",
-      "typ": "2 LIVE",
-      "kurs": "6.2",
-      "procent": 80.7,
-      "kwota": 1268.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 28, 13:30 South African Premier Division Chippa Utd — Kaizer Chiefs",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.46",
-      "procent": 69.4,
-      "kwota": 114.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 28, 12:30 Thai League 1 Lamphun Warrior — Chonburi",
-      "typ": "U 2.5 LIVE",
-      "kurs": "1.04",
-      "procent": 67.5,
-      "kwota": 3425.0,
-      "przyrost": 2688.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 13:00 Qatari Stars League Al-Wakra — Al-Sadd",
-      "typ": "2 LIVE",
-      "kurs": "6.0",
-      "procent": 67.3,
-      "kwota": 9245.0,
-      "przyrost": 2708.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (LIVE)",
-      "mecz": "Nov 28, 13:30 South African Premier Division Amazulu — Milford",
-      "typ": "O 2.5 LIVE",
-      "kurs": "1.26",
-      "procent": 63.2,
-      "kwota": 1177.0,
+      "kurs": "1.11",
+      "procent": 72.6,
+      "kwota": 1727.0,
       "przyrost": 0.0,
       "alert": false
     }
