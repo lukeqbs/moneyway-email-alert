@@ -1,7 +1,17 @@
 {
-  "aktualizacja_utc": "2026-11-28 11:32",
-  "liczba_zdarzen": 73,
+  "aktualizacja_utc": "2026-11-28 11:40",
+  "liczba_zdarzen": 75,
   "zdarzenia": [
+    {
+      "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 28, 11:00 Thai League 1 Pattani FC — Chiangrai Utd",
+      "typ": "2 LIVE",
+      "kurs": "1.1",
+      "procent": 86.0,
+      "kwota": 4998.0,
+      "przyrost": 4139.0,
+      "alert": true
+    },
     {
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 29, 07:00 Japanese J League FC Machida — Tokyo-V",
@@ -48,8 +58,8 @@
       "typ": "O 1.5",
       "kurs": "1.1",
       "procent": 99.9,
-      "kwota": 2048.0,
-      "przyrost": 20.0,
+      "kwota": 2327.0,
+      "przyrost": 279.0,
       "alert": false
     },
     {
@@ -58,8 +68,8 @@
       "typ": "1",
       "kurs": "2.26",
       "procent": 99.6,
-      "kwota": 6249.0,
-      "przyrost": 0.0,
+      "kwota": 6280.0,
+      "przyrost": 31.0,
       "alert": false
     },
     {
@@ -86,10 +96,10 @@
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 29, 21:15 Bolivian Liga de Futbol Profesional Bolivar — Always Ready",
       "typ": "1",
-      "kurs": "2.02",
+      "kurs": "2.06",
       "procent": 99.4,
-      "kwota": 3823.0,
-      "przyrost": 15.0,
+      "kwota": 3829.0,
+      "przyrost": 6.0,
       "alert": false
     },
     {
@@ -98,8 +108,8 @@
       "typ": "2",
       "kurs": "8.6",
       "procent": 99.4,
-      "kwota": 104.0,
-      "przyrost": 0.0,
+      "kwota": 106.0,
+      "przyrost": 2.0,
       "alert": false
     },
     {
@@ -134,16 +144,6 @@
     },
     {
       "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 29, 23:30 Colombian Primera A Ind Medellin — Once Caldas",
-      "typ": "U 3.5",
-      "kurs": "1.24",
-      "procent": 99.1,
-      "kwota": 1028.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 29, 23:30 Chilean Primera Division Union La Calera — Univ de Concepcion",
       "typ": "U 3.5",
       "kurs": "1.36",
@@ -168,8 +168,8 @@
       "typ": "2",
       "kurs": "1.21",
       "procent": 98.9,
-      "kwota": 750.0,
-      "przyrost": 100.0,
+      "kwota": 752.0,
+      "przyrost": 2.0,
       "alert": false
     },
     {
@@ -196,7 +196,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 29, 16:00 South African Premier Division Sekhukhune United — Siwelele FC",
       "typ": "O 2.5",
-      "kurs": "2.12",
+      "kurs": "2.36",
       "procent": 98.9,
       "kwota": 218.0,
       "przyrost": 0.0,
@@ -226,7 +226,7 @@
       "rynek": "O/U 2.5 (Pre)",
       "mecz": "Nov 29, 05:00 Japanese J League 3 Kanazawa — FC Gifu",
       "typ": "O 2.5",
-      "kurs": "1.87",
+      "kurs": "1.86",
       "procent": 98.7,
       "kwota": 1508.0,
       "przyrost": 0.0,
@@ -304,16 +304,6 @@
     },
     {
       "rynek": "O/U 3.5 (Pre)",
-      "mecz": "Nov 29, 05:00 Japanese J League 3 Kagoshima Utd — Kamatamare Sanuki",
-      "typ": "O 3.5",
-      "kurs": "3.05",
-      "procent": 97.9,
-      "kwota": 976.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 29, 01:00 Honduras Liga Nacional CD Marathon — Genesis Huracan",
       "typ": "O 3.5",
       "kurs": "1.28",
@@ -356,7 +346,7 @@
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 29, 21:30 Brazilian Serie A Mirassol — Athletico-PR",
       "typ": "1",
-      "kurs": "2.0",
+      "kurs": "2.02",
       "procent": 97.8,
       "kwota": 696.0,
       "przyrost": 0.0,
@@ -419,6 +409,16 @@
       "kurs": "1.33",
       "procent": 97.5,
       "kwota": 1500.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 29, 05:00 Japanese J League 3 Kagoshima Utd — Kamatamare Sanuki",
+      "typ": "O 3.5",
+      "kurs": "3.05",
+      "procent": 97.4,
+      "kwota": 976.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -506,10 +506,10 @@
       "rynek": "1X2 (Pre)",
       "mecz": "Nov 29, 05:00 Japanese J League 2 Shonan — Toyama",
       "typ": "1",
-      "kurs": "2.56",
+      "kurs": "2.54",
       "procent": 97.0,
       "kwota": 773.0,
-      "przyrost": 10.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -519,16 +519,6 @@
       "kurs": "2.08",
       "procent": 97.0,
       "kwota": 533.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "O/U 2.5 (Pre)",
-      "mecz": "Nov 29, 05:00 Japanese J League Yokohama FM — FC Tokyo",
-      "typ": "O 2.5",
-      "kurs": "1.81",
-      "procent": 96.8,
-      "kwota": 260.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -559,7 +549,7 @@
       "kurs": "1.23",
       "procent": 96.1,
       "kwota": 1249.0,
-      "przyrost": 8.0,
+      "przyrost": 0.0,
       "alert": false
     },
     {
@@ -586,8 +576,8 @@
       "rynek": "O/U 1.5 (Pre)",
       "mecz": "Nov 29, 05:00 Japanese J League 3 Thespakusatsu Gunma — Matsumoto",
       "typ": "U 1.5",
-      "kurs": "3.4",
-      "procent": 95.0,
+      "kurs": "3.7",
+      "procent": 94.9,
       "kwota": 292.0,
       "przyrost": 0.0,
       "alert": false
@@ -599,6 +589,16 @@
       "kurs": "3.85",
       "procent": 94.5,
       "kwota": 2252.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 1.5 (Pre)",
+      "mecz": "Nov 29, 05:00 Japanese J League 3 Tochigi SC — Sagamihara",
+      "typ": "U 1.5",
+      "kurs": "3.3",
+      "procent": 94.3,
+      "kwota": 321.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -626,7 +626,7 @@
       "rynek": "O/U 3.5 (Pre)",
       "mecz": "Nov 28, 21:30 CONCACAF Women's Matches Mexico (W) — Haiti (W)",
       "typ": "U 3.5",
-      "kurs": "1.65",
+      "kurs": "1.68",
       "procent": 93.1,
       "kwota": 3274.0,
       "przyrost": 0.0,
@@ -634,12 +634,22 @@
     },
     {
       "rynek": "1X2 (LIVE)",
+      "mecz": "Nov 28, 10:30 FC Tallinn — Tulevik Viljandi",
+      "typ": "1 LIVE",
+      "kurs": "1.01",
+      "procent": 92.9,
+      "kwota": 721.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "1X2 (LIVE)",
       "mecz": "Nov 28, 11:00 Vietnamese V-League Ho Chi Minh City — Hoang Anh Gia Lai",
       "typ": "1 LIVE",
-      "kurs": "1.24",
-      "procent": 91.7,
-      "kwota": 3080.0,
-      "przyrost": 0.0,
+      "kurs": "1.25",
+      "procent": 90.9,
+      "kwota": 3377.0,
+      "przyrost": 297.0,
       "alert": false
     },
     {
@@ -663,13 +673,33 @@
       "alert": false
     },
     {
+      "rynek": "O/U 3.5 (Pre)",
+      "mecz": "Nov 28, 12:00 Thai League 1 Rasi Salai United FC — Buriram Utd",
+      "typ": "U 3.5",
+      "kurs": "1.99",
+      "procent": 87.7,
+      "kwota": 205.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 28, 11:00 Vietnamese V-League Ho Chi Minh City — Hoang Anh Gia Lai",
+      "typ": "O 2.5 LIVE",
+      "kurs": "1.73",
+      "procent": 82.1,
+      "kwota": 82.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "O/U 2.5 (LIVE)",
       "mecz": "Nov 28, 11:00 Thai League 1 Pattani FC — Chiangrai Utd",
       "typ": "U 2.5 LIVE",
-      "kurs": "2.96",
-      "procent": 77.9,
-      "kwota": 336.0,
-      "przyrost": 0.0,
+      "kurs": "7.0",
+      "procent": 76.7,
+      "kwota": 393.0,
+      "przyrost": 57.0,
       "alert": false
     },
     {
@@ -683,12 +713,22 @@
       "alert": false
     },
     {
+      "rynek": "O/U 2.5 (LIVE)",
+      "mecz": "Nov 28, 11:00 Thai League 2 Chainat Hornbill — Chanthaburi FC",
+      "typ": "O 2.5 LIVE",
+      "kurs": "3.9",
+      "procent": 64.5,
+      "kwota": 116.0,
+      "przyrost": 0.0,
+      "alert": false
+    },
+    {
       "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 10:30 Kuressaare — Viimsi JK",
-      "typ": "X LIVE",
-      "kurs": "2.82",
-      "procent": 60.2,
-      "kwota": 161.0,
+      "mecz": "Nov 28, 11:30 Thai League 2 Khonkaen — Kasetsart FC",
+      "typ": "1 LIVE",
+      "kurs": "1.28",
+      "procent": 63.2,
+      "kwota": 100.0,
       "przyrost": 0.0,
       "alert": false
     },
@@ -696,39 +736,19 @@
       "rynek": "O/U 2.5 (LIVE)",
       "mecz": "Nov 28, 11:00 Vietnamese V-League Bac Ninh FC — SHB Da Nang",
       "typ": "U 2.5 LIVE",
-      "kurs": "1.3",
-      "procent": 60.0,
-      "kwota": 151.0,
-      "przyrost": 0.0,
+      "kurs": "1.17",
+      "procent": 62.1,
+      "kwota": 216.0,
+      "przyrost": 65.0,
       "alert": false
     },
     {
       "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 11:00 Thai League 1 Pattani FC — Chiangrai Utd",
-      "typ": "2 LIVE",
-      "kurs": "1.41",
-      "procent": 57.4,
-      "kwota": 859.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 11:00 Vietnamese V-League Bac Ninh FC — SHB Da Nang",
-      "typ": "1 LIVE",
-      "kurs": "2.44",
-      "procent": 51.9,
-      "kwota": 305.0,
-      "przyrost": 0.0,
-      "alert": false
-    },
-    {
-      "rynek": "1X2 (LIVE)",
-      "mecz": "Nov 28, 11:00 Thai League 2 Chainat Hornbill — Chanthaburi FC",
+      "mecz": "Nov 28, 10:30 Kuressaare — Viimsi JK",
       "typ": "X LIVE",
-      "kurs": "3.2",
-      "procent": 50.1,
-      "kwota": 99.0,
+      "kurs": "2.92",
+      "procent": 59.9,
+      "kwota": 161.0,
       "przyrost": 0.0,
       "alert": false
     }
