@@ -45,11 +45,12 @@ def czy_niszowa(txt):
     return not any(w in t for w in WYKLUCZONE)
 
 def wyslij_mail(temat, tresc):
-    if not (GMAIL_USER and GMAIL_PASS and ODBIORCA): return
+    if not (GMAIL_USER and GMAIL_PASS and ODBIORCA):
+        return
     msg = MIMEText(tresc, "plain", "utf-8")
     msg["Subject"], msg["From"], msg["To"] = temat, GMAIL_USER, ODBIORCA
     try:
-        with smtplib.SMTP_SSL("://gmail.com", 465) as s:
+        with smtplib.SMTP_SSL("gmail.com", 465) as s:
             s.login(GMAIL_USER, GMAIL_PASS)
             s.sendmail(GMAIL_USER, ODBIORCA, msg.as_string())
         print("[EMAIL OK]")
